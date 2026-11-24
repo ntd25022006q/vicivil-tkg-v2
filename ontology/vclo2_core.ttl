@@ -1,0 +1,107 @@
+@prefix vclo: <http://synapselex.org/ontology/vclo#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<http://synapselex.org/ontology/vclo> a owl:Ontology ;
+    rdfs:label "Vietnamese Civil Law Ontology (VCLO) 2.0"@en,
+        "Bản thể học Pháp luật Dân sự Việt Nam (VCLO) 2.0"@vi ;
+    rdfs:comment "v2: thêm nửa NORM (Document/Version/Article/Clause/Point + quan hệ sửa đổi) và IDENTITY (aliasOf) lên n CASE 1.0 (CourtVerdict/LegalAct/LegalState)."@vi ;
+    owl:versionInfo "2.0.0-graft (2026-11-25)" .
+
+# ================= NORM LAYER (new in v2) =================
+vclo:NormativeDocument a owl:Class ; rdfs:label "Văn bản Quy phạm Pháp luật"@vi .
+vclo:Constitution      a owl:Class ; rdfs:subClassOf vclo:NormativeDocument .
+vclo:CivilCode         a owl:Class ; rdfs:subClassOf vclo:NormativeDocument .
+vclo:SpecializedLaw    a owl:Class ; rdfs:subClassOf vclo:NormativeDocument .
+vclo:ConsolidatedVersion a owl:Class ; rdfs:subClassOf vclo:NormativeDocument ;
+    rdfs:label "Văn bản hợp nhất (VBHN)"@vi .
+vclo:SubLawDecree      a owl:Class ; rdfs:subClassOf vclo:NormativeDocument .
+vclo:JointCircular     a owl:Class ; rdfs:subClassOf vclo:SubLawDecree .
+vclo:Constitution owl:disjointWith vclo:CivilCode, vclo:SpecializedLaw, vclo:SubLawDecree .
+vclo:CivilCode owl:disjointWith vclo:SpecializedLaw, vclo:SubLawDecree .
+vclo:SpecializedLaw owl:disjointWith vclo:SubLawDecree .
+
+vclo:DocumentVersion a owl:Class ; rdfs:label "Phiên bản tài liệu/điều khoản"@vi ;
+    rdfs:comment "Mỗi lần sửa đổi/hợp nhất tạo phiên bản mới; phiên bản mang khoảng hiệu lực riêng."@vi .
+vclo:Article a owl:Class ; rdfs:subClassOf vclo:DocumentVersion ; rdfs:label "Điều"@vi .
+vclo:Clause  a owl:Class ; rdfs:subClassOf vclo:DocumentVersion ; rdfs:label "Khoản"@vi .
+vclo:Point   a owl:Class ; rdfs:subClassOf vclo:DocumentVersion ; rdfs:label "Điểm"@vi .
+
+vclo:Literal a owl:Class ; rdfs:label "Giá trị (ngày/thời hạn/số tiền) — KHÔNG phải thực thể"@vi .
+vclo:StateOrgan a owl:Class ; rdfs:subClassOf vclo:LegalEntity .
+vclo:LegalConcept a owl:Class ; rdfs:label "Khái niệm pháp luật"@vi .
+
+# ---- properties (norm) ----
+vclo:so_hieu a owl:DatatypeProperty ; rdfs:domain vclo:NormativeDocument ; rdfs:range xsd:string .
+vclo:issued a owl:DatatypeProperty ; rdfs:range xsd:date .
+vclo:valid_from a owl:DatatypeProperty ; rdfs:range xsd:date .
+vclo:valid_to a owl:DatatypeProperty ; rdfs:range xsd:date .
+vclo:at a owl:DatatypeProperty ; rdfs:range xsd:date ;
+    rdfs:comment "Ngày hiệu lực của SỰ KIỆN trên cạnh (amends/replaces...)."@vi .
+
+# ---- relations (norm) ----
+vclo:amends a owl:ObjectProperty ; rdfs:domain vclo:NormativeDocument ; rdfs:range vclo:NormativeDocument .
+vclo:abrogates a owl:ObjectProperty ; rdfs:domain vclo:NormativeDocument ; rdfs:range vclo:DocumentVersion .
+vclo:replaces a owl:ObjectProperty ; rdfs:domain vclo:NormativeDocument ; rdfs:range vclo:NormativeDocument .
+vclo:consolidates a owl:ObjectProperty ; rdfs:domain vclo:ConsolidatedVersion ; rdfs:range vclo:NormativeDocument .
+vclo:guides a owl:ObjectProperty ; rdfs:domain vclo:SubLawDecree ; rdfs:range vclo:NormativeDocument .
+vclo:cites a owl:ObjectProperty ; rdfs:domain vclo:Article ; rdfs:range vclo:Article .
+vclo:succeeds a owl:ObjectProperty ; rdfs:domain vclo:DocumentVersion ; rdfs:range vclo:DocumentVersion ;
+    rdfs:comment "Kế thừa nội dung giữa hai phiên bản/điều khoản (lineage)."@vi .
+vclo:contains a owl:ObjectProperty ; rdfs:domain vclo:NormativeDocument ; rdfs:range vclo:DocumentVersion .
+vclo:applies a owl:ObjectProperty ; rdfs:domain vclo:CourtVerdict ; rdfs:range vclo:DocumentVersion .
+vclo:transitiveSucceeds owl:propertyChainAxiom ( vclo:succeeds vclo:succeeds ) .
+
+# ================= ENTITY RELATIONS (typed subset) =================
+vclo:hasCondition a owl:ObjectProperty .
+vclo:hasBasis a owl:ObjectProperty .
+vclo:regulates a owl:ObjectProperty .
+vclo:grantsRight a owl:ObjectProperty .
+vclo:imposesObligation a owl:ObjectProperty .
+vclo:prohibits a owl:ObjectProperty .
+vclo:hasStatuteOfLimitations a owl:ObjectProperty .
+vclo:hasValidity a owl:ObjectProperty .
+vclo:appliesTo a owl:ObjectProperty .
+vclo:belongsTo a owl:ObjectProperty .
+vclo:includes a owl:ObjectProperty .
+vclo:transfersRight a owl:ObjectProperty .
+vclo:requiresRegistration a owl:ObjectProperty .
+vclo:requiresNotarization a owl:ObjectProperty .
+vclo:requiresPayment a owl:ObjectProperty .
+vclo:requiresReturn a owl:ObjectProperty .
+vclo:requiresCompensation a owl:ObjectProperty .
+vclo:imposesPenalty a owl:ObjectProperty .
+vclo:agreedBy a owl:ObjectProperty .
+vclo:signedBy a owl:ObjectProperty .
+vclo:hasGuardian a owl:ObjectProperty .
+vclo:supervises a owl:ObjectProperty .
+vclo:oversees a owl:ObjectProperty .
+vclo:handledBy a owl:ObjectProperty .
+vclo:acceptsFiling a owl:ObjectProperty .
+vclo:filesLawsuit a owl:ObjectProperty .
+vclo:delegatesAuthority a owl:ObjectProperty .
+vclo:voidsTransaction a owl:ObjectProperty .
+vclo:divides a owl:ObjectProperty .
+vclo:decides a owl:ObjectProperty .
+vclo:issues a owl:ObjectProperty .
+vclo:entitledTo a owl:ObjectProperty .
+vclo:relatedTo a owl:ObjectProperty ;
+    rdfs:comment "Predicate rác cuối cùng — mọi cạnh relatedTo bị flag để review; KHÔNG được tăng vô kiểm soát."@vi .
+
+# ================= IDENTITY (canonicalization) =================
+vclo:aliasOf a owl:ObjectProperty ;
+    rdfs:comment "Surface form -> canonical entity. owl:sameAs CHỈ do canonicalizer cấp, kèm merge_log."@vi .
+vclo:preferred_label a owl:DatatypeProperty ; rdfs:range xsd:string .
+vclo:confidence a owl:DatatypeProperty ; rdfs:range xsd:decimal .
+
+# ================= CASE LAYER (giữ từ VCLO 1.0) =================
+vclo:CourtVerdict a owl:Class ; rdfs:subClassOf vclo:LegalAct .
+vclo:LegalAct a owl:Class .
+vclo:LegalState a owl:Class .
+vclo:TemporalInterval a owl:Class .
+vclo:JudicialOrgan a owl:Class ; rdfs:subClassOf vclo:LegalEntity .
+vclo:LegalEntity a owl:Class .
+vclo:NaturalPerson a owl:Class ; rdfs:subClassOf vclo:LegalEntity .
+vclo:ProceduralRole a owl:Class .

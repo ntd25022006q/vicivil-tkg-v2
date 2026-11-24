@@ -1,0 +1,48 @@
+{
+ "doc_level": [
+  {
+   "as_of": "2010-06-01",
+   "expected": [
+    "BLDS2005"
+   ],
+   "got": [
+    "BLDS2005",
+    "HNGD2000",
+    "THADS2008"
+   ],
+   "pass": true
+  },
+  {
+   "as_of": "2020-06-01",
+   "expected": [
+    "BLDS2015",
+    "HNGD2014"
+   ],
+   "got": [
+    "BLDS2015",
+    "EXT-Luật-số-23-2018-QH14",
+    "EXT-Luật-số-64-2014-QH13",
+    "HNGD2014",
+    "HOTICH2014",
+    "NCN2010",
+    "THADS2008",
+    "TNBTCNN2017",
+    "van-ban-hop-nhat-so-21-vbhn-vpqh-468974"
+   ],
+   "pass": true
+  },
+  {
+   "as_of": "2000-01-01",
+   "expected": [
+    "BLDS1995"
+   ],
+   "got": [
+    "BLDS1995"
+   ],
+   "pass": true
+  }
+ ],
+ "article_valid_to_count": 51,
+ "lineage_edge_count": 1132,
+ "article_amend_facts": 157
+}

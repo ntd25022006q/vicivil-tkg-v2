@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/devlab1/vicivil_tkg/vtg/run_all.py", line 60, in <module>
+    main()
+    ~~~~^^
+  File "/home/devlab1/vicivil_tkg/vtg/run_all.py", line 42, in main
+    cstats = canon_run(ws, out, log=print, use_llm=args.llm, llm_model="qwen3.5:4b")
+  File "/home/devlab1/vicivil_tkg/vtg/canonicalize.py", line 184, in run
+    if merge_blocked(na, nb):
+       ~~~~~~~~~~~~~^^^^^^^^
+  File "/home/devlab1/vicivil_tkg/vtg/canonicalize.py", line 101, in merge_blocked
+    ta = fold_text(na or "").split()
+         ^^^^^^^^^
+NameError: name 'fold_text' is not defined
+======================================================================
+ViCivil-TKG v2 build — JSONL source of truth, TTL on publish
+======================================================================
+[G] nodes_legal=33 (renamed slug-nodes: 5)
+[G] edges_norm=2659 by type: {'vclo:replaces': 3, 'vclo:consolidates': 1, 'vclo:amends': 17, 'vclo:cites': 1506, 'vclo:succeeds': 1132}
+[G] relationships re-typed: {'total_in': 20750, 'unmapped_relatedTo': 7211, 'dropped_duplicate': 1390, 'dropped_literal_endpoint': 6, 'dropped_selfloop': 334, 'edges_out': 19020}
+[T1] corpus chunks=13159 laws=33 amend_candidates=17
+[T1] article-level amendment facts=157 (target,amender) pairs=6
+     (None, None): 80 chunks
+     ('Luật số 85/2025/QH15', 'Luật số 85/2025/QH15'): 62 chunks
+     ('Luật số 81/2025/QH15', 'Luật số 81/2025/QH15'): 7 chunks
+     ('Luật số 03/2022/QH15', 'Luật số 03/2022/QH15'): 4 chunks
+     ('Luật số 43/2024/QH15', 'Luật số 43/2024/QH15'): 3 chunks
+     ('Luật số 03/2022/QH15', None): 1 chunks
+[T1] lineage SUCCEEDS edges=1132
+[T1] article keys (law_id, dieu)=4582
+[T1] resolver doc-level tests: 3/3 pass
+[S1] loaded 14099 entities (matrix=True, dim=768)
+[S1] distinct norm_keys=13996 | multi-variant groups=103
+[S2] typed=14064 literal-demotion=35

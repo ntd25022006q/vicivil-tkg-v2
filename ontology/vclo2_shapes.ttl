@@ -1,0 +1,48 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix vclo: <http://synapselex.org/ontology/vclo#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Chặn publish: các bệnh đã đo trong LightRAG store (self-loop 334, cạnh không type,
+# endpoint rác 439 pseudo-entity) phải bị QUARANTINE trước khi vào đồ thị công khai.
+
+vclo:EdgeProvenanceShape a sh:NodeShape ;
+    sh:targetObjectsOf vclo:amends, vclo:abrogates, vclo:replaces, vclo:consolidates,
+                       vclo:guides, vclo:cites, vclo:succeeds, vclo:applies ;
+    sh:property [
+        sh:path vclo:at ;
+        sh:minCount 1 ;
+        sh:message "Cạnh thay đổi hiệu lực phải có mốc thời gian (vclo:at)"@vi ;
+    ] .
+
+vclo:EntityTypedShape a sh:NodeShape ;
+    sh:targetClass vclo:LegalEntity ;
+    sh:property [
+        sh:path rdf:type ;
+        sh:minCount 2 ;
+        sh:message "Thực thể phải có class cụ thể (không chỉ LegalEntity)"@vi ;
+    ] .
+
+vclo:EntityLabelShape a sh:NodeShape ;
+    sh:targetObjectsOf vclo:aliasOf ;
+    sh:property [
+        sh:path vclo:preferred_label ;
+        sh:minCount 1 ;
+        sh:message "Canonical entity phải có preferred_label"@vi ;
+    ] .
+
+vclo:NoSelfLoopShape a sh:NodeShape ;
+    sh:targetObjectsOf vclo:relatedTo, vclo:cites, vclo:applies, vclo:succeeds ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:message "Cấm self-loop"@vi ;
+        sh:select "SELECT $this WHERE { $this ?p $this }" ;
+    ] .
+
+vclo:RelatedToCapShape a sh:NodeShape ;
+    sh:targetObjectsOf vclo:relatedTo ;
+    sh:property [
+        sh:path vclo:flagged ;
+        sh:hasValue true ;
+        sh:message "Cạnh relatedTo phải mang flag=true để review"@vi ;
+    ] .

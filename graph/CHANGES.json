@@ -1,0 +1,13 @@
+{
+ "version": "0.2.0",
+ "date": "2026-11-24",
+ "generator": "vicivil_tkg/vtg run_all",
+ "changes": [
+  "canonicalization S1-S3 over LightRAG entities (14,099 -> canonical registry)",
+  "literal demotion of date/duration/money pseudo-entities",
+  "relationship re-typing with typed predicate subset + dedup + self-loop drop",
+  "article-level amendment facts mined from chunk text (T1 graft)",
+  "lineage SUCCEEDS edges from lineage_candidates (cross-generation)",
+  "TTL export + SHA256SUMS manifest"
+ ]
+}

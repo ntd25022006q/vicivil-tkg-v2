@@ -1,0 +1,73 @@
+======================================================================
+ViCivil-TKG v2 build — JSONL source of truth, TTL on publish
+======================================================================
+[G] nodes_legal=33 (renamed slug-nodes: 5)
+[G] edges_norm=2659 by type: {'vclo:replaces': 3, 'vclo:consolidates': 1, 'vclo:amends': 17, 'vclo:cites': 1506, 'vclo:succeeds': 1132}
+[G] relationships re-typed: {'total_in': 20750, 'unmapped_relatedTo': 9438, 'dropped_duplicate': 1480, 'dropped_literal_endpoint': 6, 'dropped_selfloop': 334, 'edges_out': 18930}
+[T1] corpus chunks=13159 laws=33 amend_candidates=17
+[T1] article-level amendment facts=0 (target,amender) pairs=0
+[T1] lineage SUCCEEDS edges=1132
+[T1] article keys (law_id, dieu)=4582
+[T1] resolver doc-level tests: 3/3 pass
+[S1] loaded 14099 entities (matrix=True, dim=768)
+[S1] distinct norm_keys=14048 | multi-variant groups=51
+[S2] typed=14082 literal-demotion=17
+[S3] pairs scanned=23489 tier2 auto-merges=155 (2.9s)
+[S3] tier3 LLM: use_llm=False (queued pairs stay logged as pending if disabled)
+[OUT] canonical entities=13893 merges logged=206 stats={'entities_in': 14099, 'distinct_norm_keys': 14048, 'multi_variant_groups_tier1': 51, 'tier1_merges': 51, 'tier2_merges': 155, 'canonical_entities_out': 13893, 'literals_demoted': 17, 'typed_in': 14082, 'untyped_out': 0, 'matrix_used': True, 'seconds': 3.2}
+[CASE] {'judgments': 150, 'judgments_with_applies': 4, 'applies_edges': 14, 'no_citation_found': 146, 'out_of_window_cites': 0}
+[V] edges kept: norm=2659 entity=18930 | quarantined=0 violations={} | untyped_entities=9
+[TTL] wrote /home/devlab1/vicivil_tkg/graph/vcivil_tkg_graph.ttl (7777 lines)
+[REL] v0.1.0 — 15 files hashed
+======================================================================
+BUILD REPORT
+{
+ "started": "2026-11-24T22:59:43",
+ "ws": "/home/devlab1/law_workspace",
+ "out": "/home/devlab1/vicivil_tkg/graph",
+ "retype": {
+  "total_in": 20750,
+  "unmapped_relatedTo": 9438,
+  "dropped_duplicate": 1480,
+  "dropped_literal_endpoint": 6,
+  "dropped_selfloop": 334,
+  "edges_out": 18930
+ },
+ "graft": {
+  "article_amend_facts": 0,
+  "lineage_edges": 1132,
+  "article_valid_to_nodes": 0,
+  "resolver_tests_pass": 3,
+  "resolver_tests_total": 3
+ },
+ "canonicalize": {
+  "entities_in": 14099,
+  "distinct_norm_keys": 14048,
+  "multi_variant_groups_tier1": 51,
+  "tier1_merges": 51,
+  "tier2_merges": 155,
+  "canonical_entities_out": 13893,
+  "literals_demoted": 17,
+  "typed_in": 14082,
+  "untyped_out": 0,
+  "matrix_used": true,
+  "seconds": 3.2
+ },
+ "case_wire": {
+  "judgments": 150,
+  "judgments_with_applies": 4,
+  "applies_edges": 14,
+  "no_citation_found": 146,
+  "out_of_window_cites": 0
+ },
+ "validate": {
+  "violations": {},
+  "quarantined": 0,
+  "kept_norm": 2659,
+  "kept_entity": 18930,
+  "untyped_entities": 9
+ },
+ "ttl": "/home/devlab1/vicivil_tkg/graph/vcivil_tkg_graph.ttl",
+ "seconds": 5.3
+}
+======================================================================

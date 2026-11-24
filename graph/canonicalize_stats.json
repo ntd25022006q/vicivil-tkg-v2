@@ -1,0 +1,17 @@
+{
+ "entities_in": 14099,
+ "distinct_norm_keys": 13996,
+ "multi_variant_groups_tier1": 103,
+ "tier1_merges": 103,
+ "tier2_merges": 170,
+ "tier3_merges": 5,
+ "tier3_rejected": 295,
+ "tier3_errors": 0,
+ "canonical_entities_out": 13821,
+ "literals_demoted": 35,
+ "typed_in": 14064,
+ "untyped_out": 0,
+ "matrix_used": true,
+ "llm_model": "qwen3.5:4b",
+ "seconds": 289.2
+}
