@@ -55,9 +55,11 @@ def run(ws, out_dir, log=print):
                 continue
             tm = _RE_AMENDS_TARGET.search(ftext[m.end():m.end() + 160])
             target_lid = law_id_from_text(tm.group(1)) if tm else None
-            if target_lid is None:
-                target_lid = law_id_from_text(ftext[max(0, m.start() - 200):m.end() + 200])
             amender_lid = law_id_from_text(amender_txt)
+            if target_lid is None:
+                ctx = law_id_from_text(ftext[max(0, m.start() - 200):m.end() + 200])
+                if ctx and ctx != amender_lid:
+                    target_lid = ctx
             article_amend_facts.append({
                 "chunk_id": c["chunk_id"], "law_id": c["law_id"],
                 "dieu": c.get("dieu"), "khoan": c.get("khoan"),

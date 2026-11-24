@@ -1,5 +1,5 @@
 {
- "started": "2026-11-24T23:13:39",
+ "started": "2026-11-24T23:32:58",
  "ws": "/home/devlab1/law_workspace",
  "out": "/home/devlab1/vicivil_tkg/graph",
  "retype": {
@@ -13,7 +13,7 @@
  "graft": {
   "article_amend_facts": 157,
   "lineage_edges": 1132,
-  "article_valid_to_nodes": 51,
+  "article_valid_to_nodes": 1,
   "resolver_tests_pass": 3,
   "resolver_tests_total": 3
  },
@@ -22,17 +22,18 @@
   "distinct_norm_keys": 13996,
   "multi_variant_groups_tier1": 103,
   "tier1_merges": 103,
-  "tier2_merges": 170,
+  "tier2_merges": 139,
   "tier3_merges": 5,
   "tier3_rejected": 295,
   "tier3_errors": 0,
-  "canonical_entities_out": 13821,
+  "guard_blocked_pairs": 207390,
+  "canonical_entities_out": 13852,
   "literals_demoted": 35,
   "typed_in": 14064,
   "untyped_out": 0,
   "matrix_used": true,
   "llm_model": "qwen3.5:4b",
-  "seconds": 289.2
+  "seconds": 280.2
  },
  "case_wire": {
   "judgments": 1200,
@@ -50,5 +51,5 @@
   "untyped_entities": 19
  },
  "ttl": "/home/devlab1/vicivil_tkg/graph/vcivil_tkg_graph.ttl",
- "seconds": 296.5
+ "seconds": 287.2
 }

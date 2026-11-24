@@ -12,7 +12,7 @@ import time
 import urllib.request
 from collections import defaultdict
 
-from .textops import classify_entity, norm_surface
+from .textops import classify_entity, fold_text, norm_surface
 
 
 def ollama_same_entity(na, nb, model="qwen3.5:4b", timeout=120):
