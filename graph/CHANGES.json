@@ -1,10 +1,10 @@
 {
- "version": "0.7.0",
+ "version": "0.8.0",
  "date": "2026-11-26",
  "changes": [
-  "AGENT REVIEW (delegated, transparent): 208 decisions on P1/P2/P3 — P1 51 confirm / 113 reject / 20 guard; P2 18 odd-one-out splits / 1 keep-flagged; P3 spot-check 25 ok / 5 flip; 0 errors",
-  "veto mechanism in canonicalize: rejected_pairs (133) + excluded_names (18) block wrong merges at any tier; approved_pairs (89, incl 33 context-rescued) applied as tier0",
-  "rebuild result: tier1 merges 103->43 (ambiguous merges split), topology flagged 114->46 (supported 89.4%), P1 184->141, P2 21->10, conflict clusters 21->10, canonical 14,099->13,873",
-  "all agent decisions labeled 'agent-reviewed' in merge_log provenance — human can override via same files + rebuild"
+  "repo cleanup: logs/ archived, broken .venv + pycache + ad-hoc files removed",
+  "pending tier3 band fully adjudicated (round 2)",
+  "agent review round 2 applied to residual P1/P2 (convergence pass)",
+  "full rebuild + downstream; SHACL/drift re-verified"
  ]
 }

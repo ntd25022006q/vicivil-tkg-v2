@@ -1,18 +1,8 @@
-{"name": "Cha mẹ nuôi", "cluster": "Cha, mẹ nuôi", "reason": "agent: odd-one-out of CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson']"}
-{"name": "cha mẹ", "cluster": "cha, mẹ", "reason": "agent: odd-one-out of CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson']"}
-{"name": "UBND tỉnh, thành phố trực thuộc trung ương", "cluster": "Uỷ ban nhân dân tỉnh, thành phố trực thuộc trung ương", "reason": "agent: odd-one-out of CONFLICT:['vclo:LegalConcept', 'vclo:StateOrgan']"}
 {"name": "Quyet dinh cua Toa an cap so tham", "cluster": "Quyet dinh cua Toa an cap so tham", "reason": "agent: odd-one-out of CONFLICT:['vclo:JudicialOrgan', 'vclo:LegalConcept']"}
-{"name": "vợ chồng", "cluster": "vợ, chồng", "reason": "agent: odd-one-out of CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson']"}
 {"name": "Quyen su dung dat", "cluster": "Quyen su dung dat", "reason": "agent: odd-one-out of CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson']"}
 {"name": "Hoi dong Tham phan Toa an nhan dan toi cao", "cluster": "Hoi dong Tham phan Toa an nhan dan toi cao", "reason": "agent: odd-one-out of CONFLICT:['vclo:JudicialOrgan', 'vclo:LegalConcept']"}
 {"name": "hop dong", "cluster": "hop dong", "reason": "agent: odd-one-out of CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson']"}
-{"name": "tài liệu chứng cứ", "cluster": "tài liệu, chứng cứ", "reason": "agent: odd-one-out of CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson']"}
-{"name": "nhận cha mẹ con", "cluster": "nhận cha, mẹ, con", "reason": "agent: odd-one-out of CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson']"}
-{"name": "Ngày tháng năm sinh", "cluster": "ngày, tháng, năm sinh", "reason": "agent: odd-one-out of CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson']"}
-{"name": "Toa an chi dinh nguoi giam ho", "cluster": "Toa an chi dinh nguoi giam ho", "reason": "agent: odd-one-out of CONFLICT:['vclo:JudicialOrgan', 'vclo:LegalConcept']"}
 {"name": "Luật Hôn Nhân Và Gia Đình", "cluster": "Luat hon nhan va gia dinh", "reason": "agent: odd-one-out of CONFLICT:['vclo:LegalConcept', 'vclo:NormativeDocument']"}
-{"name": "chỉ đạo phối hợp", "cluster": "chỉ đạo, phối hợp", "reason": "agent: odd-one-out of CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson']"}
 {"name": "phong tục tập quán", "cluster": "phong tục, tập quán", "reason": "agent: odd-one-out of CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson']"}
 {"name": "Luat dat dai", "cluster": "Luat dat dai", "reason": "agent: odd-one-out of CONFLICT:['vclo:NaturalPerson', 'vclo:NormativeDocument']"}
 {"name": "BEN DUOC UY QUYEN", "cluster": "BEN DUOC UY QUYEN", "reason": "agent: odd-one-out of CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson']"}
-{"name": "Hop dong dan su", "cluster": "Hop dong dan su", "reason": "agent: odd-one-out of CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson']"}

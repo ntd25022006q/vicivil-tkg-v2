@@ -1,0 +1,123 @@
++ cd /home/devlab1/vicivil_tkg
++ mkdir -p logs
++ mv -f build_final2.log build_final3.log build_final.log build_full.log build_smoke2.log build_smoke.log p_final2.log p_final3.log p_final.log p_fix.log p_review2.log p_review.log p_tar.log p_triage.log p_v05.log p_v07.log p_review2.log p_review.log p4b.log p4.log p_tar.log nohup.out .watch.lock logs/
++ rm -rf .venv vtg/__pycache__ __pycache__
++ rm -f ';' 'print("hello world").py'
++ python3 -m vtg.pending_adjudicate
+[ADJUDICATE] pending=539 todo=239
+[ADJUDICATE] 100/239 {'merged': 0, 'rejected': 100, 'guard_blocked': 0, 'errors': 0} (94s)
+[ADJUDICATE] 200/239 {'merged': 1, 'rejected': 199, 'guard_blocked': 0, 'errors': 0} (184s)
+[ADJUDICATE] FINAL {'merged': 1, 'rejected': 238, 'guard_blocked': 0, 'errors': 0, 'seconds': 218.2}
++ python3 -m vtg.agent_review
+[AGENT-REVIEW] {"stats": {"P1_confirm": 59, "P1_reject": 39, "P1_guard": 0, "P1_error": 0, "P2_keep": 1, "P2_split": 8, "P3_ok": 27, "P3_flip": 3}, "approved": 95, "rejected_pairs": 39, "excluded": 8, "rows": 110, "seconds": 129.4, "note": "agent-reviewed = LLM delegate (qwen3.5:4b + rule/context), user-overridable"}
++ python3 -m vtg.run_all --llm --version 0.8.0
+======================================================================
+ViCivil-TKG v2 build — JSONL source of truth, TTL on publish
+======================================================================
+[G] nodes_legal=33 (renamed slug-nodes: 5)
+[G] edges_norm=2659 by type: {'vclo:replaces': 3, 'vclo:consolidates': 1, 'vclo:amends': 17, 'vclo:cites': 1506, 'vclo:succeeds': 1132}
+[G] relationships re-typed: {'total_in': 20750, 'unmapped_relatedTo': 7211, 'dropped_duplicate': 1390, 'dropped_literal_endpoint': 6, 'dropped_selfloop': 334, 'edges_out': 19020}
+[T1] corpus chunks=13159 laws=33 amend_candidates=17
+[T1] article-level amendment facts=157 (target,amender) pairs=6
+     (None, None): 80 chunks
+     (None, 'Luật số 85/2025/QH15'): 62 chunks
+     (None, 'Luật số 81/2025/QH15'): 7 chunks
+     (None, 'Luật số 03/2022/QH15'): 4 chunks
+     (None, 'Luật số 43/2024/QH15'): 3 chunks
+     ('Luật số 03/2022/QH15', None): 1 chunks
+[T1] lineage SUCCEEDS edges=1132
+[T1] article keys (law_id, dieu)=4582
+[T1] resolver doc-level tests: 3/3 pass
+[S1] loaded 14099 entities (matrix=True, dim=768)
+[S1] distinct norm_keys=13996 | multi-variant groups=103
+[S2] typed=14064 literal-demotion=35
+[S0] tier0 forced merges applied: 95
+[S3] pairs scanned=2067 tier2 auto-merges=133 (8.4s)
+[S3] tier3 candidates=570 use_llm=True model=qwen3.5:4b
+[S3] tier3: merged=7 rejected=293 errors=0
+[S3] guard-blocked pairs=207789
+[OUT] canonical entities=13812 merges logged=623 stats={'entities_in': 14099, 'distinct_norm_keys': 13996, 'multi_variant_groups_tier1': 103, 'tier1_merges': 95, 'tier2_merges': 133, 'tier3_merges': 7, 'tier3_rejected': 293, 'tier3_errors': 0, 'guard_blocked_pairs': 207789, 'canonical_entities_out': 13812, 'literals_demoted': 35, 'typed_in': 14064, 'untyped_out': 0, 'matrix_used': True, 'llm_model': 'qwen3.5:4b', 'seconds': 276.1}
+[CASE] {'judgments': 1200, 'judgments_with_applies': 357, 'applies_edges': 1775, 'no_citation_found': 629, 'out_of_window_cites': 1956, 'yearless_law_mentions': 571}
+[V] edges kept: norm=0 entity=0 | quarantined=21679 violations={'unknown_predicate': 21679} | untyped_entities=19
+[TTL] wrote /home/devlab1/vicivil_tkg/graph/vcivil_tkg_graph.ttl (7830 lines)
+[REL] v0.8.0 — 41 files hashed
+======================================================================
+BUILD REPORT
+{
+ "started": "2026-11-25T13:41:41",
+ "ws": "/home/devlab1/law_workspace",
+ "out": "/home/devlab1/vicivil_tkg/graph",
+ "retype": {
+  "total_in": 20750,
+  "unmapped_relatedTo": 7211,
+  "dropped_duplicate": 1390,
+  "dropped_literal_endpoint": 6,
+  "dropped_selfloop": 334,
+  "edges_out": 19020
+ },
+ "graft": {
+  "article_amend_facts": 157,
+  "lineage_edges": 1132,
+  "article_valid_to_nodes": 1,
+  "resolver_tests_pass": 3,
+  "resolver_tests_total": 3
+ },
+ "canonicalize": {
+  "entities_in": 14099,
+  "distinct_norm_keys": 13996,
+  "multi_variant_groups_tier1": 103,
+  "tier1_merges": 95,
+  "tier2_merges": 133,
+  "tier3_merges": 7,
+  "tier3_rejected": 293,
+  "tier3_errors": 0,
+  "guard_blocked_pairs": 207789,
+  "canonical_entities_out": 13812,
+  "literals_demoted": 35,
+  "typed_in": 14064,
+  "untyped_out": 0,
+  "matrix_used": true,
+  "llm_model": "qwen3.5:4b",
+  "seconds": 276.1
+ },
+ "case_wire": {
+  "judgments": 1200,
+  "judgments_with_applies": 357,
+  "applies_edges": 1775,
+  "no_citation_found": 629,
+  "out_of_window_cites": 1956,
+  "yearless_law_mentions": 571
+ },
+ "validate": {
+  "violations": {
+   "unknown_predicate": 21679
+  },
+  "quarantined": 21679,
+  "kept_norm": 0,
+  "kept_entity": 0,
+  "untyped_entities": 19
+ },
+ "ttl": "/home/devlab1/vicivil_tkg/graph/vcivil_tkg_graph.ttl",
+ "seconds": 283.1
+}
+======================================================================
++ python3 -m vtg.temporalize
+[TEMPORALIZE] {'edges': 19020, 'with_interval': 18581, 'without_interval': 439, 'coverage': 97.7}
++ python3 -m vtg.integrate
+[INTEGRATE] {'nodes_added': 7, 'edges_added': 1, 'quarantined': 5, 'gate_pass': True, 'policy': 'new docs enter as needs_review; validity dates require manual confirm'}
++ python3 -m vtg.topology_audit
+[TOPOLOGY-AUDIT] {'audited': 433, 'topology_supported': 354, 'flagged': 79, 'unresolvable': 0}
++ python3 -m vtg.local_update
+[LOCAL] affected entities in norm graph: 88
+[LOCAL] {'affected': 88, 'dim': 128, 'seconds': 2.3, 'note': 'frozen base + 1-hop TransE-consistent calibration + 0.5 blend (AWFS-lite)'}
++ python3 -m vtg.queue_export
+human_queue.csv: 1214 rows | {'pending_tier3': 570, 'tier0-human-approved': 95, 'tier1-normkey': 95, 'tier2-cosine': 133, 'tier3-llm-rejected': 293, 'tier3-llm': 7, 'conflict_or_large_cluster': 21}
+-> /home/devlab1/vicivil_tkg/human_queue.csv
++ python3 -m vtg.triage --queue-only
+[CTX-READJUDICATE] --queue-only: loaded 114 prior decisions
+[CTX-READJUDICATE] {'rechecked': 114, 'rescued': 33, 'confirmed_rejected': 81, 'errors': 0} (0s)
+[TRIAGE] {'P1_review_merge_no_support': 236, 'P2_conflicts': 21, 'P3_rejected_skim': 293, 'P4_auto_ok': 387} | total rows: 937
++ python3 -
+v0.8.0 | 41 files hashed
++ echo FINALIZE_DONE
+FINALIZE_DONE

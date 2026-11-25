@@ -51,33 +51,75 @@ P1_review_merge_no_support;tier0-human-approved;1.0;so tien thu duoc;Số tiền
 P1_review_merge_no_support;tier0-human-approved;1.0;thu hoi dat;thu hồi đất;;HUMAN-REVIEW
 P1_review_merge_no_support;tier0-human-approved;1.0;văn bản đề nghị xét miễn giảm nghĩa vụ thi hành án;Văn bản đề nghị xét miễn, giảm nghĩa vụ thi hành án;;HUMAN-REVIEW
 P1_review_merge_no_support;tier0-human-approved;1.0;Người mất năng lực hành vi;người mất năng lực hành vi dân sự;;HUMAN-REVIEW
+P1_review_merge_no_support;tier0-human-approved;1.0;quyền sở hữu đối với động sản;quyền sở hữu động sản;;HUMAN-REVIEW
+P1_review_merge_no_support;tier0-human-approved;1.0;quyền thừa kế di sản;Quyền thừa kế tài sản;;HUMAN-REVIEW
+P1_review_merge_no_support;tier0-human-approved;1.0;quyền và nghĩa vụ của các bên theo hợp đồng;quyền và nghĩa vụ của các bên trong hợp đồng;;HUMAN-REVIEW
+P1_review_merge_no_support;tier0-human-approved;1.0;quyền và nghĩa vụ đối với tài sản;quyền và nghĩa vụ tài sản;;HUMAN-REVIEW
+P1_review_merge_no_support;tier0-human-approved;1.0;quyền yêu cầu thanh toán cước phí;Quyền yêu cầu thanh toán cước phí vận chuyển;;HUMAN-REVIEW
+P1_review_merge_no_support;tier0-human-approved;1.0;quyền yêu cầu xác định cha mẹ con;quyền yêu cầu xác định quan hệ cha mẹ con;;HUMAN-REVIEW
+P1_review_merge_no_support;tier0-human-approved;1.0;Quyết định chấm dứt nuôi con nuôi;quyết định chấm dứt việc nuôi con nuôi;;HUMAN-REVIEW
+P1_review_merge_no_support;tier0-human-approved;1.0;nghien cuu ho so vu an;Nghiên cứu hồ sơ vụ việc;;HUMAN-REVIEW
+P1_review_merge_no_support;tier0-human-approved;1.0;quyền đơn phương đình chỉ hợp đồng;Quyền đơn phương đình chỉ thực hiện hợp đồng;;HUMAN-REVIEW
+P1_review_merge_no_support;tier0-human-approved;1.0;Quyet dinh cung che thi hanh an;quyết định cưỡng chế thi hành án;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;bản án quyết định dân sự của tòa án nước ngoài;Bản án, quyết định dân sự của Tòa án nước ngoài;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;Ban Chi Dao Thi Hanh An Dan Su Cap Tinh;Ban Chỉ đạo thi hành án dân sự cấp tỉnh;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Bảo vệ quyền lợi ích hợp pháp của người được giám hộ;Bảo vệ quyền, lợi ích hợp pháp của người được giám hộ;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;Biên bản giao nhận tài sản;biên bản giao, nhận tài sản;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;cha mẹ;cha, mẹ;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Cha me de;cha mẹ đẻ;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;cha mẹ hoặc người giám hộ;cha, mẹ hoặc người giám hộ;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Cha mẹ nuôi;Cha, mẹ nuôi;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;chỉ đạo phối hợp;chỉ đạo, phối hợp;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;cho thue quyen su dung dat;cho thuê quyền sử dụng đất;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;cơ quan lao động thương binh và xã hội;Cơ quan lao động, thương binh và xã hội;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;co quan to chuc ca nhan khac co lien quan;cơ quan, tổ chức, cá nhân khác có liên quan;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;dia diem niem yet;địa điểm niêm yết;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;Dieu kien giao dich dan su;điều kiện giao dịch dân sự;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;doi chat;đối chất;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;Don yeu cau;Đơn yêu cầu;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;Duong su;đương sự;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Giải quyết khiếu nại tố cáo;giải quyết khiếu nại, tố cáo;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;Giay chung nhan quyen su dung dat;giấy chứng nhận quyền sử dụng đất;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;Hinh thuc hop dong dan su;Hình thức hợp đồng dân sự;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;ho gia dinh;hộ gia đình;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;hồ sơ đề nghị xét miễn giảm chấp hành hình phạt tù;hồ sơ đề nghị xét miễn, giảm chấp hành hình phạt tù;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;hồ sơ đề nghị xét miễn giảm nghĩa vụ thi hành án dân sự;hồ sơ đề nghị xét miễn, giảm nghĩa vụ thi hành án dân sự;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Họ tên chức vụ người ra quyết định;họ, tên, chức vụ người ra quyết định;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;Hoat dong to tung dan su;hoạt động tố tụng dân sự;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Hoi dong;Hội đồng;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Hoi dong phuc tham;Hội đồng phúc thẩm;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Hoi dong xet xu;Hội đồng xét xử;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Hoi dong xet xu giam doc tham;Hội đồng xét xử giám đốc thẩm;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Hoi dong xet xu phuc tham;Hội đồng xét xử phúc thẩm;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Hop dong dan su;hợp đồng dân sự;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;HOP Dong Mua Tra Cham Hoac Tra Dan;hợp đồng mua trả chậm hoặc trả dần;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;HOP Dong Trao Doi Tai San;hợp đồng trao đổi tài sản;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;Hop dong uy quyen;hợp đồng ủy quyền;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;HOP Dong VAN CHUYEN TAI SAN;hợp đồng vận chuyển tài sản;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Huy quyet dinh;Hủy quyết định;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;Khoan 1 Dieu nay;khoản 1 Điều này;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;khôi phục quyền lợi ích hợp pháp;khôi phục quyền, lợi ích hợp pháp;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;ly do chinh dang;ly do chính đáng;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;mang thai ho vi muc dich nhan dao;mang thai hộ vì mục đích nhân đạo;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;miễn giảm nghĩa vụ thi hành án;Miễn, giảm nghĩa vụ thi hành án;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;ngan sach dia phuong;ngân sách địa phương;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Ngày tháng năm làm đơn;ngày, tháng năm làm đơn;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Ngày tháng năm làm đơn khởi kiện;Ngày, tháng, năm làm đơn khởi kiện;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Ngày tháng năm làm đơn đề nghị;Ngày, tháng, năm làm đơn đề nghị;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;ngày tháng năm ra quyết định;Ngày, tháng, năm ra quyết định;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Ngày tháng năm sinh;ngày, tháng, năm sinh;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;nghĩa vụ cấp dưỡng của con đối với cha mẹ;nghĩa vụ cấp dưỡng của con đối với cha, mẹ;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Người có quyền lợi ích liên quan;người có quyền, lợi ích liên quan;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;Người có quyền lợi nghĩa vụ liên quan;người có quyền lợi, nghĩa vụ liên quan;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;Nguyen don;nguyên đơn;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;nhận cha mẹ con;nhận cha, mẹ, con;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;nơi cư trú làm việc trụ sở;nơi cư trú, làm việc, trụ sở;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;phần tài sản của vợ chồng;phần tài sản của vợ, chồng;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;quyền lợi ích của người thuê;quyền, lợi ích của người thuê;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;quyền lợi ích hợp pháp;quyền, lợi ích hợp pháp;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;quyen nop don yeu cau cap van bang bao ho;Quyền nộp đơn yêu cầu cấp văn bằng bảo hộ;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;quyền trông nom chăm sóc giáo dục con;quyền trông nom, chăm sóc, giáo dục con;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;quyền xác định cha mẹ con;quyền xác định cha mẹ, con;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;quyet dinh;quyết định;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;Quyet dinh cuoi cung;quyết định cuối cùng;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;Quyet dinh dua vu an ra xet xu phuc tham;Quyết định đưa vụ án ra xét xử phúc thẩm;;HUMAN-REVIEW
@@ -90,69 +132,134 @@ P1_review_merge_no_support;tier1-normkey;1.0;quyet dinh tam dinh chi;quyết đ�
 P1_review_merge_no_support;tier1-normkey;1.0;Quyet dinh tam ngung phien toa;Quyết định tạm ngừng phiên tòa;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;quyet dinh tiep tuc giai quyet boi thuong;quyết định tiếp tục giải quyết bồi thường;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;Quyet dinh tru vao thu nhap;quyết định trừ vào thu nhập;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;quyết định áp dụng thay đổi hủy bỏ biện pháp khẩn cấp tạm thời;Quyết định áp dụng, thay đổi, hủy bỏ biện pháp khẩn cấp tạm thời;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;quyết định miễn giảm thi hành án;quyết định miễn, giảm thi hành án;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;quyết định yêu cầu cung cấp tài liệu chứng cứ;Quyết định yêu cầu cung cấp tài liệu, chứng cứ;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Sáp nhập trộn lẫn chế biến;sáp nhập, trộn lẫn, chế biến;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;so tien thu duoc;Số tiền thu được;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;sự kiện thông tin hộ tịch;sự kiện, thông tin hộ tịch;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;tài liệu chứng cứ;tài liệu, chứng cứ;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;tài sản phục vụ quốc phòng an ninh;tài sản phục vụ quốc phòng, an ninh;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Tên nơi cư trú làm việc của người khởi kiện;Tên, nơi cư trú, làm việc của người khởi kiện;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Tham dinh gia tai san;thẩm định giá tài sản;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;thẩm quyền giải quyết việc xác định cha mẹ con;thẩm quyền giải quyết việc xác định cha, mẹ, con;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;thu hoi dat;thu hồi đất;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;thu thap tai lieu chung cu;Thu thập tài liệu, chứng cứ;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Toa an chi dinh nguoi giam ho;Tòa án chỉ định người giám hộ;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;trật tự an toàn xã hội;trật tự, an toàn xã hội;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;UBND cấp huyện;Ủy ban nhân dân cấp huyện;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;UBND cấp tỉnh;Ủy ban nhân dân cấp tỉnh;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;UBND cấp xã;Ủy ban nhân dân cấp xã;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;UBND tỉnh, thành phố trực thuộc trung ương;Uỷ ban nhân dân tỉnh, thành phố trực thuộc trung ương;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;UBND xã, phường, thị trấn;ủy ban nhân dân xã, phường, thị trấn;;HUMAN-REVIEW
 P1_review_merge_no_support;tier1-normkey;1.0;văn bản đề nghị xét miễn giảm nghĩa vụ thi hành án;Văn bản đề nghị xét miễn, giảm nghĩa vụ thi hành án;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền của cha mẹ;quyền của cha mẹ đẻ;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền đại diện cho người thừa kế;quyền đại diện cho những người thừa kế;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền đơn phương chấm dứt hợp đồng vận chuyển;quyền đơn phương chấm dứt thực hiện hợp đồng vận chuyển;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền được nhận làm con nuôi;Quyền được nuôi con nuôi và quyền được nhận làm con nuôi;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền được nuôi con nuôi;quyền được nuôi dưỡng;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền hủy bỏ kết hôn trái pháp luật;quyền hủy kết hôn trái pháp luật;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền khác theo quy định của luật;quyền khác theo quy định của pháp luật;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền kiểm tra, giám sát;quyền kiểm tra, giám sát tài sản;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;Quyền nhận nhà thuê theo đúng thỏa thuận;quyền nhận nhà thuê theo thỏa thuận;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền sở hữu bất động sản;quyền sở hữu đối với bất động sản;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền sở hữu đối với động sản;quyền sở hữu động sản;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền sở hữu đối với tài sản mua bán;quyền sở hữu tài sản mua bán;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền sở hữu đối với vật;quyền sở hữu đối với vật vô chủ;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền sở hữu nhà nước;quyền sở hữu nhà ở;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền sử dụng đất ổn định;Quyền sử dụng đất thuê ổn định;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền thừa kế di sản;Quyền thừa kế tài sản;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền từ chối chuyên chở;quyền từ chối vận chuyển;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền và nghĩa vụ cha mẹ;quyền và nghĩa vụ của cha mẹ và con;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền và nghĩa vụ của các bên theo hợp đồng;Quyền và nghĩa vụ của các bên theo hợp đồng dân sự;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền và nghĩa vụ của các bên theo hợp đồng;quyền và nghĩa vụ của các bên trong hợp đồng;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền và nghĩa vụ đối với tài sản;quyền và nghĩa vụ tài sản;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền và nghĩa vụ tài sản;quyền và nghĩa vụ về tài sản;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền xác định cha mẹ;quyền xác định cha mẹ con;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền xác định cha mẹ con;quyền xác định cha mẹ hoặc con;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền xác lập giao dịch;quyền xác lập giao dịch dân sự;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền xác lập và thực hiện giao dịch;quyền xác lập và thực hiện giao dịch dân sự;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền yêu cầu bên mua trả tiền đúng thời hạn;Quyền yêu cầu trả tiền đúng thời hạn;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền yêu cầu chuyển giao;quyền yêu cầu chuyển giao đất;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền yêu cầu công nhận thay đổi họ, tên;quyền yêu cầu công nhận thay đổi tên;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;Quyền yêu cầu dành lối đi;quyền yêu cầu lối đi;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền yêu cầu đối chiếu;quyền yêu cầu đối chiếu di chúc;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;1.0;quyền yêu cầu giám định;quyền yêu cầu giảm giá;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền yêu cầu thanh toán cước phí;Quyền yêu cầu thanh toán cước phí vận chuyển;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền yêu cầu trả chi phí bảo quản;quyền yêu cầu trả chi phí bảo quản tài sản;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;1.0;quyền yêu cầu trả lãi;Quyền yêu cầu trả lại đất;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;Quyền yêu cầu trả tiền thuê;quyền yêu cầu trả tiền thuê đất;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền yêu cầu xác định cha mẹ;quyền yêu cầu xác định cha mẹ con;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền yêu cầu xác định cha mẹ;quyền yêu cầu xác định cha mẹ hoặc con;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền yêu cầu xác định cha mẹ con;quyền yêu cầu xác định cha mẹ hoặc con;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyền yêu cầu xác định cha mẹ con;quyền yêu cầu xác định quan hệ cha mẹ con;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;Quyết định chấm dứt nuôi con nuôi;quyết định chấm dứt việc nuôi con nuôi;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyết định của bản án;Quyết định của bản án hình sự;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyết định của cơ quan có thẩm quyền;quyết định của cơ quan có thẩm quyền của pháp nhân;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyết định của Hội đồng;Quyết định của Hội đồng định giá;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;quyết định của Hội đồng;Quyết định của Hội đồng xét xử;;HUMAN-REVIEW
-P1_review_merge_no_support;tier3-llm-rejected;0.95;Quyết định đình chỉ giải quyết kháng cáo, kháng nghị;quyết định giải quyết kháng nghị;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;vợ chồng;vợ, chồng;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;xác định cha mẹ con;xác định cha, mẹ, con;;HUMAN-REVIEW
+P1_review_merge_no_support;tier1-normkey;1.0;Đăng ký nhận cha mẹ con;đăng ký nhận cha, mẹ, con;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;giấy biên nhận;giấy biên nhận giữ;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;Thất thiệt;thất thiệt hại;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;thời điểm nhận con;thời điểm nhận nhà;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;thời hạn chậm trả;Thời hạn chi trả;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;trách nhiệm pháp luật;trách nhiệm pháp lý;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;1.0;yêu cầu báo cáo;yêu cầu bảo vệ;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;thông báo cho Tòa án;thông báo cho tòa án biết;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;Tòa án có thẩm quyền giám đốc thẩm;Tòa án có thẩm quyền giám đốc thẩm hoặc tái thẩm;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;anh ruột, chị ruột;anh ruột, chị ruột, em ruột;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;bản án, quyết định sơ thẩm;bản án, quyết định sơ thẩm mới;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;bên có nghĩa vụ không phải thực hiện;bên có nghĩa vụ không thực hiện;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;bên có nghĩa vụ không thực hiện;bên có nghĩa vụ không thực hiện hoặc thực hiện không đúng nghĩa vụ;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;bên được cấp dưỡng sau khi ly hôn;bên được cấp dưỡng sau khi ly hôn đã kết hôn;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;Biên bản giao nhận tài sản;biên bản giao tiền, tài sản;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;1.0;bồi thường thiệt hại cho bên bán;bồi thường thiệt hại cho bên mượn;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;1.0;bồi thường thiệt hại cho bên bán;bồi thường thiệt hại cho bên vay;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;các trường hợp đặc biệt;các trường hợp đặc biệt khác;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;cách thức và phương tiện công bố;cách thức và phương tiện công bố hứa thưởng;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;cải tạo, nâng cấp;cải tạo, nâng cấp nhà;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;chi phí cho việc bảo quản di sản;chi phí cho việc bảo quản tài sản;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;chi phí định giá lại tài sản;chi phí định giá tài sản;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;chi phí sửa chữa tài sản;chi phí sửa chữa tài sản thuê;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;chuyển quyền sử dụng;chuyển quyền sử dụng đất;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;có khó khăn trong làm chủ hành vi;có khó khăn trong nhận thức, làm chủ hành vi;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;cơ quan có thẩm quyền;cơ quan có thẩm quyền khác;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;Cơ quan thi hành án;Cơ quan thi hành án hình sự;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;Cơ quan thi hành án;Cơ quan Thi hành án quân khu;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;1.0;cơ quan thi hành án dân sự cấp quân khu;Cơ quan thi hành án hình sự cấp quân khu;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;cơ quan, tổ chức, cá nhân khác;cơ quan, tổ chức, cá nhân khác có liên quan;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;cơ quan, tổ chức, cá nhân khác;cơ quan, tổ chức, cá nhân liên quan khác;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;Công dân Việt Nam cư trú ở nước ngoài;công dân Việt Nam cư trú ở trong nước;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;công dân Việt Nam cư trú ở trong nước;Công dân Việt Nam thường trú ở trong nước;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;đại diện các cơ quan liên quan;đại diện cơ quan có liên quan;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;đại diện cơ quan quản lý nhà nước về đất đai;đại diện cơ quan quản lý nhà nước về đất đai cùng cấp;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;1.0;đề nghị thay đổi người giám định;đề nghị thay đổi người giám hộ;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;địa điểm thực hiện nghĩa vụ;địa điểm thực hiện nghĩa vụ dân sự;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;điều khoản không rõ ràng trong hợp đồng;điều khoản không rõ ràng trong hợp đồng theo mẫu;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;điều kiện thực hiện nghĩa vụ;điều kiện thực hiện nghĩa vụ dân sự;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;điều kiện ủy quyền;điều kiện ủy quyền lại;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;đơn phương chấm dứt hợp đồng;đơn phương chấm dứt hợp đồng lao động;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;đồng ý của người đại diện;đồng ý của người được đại diện;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;giấy tờ chứng nhận quyền sở hữu;giấy tờ chứng nhận quyền sở hữu tài sản;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;giấy tờ chứng nhận quyền sở hữu tài sản;Giấy tờ chứng nhận quyền sở hữu tài sản cầm cố;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;hiệu lực của giao dịch dân sự giả tạo;hiệu lực của giao dịch giả tạo;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;hiệu lực của hợp đồng;hiệu lực của hợp đồng tặng cho;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;hiệu lực của hợp đồng tặng cho;hiệu lực của hợp đồng tặng cho động sản;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;hoá lợi từ tài sản cầm cố;hoá lợi từ tài sản cầm giữ;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;hoạt động thi hành án;hoạt động thi hành án dân sự;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;hợp đồng tặng cho;hợp đồng tặng cho động sản;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;không chấp hành bản án, quyết định;không chấp hành quyết định;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;kiến nghị cơ quan có thẩm quyền;kiến nghị cơ quan có thẩm quyền giải quyết;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;Lý do từ chối đăng ký;Lý do từ chối đăng ký hộ tịch;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;1.0;năng lực hành vi dân sự;năng lực hành vi tố tụng dân sự;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;nghĩa vụ báo cáo;nghĩa vụ bảo vệ;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;nghĩa vụ bảo quản di sản;nghĩa vụ bảo quản tài sản;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;nghĩa vụ chăm sóc;nghĩa vụ chăm sóc cha mẹ;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;nghĩa vụ chăm sóc;nghĩa vụ chăm sóc con;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;nghĩa vụ của cha mẹ;nghĩa vụ của cha mẹ đẻ;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;Nghĩa vụ của người biểu diễn;nghĩa vụ của người đại diện;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;nghĩa vụ cung cấp thông tin;Nghĩa vụ cung cấp thông tin cần thiết;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;nghĩa vụ trả lại tài sản;nghĩa vụ trả lại tài sản thuê;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;Người có hành vi vi phạm;người có hành vi xâm phạm;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;người có nghĩa vụ dân sự;người có nghĩa vụ dân sự liên đới;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;người có quyền;người có quyền lợi;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;Người có quyền lợi ích liên quan;người có quyền và lợi ích liên quan;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;người có quyền, nghĩa vụ liên quan;người có quyền, nghĩa vụ tài sản liên quan;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;người có quyền, nghĩa vụ tài sản;người có quyền, nghĩa vụ tài sản liên quan;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;người nhận chuyển quyền sử dụng đất;người nhận quyền sử dụng đất;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;Người tham gia hòa giải;Người tham gia thỏa thuận hòa giải;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;Người thứ ba có quyền sở hữu;người thứ ba có quyền sở hữu tài sản;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;người trực tiếp nuôi con;người trực tiếp nuôi dưỡng;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;1.0;người từ đủ mười lăm tuổi đến chưa đủ mười tám tuổi;Người từ đủ sáu tuổi đến chưa đủ mười lăm tuổi;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;1.0;Người từ đủ sáu tuổi đến chưa đủ mười lăm tuổi;người từ đủ sáu tuổi đến chưa đủ mười tám tuổi;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;nhiệm vụ, quyền hạn;nhiệm vụ, quyền hạn khác;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;nội dung hợp đồng chuyển quyền sử dụng đất;nội dung hợp đồng quyền sử dụng đất;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;Phiên họp xét lại quyết định;Phiên họp xét quyết định;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;0.95;quản lý, sử dụng, định đoạt tài sản;quản lý, sử dụng, định đoạt tài sản chung;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;1.0;quản lý tài sản của người được giám hộ;quản lý tài sản của người giám hộ;;HUMAN-REVIEW
+P1_review_merge_no_support;tier3-llm-rejected;1.0;quyền áp dụng biện pháp bảo đảm thi hành án;quyền áp dụng các biện pháp bảo đảm thi hành án;;HUMAN-REVIEW
+P2_conflicts;conflict;;Cha, mẹ nuôi;Cha mẹ nuôi | Cha, mẹ nuôi;CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson'];check
+P2_conflicts;conflict;;cha, mẹ;cha mẹ | cha, mẹ;CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson'];check
+P2_conflicts;conflict;;Uỷ ban nhân dân tỉnh, thành phố trực thuộc trung ương;UBND tỉnh, thành phố trực thuộc trung ương | Uỷ ban nhân dân tỉnh, thành phố trực thuộc trung ương;CONFLICT:['vclo:LegalConcept', 'vclo:StateOrgan'];check
 P2_conflicts;conflict;;Quyet dinh cua Toa an cap so tham;Quyet dinh cua Toa an cap so tham | quyết định của tòa án cấp sơ thẩm;CONFLICT:['vclo:JudicialOrgan', 'vclo:LegalConcept'];check
+P2_conflicts;conflict;;vợ, chồng;vợ chồng | vợ, chồng;CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson'];check
 P2_conflicts;conflict;;Quyen su dung dat;Quyen su dung dat | quyền sử dụng đất;CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson'];check
 P2_conflicts;conflict;;Hoi dong Tham phan Toa an nhan dan toi cao;Hoi dong Tham phan Toa an nhan dan toi cao | Hội đồng Thẩm phán Tòa án nhân dân tối cao;CONFLICT:['vclo:JudicialOrgan', 'vclo:LegalConcept'];check
 P2_conflicts;conflict;;bản án, quyết định dân sự chưa có hiệu lực pháp luật;bản án, quyết định chưa có hiệu lực pháp luật | bản án, quyết định có hiệu lực pháp luật | bản án, quyết định dân sự chưa có hiệu lực pháp luật | bản án, quyết định dân sự đã có hiệu lực pháp luật | bản án, quyết định đã có hiệu lực pháp luật;vclo:LegalConcept;check
 P2_conflicts;conflict;;hop dong;hop dong | hợp đồng;CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson'];check
+P2_conflicts;conflict;;tài liệu, chứng cứ;tài liệu chứng cứ | tài liệu, chứng cứ;CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson'];check
+P2_conflicts;conflict;;nhận cha, mẹ, con;nhận cha mẹ con | nhận cha, mẹ, con;CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson'];check
+P2_conflicts;conflict;;ngày, tháng, năm sinh;Ngày tháng năm sinh | ngày, tháng, năm sinh;CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson'];check
+P2_conflicts;conflict;;Toa an chi dinh nguoi giam ho;Toa an chi dinh nguoi giam ho | Tòa án chỉ định người giám hộ;CONFLICT:['vclo:JudicialOrgan', 'vclo:LegalConcept'];check
 P2_conflicts;conflict;;Luat hon nhan va gia dinh;Luat hon nhan va gia dinh | Luật Hôn Nhân Và Gia Đình;CONFLICT:['vclo:LegalConcept', 'vclo:NormativeDocument'];check
+P2_conflicts;conflict;;chỉ đạo, phối hợp;chỉ đạo phối hợp | chỉ đạo, phối hợp;CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson'];check
+P2_conflicts;conflict;;cơ quan, tổ chức, cá nhân khác có liên quan;Co quan, to chuc, ca nhan lien quan | Cơ quan, tổ chức, cá nhân có liên quan | co quan to chuc ca nhan khac co lien quan | cơ quan, tổ chức, cá nhân khác có liên quan | cơ quan, tổ chức, cá nhân liên quan khác;vclo:LegalConcept;check
 P2_conflicts;conflict;;phong tục, tập quán;phong tục tập quán | phong tục, tập quán;CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson'];check
 P2_conflicts;conflict;;Luat dat dai;Luat dat dai | Luật đất đai;CONFLICT:['vclo:NaturalPerson', 'vclo:NormativeDocument'];check
 P2_conflicts;conflict;;Hop dong uy quyen;Hop dong uy quyen | hợp đồng ủy quyền;CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson'];check
 P2_conflicts;conflict;;BEN DUOC UY QUYEN;BEN DUOC UY QUYEN | bên được ủy quyền;CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson'];check
+P2_conflicts;conflict;;Hop dong dan su;Hop dong dan su | hợp đồng dân sự;CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson'];check
 P3_rejected_skim;tier3-llm-rejected;0.95;chấp hành viên;chấp hành viên bán;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;chi tang cu oeng;chi tăng cư ờng;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;chủ sở hữu;chủ sở hữu cũ;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;giấy biên nhận;giấy biên nhận giữ;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;kieu dang cong nghe;kiểu dáng công nghiệp;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;người giám hộ;người giám hộ cũ;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;người giám hộ;người giám hộ mới;;skim
@@ -162,38 +269,59 @@ P3_rejected_skim;tier3-llm-rejected;0.95;quyet dinh;Quyet Dinhh;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyết định;Quyet Dinhh;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyết định bị hủy;quyết định hủy;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;tài sản chung;tài sản chung cư;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;Thất thiệt;thất thiệt hại;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;thời điểm nhận con;thời điểm nhận nhà;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;thời hạn bảo đảm;thời hạn bảo hộ;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;thời hạn chậm trả;Thời hạn chi trả;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;thời hạn một tháng;thời hạn một tuần;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;trách nhiệm pháp luật;trách nhiệm pháp lý;;skim
+P3_rejected_skim;tier3-llm-rejected;1.0;yêu cầu báo cáo;yêu cầu bảo vệ;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Bản án, quyết định của Tòa án nước ngoài;Bản án, quyết định dân sự của Tòa án nước ngoài;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;bản án quyết định dân sự của tòa án nước ngoài;Bản án, quyết định dân sự khác của Tòa án nước ngoài;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Bản án, quyết định dân sự của Tòa án nước ngoài;Bản án, quyết định dân sự khác của Tòa án nước ngoài;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Quyền yêu cầu Tòa án xác định cha, mẹ, con;quyền yêu cầu tòa án xác định con;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyết định của Tòa án về việc chấm dứt nuôi con nuôi;quyết định của tòa án về việc nuôi con;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Thẩm quyền của Tòa án;Thẩm quyền của Tòa án nhân dân;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;thông báo cho Tòa án;thông báo cho tòa án biết;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;Tòa án có thẩm quyền giám đốc thẩm;Tòa án có thẩm quyền giám đốc thẩm hoặc tái thẩm;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;tòa án giải quyết;Tòa án giải quyết vụ án;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Tòa án nơi bị đơn cư trú, làm việc;Tòa án nơi cư trú, làm việc;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;tòa án nơi người bị yêu cầu;tòa án nơi người yêu cầu;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Tòa án ra quyết định đình chỉ giải quyết;Tòa án ra quyết định đình chỉ giải quyết vụ án;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;Tòa án triệu tập hợp lệ lần thứ hai;Tòa án triệu tập hợp lệ lần thứ nhất;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;anh ruột, chị ruột;anh ruột, chị ruột, em ruột;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;bản án, quyết định chưa có hiệu lực pháp luật;bản án, quyết định có hiệu lực pháp luật;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;bản án, quyết định chưa có hiệu lực pháp luật;Bản án, quyết định lao động chưa có hiệu lực pháp luật;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;bản án, quyết định dân sự;Bản án, quyết định hình sự;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;bản án, quyết định sơ thẩm;bản án, quyết định sơ thẩm mới;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;báo cho bên cho thuê biết;báo cho bên thuê nhà biết;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;báo cho bên thuê biết;báo cho bên thuê nhà biết;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;bảo quản tài sản cầm cố;bảo quản tài sản cầm giữ;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;bảo vệ lợi ích công cộng, lợi ích của Nhà nước;bảo vệ lợi ích của Nhà nước;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;bất động sản chịu hưởng quyền;bất động sản hưởng quyền;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;bên có nghĩa vụ không phải thực hiện;bên có nghĩa vụ không thực hiện;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;bên có nghĩa vụ không thực hiện;bên có nghĩa vụ không thực hiện hoặc thực hiện không đúng nghĩa vụ;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;bên được cấp dưỡng sau khi ly hôn;bên được cấp dưỡng sau khi ly hôn đã kết hôn;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;Biên bản giao nhận tài sản;biên bản giao tiền, tài sản;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;biên lai thu tiền tạm ứng án phí;biên lai thu tiền tạm ứng án phí phúc thẩm;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;biện pháp khẩn cấp tạm thời;biện pháp khẩn cấp tạm thời khác;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;bổ nhiệm làm Chấp hành viên;bổ nhiệm làm Chấp hành viên sơ cấp;;skim
+P3_rejected_skim;tier3-llm-rejected;1.0;bồi thường thiệt hại cho bên bán;bồi thường thiệt hại cho bên mượn;;skim
+P3_rejected_skim;tier3-llm-rejected;1.0;bồi thường thiệt hại cho bên bán;bồi thường thiệt hại cho bên vay;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;bồi thường thiệt hại cho bên mượn;bồi thường thiệt hại cho bên vay;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;các trường hợp đặc biệt;các trường hợp đặc biệt khác;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;cách thức và phương tiện công bố;cách thức và phương tiện công bố hứa thưởng;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;cải tạo, nâng cấp;cải tạo, nâng cấp nhà;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;căn cứ của việc kháng cáo;căn cứ của việc kháng nghị;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;chấm dứt hành vi vi phạm;chấm dứt hành vi xâm phạm;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;chấp hành viên cao cấp;chấp hành viên sơ cấp;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;chấp nhận đề nghị giao kết hợp đồng;chấp nhận giao kết hợp đồng;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;chất lượng của tài sản;chất lượng của tài sản mua bán;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;chế độ tài sản của vợ chồng;chế độ tài sản vợ chồng;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;chi phí cho việc bảo quản di sản;chi phí cho việc bảo quản tài sản;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;chi phí định giá lại tài sản;chi phí định giá tài sản;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;chi phí hợp lý bảo quản tài sản cầm cố;chi phí hợp lý để bảo quản tài sản cầm cố;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;chi phí sửa chữa tài sản;chi phí sửa chữa tài sản thuê;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;chi phí thẩm định giá;chi phí thẩm định giá lại;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;chiếm hữu có căn cứ pháp luật;chiếm hữu tài sản có căn cứ pháp luật;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Chủ sở hữu, người chiếm hữu hợp pháp;Chủ sở hữu, người chiếm hữu hợp pháp tài sản;;skim
@@ -201,11 +329,16 @@ P3_rejected_skim;tier3-llm-rejected;0.95;Chung Nhan Cong Chung Nha Nuoc;chứng 
 P3_rejected_skim;tier3-llm-rejected;0.95;chuyển giao nghĩa vụ;chuyển giao quyền, nghĩa vụ;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;chuyển giao nghĩa vụ;chuyển giao quyền và nghĩa vụ;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;chuyển giao quyền sử dụng;chuyển giao quyền sử dụng sáng chế;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;chuyển quyền sử dụng;chuyển quyền sử dụng đất;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;có khó khăn trong làm chủ hành vi;có khó khăn trong nhận thức, làm chủ hành vi;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;cơ quan có thẩm quyền;cơ quan có thẩm quyền khác;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;cơ quan có thẩm quyền;cơ quan có thẩm quyền quản lý;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;cơ quan giải quyết bồi thường;cơ quan giải quyết bồi thường ở tỉnh;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;cơ quan nhà nước có thẩm quyền;cơ quan nhà nước có thẩm quyền bảo vệ;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;cơ quan quản lý nhà nước về công tác bồi thường nhà nước;cơ quan quản lý nhà nước về công tác bồi thường nhà nước có thẩm quyền;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Cơ quan thi hành án;cơ quan thi hành án dân sự;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;Cơ quan thi hành án;Cơ quan thi hành án hình sự;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;Cơ quan thi hành án;Cơ quan Thi hành án quân khu;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;cơ quan thi hành án cấp huyện;cơ quan thi hành án cấp quân khu;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;cơ quan thi hành án cấp quân khu;cơ quan thi hành án dân sự cấp quân khu;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;cơ quan thi hành án cấp quân khu;Cơ quan thi hành án hình sự cấp quân khu;;skim
@@ -213,6 +346,7 @@ P3_rejected_skim;tier3-llm-rejected;1.0;cơ quan thi hành án dân sự;Cơ qua
 P3_rejected_skim;tier3-llm-rejected;1.0;cơ quan thi hành án dân sự cấp huyện;cơ quan thi hành án dân sự cấp quân khu;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;cơ quan thi hành án dân sự cấp huyện;cơ quan thi hành án dân sự cấp tỉnh;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;cơ quan thi hành án dân sự cấp quân khu;cơ quan thi hành án dân sự cấp tỉnh;;skim
+P3_rejected_skim;tier3-llm-rejected;1.0;cơ quan thi hành án dân sự cấp quân khu;Cơ quan thi hành án hình sự cấp quân khu;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;Cơ quan thi hành án hình sự cấp quân khu;cơ quan thi hành án hình sự công an cấp tỉnh, cơ quan thi hành án hình;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;cơ quan, tổ chức;cơ quan, tổ chức quản lý;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;cơ quan, tổ chức, cá nhân;Cơ quan, tổ chức, cá nhân có liên quan;;skim
@@ -220,14 +354,23 @@ P3_rejected_skim;tier3-llm-rejected;0.95;cơ quan, tổ chức, cá nhân;cơ qu
 P3_rejected_skim;tier3-llm-rejected;0.95;cơ quan, tổ chức, cá nhân;Co quan, to chuc, ca nhan lien quan;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Cơ quan, tổ chức, cá nhân có liên quan;cơ quan, tổ chức, cá nhân khác có liên quan;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Cơ quan, tổ chức, cá nhân có liên quan;cơ quan, tổ chức, cá nhân liên quan khác;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;cơ quan, tổ chức, cá nhân khác;cơ quan, tổ chức, cá nhân khác có liên quan;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;cơ quan, tổ chức, cá nhân khác;cơ quan, tổ chức, cá nhân liên quan khác;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Co quan, to chuc, ca nhan lien quan;cơ quan, tổ chức, cá nhân liên quan khác;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Công chức tư pháp - hộ tịch;công chức tư pháp - hộ tịch cấp xã;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;Công dân Việt Nam cư trú ở nước ngoài;công dân Việt Nam cư trú ở trong nước;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Công dân Việt Nam cư trú ở nước ngoài;Công dân Việt Nam định cư ở nước ngoài;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;công dân Việt Nam cư trú ở trong nước;Công dân Việt Nam thường trú ở trong nước;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;Cuộc bán đấu giá lần thứ hai;Cuộc bán đấu giá lần thứ nhất;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;cước phí vận chuyển hành khách;cước phí vận chuyển hành lý;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;đại diện các cơ quan liên quan;đại diện cơ quan có liên quan;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;đại diện cơ quan quản lý nhà nước về đất đai;đại diện cơ quan quản lý nhà nước về đất đai cùng cấp;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Danh dự, nhân phẩm, uy tín;Danh dự, nhân phẩm, uy tín của cá nhân;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;danh sách đề nghị công nhận hòa giải viên;danh sách người được đề nghị công nhận hòa giải viên;;skim
+P3_rejected_skim;tier3-llm-rejected;1.0;đề nghị thay đổi người giám định;đề nghị thay đổi người giám hộ;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;di chúc bằng văn bản có chứng thực;di chúc bằng văn bản có công chứng;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;địa điểm thực hiện nghĩa vụ;địa điểm thực hiện nghĩa vụ dân sự;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;điều khoản không rõ ràng trong hợp đồng;điều khoản không rõ ràng trong hợp đồng theo mẫu;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;điều kiện bổ nhiệm Chấp hành viên cao cấp;điều kiện bổ nhiệm Chấp hành viên sơ cấp;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;điều kiện bổ nhiệm Chấp hành viên sơ cấp;điều kiện để bổ nhiệm Chấp hành viên sơ cấp;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;điều kiện chấm dứt hợp đồng hợp tác;điều kiện chấm dứt hợp tác;;skim
@@ -235,29 +378,41 @@ P3_rejected_skim;tier3-llm-rejected;0.95;Điều kiện chuyển đổi quyền 
 P3_rejected_skim;tier3-llm-rejected;0.95;Điều kiện chuyển nhượng quyền sử dụng đất;Điều kiện chuyển quyền sử dụng đất;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;điều kiện để làm người giám hộ;điều kiện làm người giám hộ;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;điều kiện nhận nuôi con nuôi;Điều kiện nuôi con nuôi;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;điều kiện thực hiện nghĩa vụ;điều kiện thực hiện nghĩa vụ dân sự;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;điều kiện ủy quyền;điều kiện ủy quyền lại;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;đình chỉ giải quyết vụ án;đình chỉ giải quyết vụ án dân sự;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;đối tượng sở hữu công nghiệp;đối tượng sở hữu công nghiệp khác;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;đơn phương chấm dứt hợp đồng;đơn phương chấm dứt hợp đồng lao động;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;đơn phương đình chỉ thực hiện;đơn phương đình chỉ thực hiện hợp đồng;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;đơn phương đình chỉ thực hiện hợp đồng;đơn phương đình chỉ thực hiện hợp đồng dịch vụ;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;đơn phương đình chỉ thực hiện hợp đồng;đơn phương đình chỉ thực hiện hợp đồng gia công;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;đơn phương đình chỉ thực hiện hợp đồng;Đơn phương đình chỉ thực hiện hợp đồng thuê nhà;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;đơn phương đình chỉ thực hiện hợp đồng;đơn phương đình chỉ thực hiện hợp đồng uỷ quyền;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;đơn yêu cầu công nhận và cho thi hành;Đơn yêu cầu công nhận và cho thi hành bản án;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;đồng ý của người đại diện;đồng ý của người được đại diện;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;đồng ý của người được giám hộ;đồng ý của người giám hộ;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;đồng ý của người giám hộ;đồng ý của người giám sát;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;giải quyết việc dân sự;Giải quyết vụ việc dân sự;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;giao dịch dân sự liên quan đến tài sản;giao dịch liên quan đến tài sản;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;giao dịch dân sự vượt quá phạm vi đại diện;giao dịch vượt quá phạm vi đại diện;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;giấy chứng nhận quyền sử dụng;giấy chứng nhận quyền sử dụng tài sản;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;giấy tờ chứng nhận quyền sở hữu;giấy tờ chứng nhận quyền sở hữu tài sản;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;giấy tờ chứng nhận quyền sở hữu tài sản;Giấy tờ chứng nhận quyền sở hữu tài sản cầm cố;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;hành vi xâm phạm quyền sở hữu công nghiệp;hành vi xâm phạm quyền sở hữu kiểu dáng công nghiệp;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;hiệu lực của giao dịch dân sự giả tạo;hiệu lực của giao dịch giả tạo;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;hiệu lực của hợp đồng;hiệu lực của hợp đồng cầm cố;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;hiệu lực của hợp đồng;hiệu lực của hợp đồng tặng cho;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;hiệu lực của hợp đồng;hiệu lực của phụ lục hợp đồng;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;hiệu lực của hợp đồng tặng cho;hiệu lực của hợp đồng tặng cho động sản;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;hiệu lực của hợp đồng tặng cho bất động sản;hiệu lực của hợp đồng tặng cho động sản;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;hình thức của hợp đồng;hình thức hợp đồng;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;hình thức hợp đồng;hình thức lập hợp đồng;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;hoá lợi từ tài sản cầm cố;hoá lợi từ tài sản cầm giữ;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;hoạt động thi hành án;hoạt động thi hành án dân sự;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Hội đồng xử lý vụ việc cạnh tranh;Hội đồng xử lý vụ việc hạn chế cạnh tranh;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;hợp đồng chuyển đổi quyền sử dụng đất;hợp đồng chuyển nhượng quyền sử dụng đất;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;hợp đồng chuyển nhượng quyền sử dụng đất;hợp đồng chuyển quyền sử dụng đất;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;hợp đồng tặng cho;hợp đồng tặng cho động sản;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;hợp đồng tặng cho động sản;hợp đồng tặng cho tài sản;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;hợp đồng thuê khoán tài sản;hợp đồng thuê tài sản;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;hợp đồng thuê lại quyền sử dụng đất;hợp đồng thuê quyền sử dụng đất;;skim
@@ -267,15 +422,23 @@ P3_rejected_skim;tier3-llm-rejected;0.95;khôi phục quyền lợi hợp pháp;
 P3_rejected_skim;tier3-llm-rejected;0.95;khôi phục quyền lợi hợp pháp khác;khôi phục quyền lợi ích hợp pháp khác;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;khôi phục quyền lợi ích hợp pháp;khôi phục quyền và lợi ích hợp pháp;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;khôi phục quyền lợi ích hợp pháp khác;khôi phục quyền và lợi ích hợp pháp;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;không chấp hành bản án, quyết định;không chấp hành quyết định;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;không phải nộp tiền tạm ứng án phí;không phải nộp tiền tạm ứng lệ phí;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Kiểm sát viên phát biểu;Kiểm sát viên phát biểu ý kiến;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;kiểm tra công tác thi hành án;kiểm tra công tác thi hành án dân sự;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;kiến nghị cơ quan có thẩm quyền;kiến nghị cơ quan có thẩm quyền giải quyết;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;Lý do từ chối đăng ký;Lý do từ chối đăng ký hộ tịch;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Mức bồi thường bù đắp tổn thất về tinh thần;mức bồi thường tổn thất về tinh thần;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;mức bồi thường tổn thất tinh thần;mức bồi thường tổn thất về tinh thần;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;mục đích hoạt động của tổ chức;Mục đích hoạt động của tổ chức chính trị;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;năng lực hành vi dân sự;năng lực hành vi dân sự đầy đủ;;skim
+P3_rejected_skim;tier3-llm-rejected;1.0;năng lực hành vi dân sự;năng lực hành vi tố tụng dân sự;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;năng lực hành vi tố tụing dân sự;năng lực hành vi tố tụng dân sự;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;ngày đầu tiên của tháng;ngày đầu tiên của tháng một;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;nghĩa vụ báo cáo;nghĩa vụ bảo vệ;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;nghĩa vụ bảo quản di sản;nghĩa vụ bảo quản tài sản;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;nghĩa vụ chăm sóc;nghĩa vụ chăm sóc cha mẹ;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;nghĩa vụ chăm sóc;nghĩa vụ chăm sóc con;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;nghĩa vụ chung của vợ chồng;Nghĩa vụ của vợ chồng;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;nghĩa vụ chuyên chở hành khách;nghĩa vụ chuyên chở hành lý;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;nghĩa vụ của bên bảo lãnh;nghĩa vụ của bên được bảo lãnh;;skim
@@ -292,17 +455,27 @@ P3_rejected_skim;tier3-llm-rejected;0.95;Nghĩa vụ của bên nhận tài sả
 P3_rejected_skim;tier3-llm-rejected;0.95;Nghĩa vụ của bên nhận thế chấp giữ tài sản thế chấp;Nghĩa vụ của bên nhận thế chấp tài sản;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Nghĩa vụ của bên nhận thế chấp giữ tài sản thế chấp;Nghĩa vụ của bên thế chấp tài sản;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Nghĩa vụ của bên thuê vận chuyển;Nghĩa vụ của bên vận chuyển;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;nghĩa vụ của cha mẹ;nghĩa vụ của cha mẹ đẻ;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;Nghĩa vụ của người biểu diễn;nghĩa vụ của người đại diện;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;nghĩa vụ cung cấp thông tin;Nghĩa vụ cung cấp thông tin cần thiết;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;nghĩa vụ dân sự của cơ quan nhà nước;nghĩa vụ dân sự của nhà nước;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;nghĩa vụ hoàn trả;nghĩa vụ hoàn trả hoa lợi;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;nghĩa vụ nuôi dưỡng;nghĩa vụ nuôi dưỡng con;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;nghĩa vụ nuôi dưỡng cháu;nghĩa vụ nuôi dưỡng con;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;nghĩa vụ thanh toán;nghĩa vụ thanh toán tiền;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;nghĩa vụ thanh toán chi phí;nghĩa vụ thanh toán chi phí phát sinh;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;nghien cuu ho so vu an;Nghiên cứu hồ sơ vụ việc;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;nghĩa vụ trả lại tài sản;nghĩa vụ trả lại tài sản thuê;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Người bị hạn chế năng lực hành vi;người bị hạn chế năng lực hành vi dân sự;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Người bị tuyên bố đã chết;người bị tuyên bố là đã chết;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;người bị tuyên bố mất tích;người bị tuyên bố mất tích trở về;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;người chưa đủ mười lăm tuổi;người chưa đủ mười tám tuổi;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;người có công việc được thực hiện;người có công việc được thực hiện chết;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;Người có hành vi vi phạm;người có hành vi xâm phạm;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;người có nghĩa vụ dân sự;người có nghĩa vụ dân sự liên đới;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;người có quyền;người có quyền lợi;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;Người có quyền lợi ích liên quan;người có quyền và lợi ích liên quan;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;người có quyền, nghĩa vụ liên quan;người có quyền, nghĩa vụ tài sản liên quan;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;người có quyền, nghĩa vụ tài sản;người có quyền, nghĩa vụ tài sản liên quan;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Người có quyền sử dụng hợp pháp tên gọi xuất xứ hàng hoá;Người có quyền sử dụng tên gọi xuất xứ hàng hoá;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Người có thẩm quyền giải quyết khiếu nại;Người có thẩm quyền giải quyết khiếu nại lần đầu;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Người có thẩm quyền giải quyết khiếu nại;người có thẩm quyền giải quyết khiếu nại lần hai;;skim
@@ -311,18 +484,30 @@ P3_rejected_skim;tier3-llm-rejected;0.95;người có thẩm quyền kháng ngh�
 P3_rejected_skim;tier3-llm-rejected;0.95;Người kháng cáo không kháng cáo nhưng có quyền lợi, nghĩa vụ liên quan;Người kháng cáo không kháng cáo nhưng có quyền lợi, nghĩa vụ liên quan;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Người mua được tài sản bán đấu giá;người mua tài sản bán đấu giá;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;người mua được tài sản đấu giá;người mua tài sản bán đấu giá;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;người nhận chuyển quyền sử dụng đất;người nhận quyền sử dụng đất;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;người nước ngoài cư trú tại Việt Nam;Người nước ngoài thường trú tại Việt Nam;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;Người tham gia hòa giải;Người tham gia thỏa thuận hòa giải;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Nguoi tham gia to tung;người tham gia tố tụng khác;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;Người thứ ba có quyền sở hữu;người thứ ba có quyền sở hữu tài sản;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;người thực hiện công việc không có ủy quyền;Người thực hiện công việc không có uỷ quyền chết;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;người trực tiếp nuôi con;người trực tiếp nuôi dưỡng;;skim
+P3_rejected_skim;tier3-llm-rejected;1.0;người từ đủ mười lăm tuổi đến chưa đủ mười tám tuổi;Người từ đủ sáu tuổi đến chưa đủ mười lăm tuổi;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;người từ đủ mười lăm tuổi đến chưa đủ mười tám tuổi;người từ đủ sáu tuổi đến chưa đủ mười tám tuổi;;skim
+P3_rejected_skim;tier3-llm-rejected;1.0;Người từ đủ sáu tuổi đến chưa đủ mười lăm tuổi;người từ đủ sáu tuổi đến chưa đủ mười tám tuổi;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;người yêu cầu đăng ký chấm dứt giám hộ;người yêu cầu đăng ký giám hộ;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;nhiệm vụ, quyền hạn;nhiệm vụ, quyền hạn khác;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;nơi cư trú của người chưa thành niên;nơi cư trú khác của người chưa thành niên;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;nơi cư trú của người được giám hộ;nơi cư trú của người giám hộ;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;nội dung chủ yếu của hợp đồng;Nội dung chủ yếu của hợp đồng dân sự;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Nội dung chủ yếu của hợp đồng chuyển đổi quyền sử dụng đất;Nội dung chủ yếu của hợp đồng chuyển nhượng quyền sử dụng đất;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;nội dung hợp đồng chuyển quyền sử dụng đất;nội dung hợp đồng quyền sử dụng đất;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;phạm vi kháng cáo, kháng nghị ban đầu;phạm vi kháng nghị ban đầu;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;Phiên họp xét lại quyết định;Phiên họp xét quyết định;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quản lý nhà nước về công tác thi hành án dân sự;quản lý nhà nước về thi hành án dân sự;;skim
+P3_rejected_skim;tier3-llm-rejected;0.95;quản lý, sử dụng, định đoạt tài sản;quản lý, sử dụng, định đoạt tài sản chung;;skim
+P3_rejected_skim;tier3-llm-rejected;1.0;quản lý tài sản của người được giám hộ;quản lý tài sản của người giám hộ;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quy định tại các khoản 1, 2 và 3 Điều này;Quy định tại khoản 2 và khoản 3 Điều này;;skim
+P3_rejected_skim;tier3-llm-rejected;1.0;quyền áp dụng biện pháp bảo đảm thi hành án;quyền áp dụng các biện pháp bảo đảm thi hành án;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền chuyển giao công nghệ;quyền chuyển giao lại công nghệ;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền chuyển nhượng quyền sử dụng đất;quyền chuyển quyền sử dụng đất;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Quyền của bên cầm cố tài sản;quyền của bên nhận cầm cố tài sản;;skim
@@ -330,119 +515,40 @@ P3_rejected_skim;tier3-llm-rejected;0.95;Quyền của bên chuyển quyền s�
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền của bên nhận cầm cố tài sản;Quyền của bên nhận tài sản;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;Quyền của bên nhận thế chấp quyền sử dụng đất;Quyền của bên thế chấp quyền sử dụng đất;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền của bên thuê vận chuyển;Quyền của bên vận chuyển;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền của cha mẹ;quyền của cha mẹ đẻ;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền của chủ sở hữu tác phẩm;Quyền của tác giả hoặc chủ sở hữu tác phẩm;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền của đồng tác giả;Quyền của đồng tác giả sáng chế;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Quyền của đồng tác giả sáng chế;Quyền của tác giả sáng chế;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Quyền của người thứ ba đối với đất cho thuê;quyền của người thứ ba đối với đất thuê;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền đại diện cho người thừa kế;quyền đại diện cho những người thừa kế;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền định đoạt tài sản;quyền định đoạt tài sản riêng;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền đơn phương chấm dứt hợp đồng;quyền đơn phương chấm dứt hợp đồng gia công;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền đơn phương chấm dứt hợp đồng;quyền đơn phương chấm dứt hợp đồng thuê nhà;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền đơn phương chấm dứt hợp đồng;quyền đơn phương chấm dứt hợp đồng vận chuyển;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền đơn phương chấm dứt hợp đồng vận chuyển;quyền đơn phương chấm dứt thực hiện hợp đồng vận chuyển;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền đơn phương đình chỉ;quyền đơn phương đình chỉ hợp đồng;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền đơn phương đình chỉ hợp đồng;Quyền đơn phương đình chỉ thực hiện hợp đồng;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền được nhận làm con nuôi;Quyền được nuôi con nuôi và quyền được nhận làm con nuôi;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền được nuôi con nuôi;quyền được nuôi dưỡng;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền giải quyết khiếu nại, tố cáo về thi hành án;quyền giải quyết khiếu nại, tố cáo về thi hành án dân sự;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;Quyền hưởng hoa lợi từ tài sản thế chấp;Quyền hưởng lợi tức từ tài sản thế chấp;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền hủy bỏ hợp đồng;quyền hủy hợp đồng;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền hủy bỏ kết hôn trái pháp luật;quyền hủy kết hôn trái pháp luật;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền hủy kết hôn trái pháp luật;quyền hủy việc kết hôn trái pháp luật;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền khác theo quy định của luật;quyền khác theo quy định của pháp luật;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền khởi kiện vụ án;quyền khởi kiện vụ án khác;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền kiểm tra, giám sát;quyền kiểm tra, giám sát tài sản;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền lợi hợp pháp;quyền lợi ích hợp pháp;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền, lợi ích hợp pháp;quyền, lợi ích hợp pháp khác;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền lợi ích hợp pháp của con;quyền lợi ích hợp pháp của vợ;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;quyền, nghĩa vụ của bị đơn;quyền, nghĩa vụ của nguyên đơn;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền nhận lại tài sản;quyền nhận tài sản;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;Quyền nhận nhà thuê theo đúng thỏa thuận;quyền nhận nhà thuê theo thỏa thuận;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền sở hữu bất động sản;quyền sở hữu đối với bất động sản;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;quyền sở hữu bất động sản;quyền sở hữu động sản;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền sở hữu công nghiệp đối với nhãn hiệu, tên thương mại;quyền sở hữu công nghiệp đối với tên thương mại;;skim
 P3_rejected_skim;tier3-llm-rejected;1.0;quyền sở hữu đối với bất động sản;quyền sở hữu đối với động sản;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền sở hữu đối với động sản;quyền sở hữu động sản;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền sở hữu đối với tài sản mua bán;quyền sở hữu tài sản mua bán;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền sở hữu đối với vật;quyền sở hữu đối với vật vô chủ;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền sở hữu nhà nước;quyền sở hữu nhà ở;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền sở hữu tài sản;quyền sở hữu tài sản mới;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền sở hữu tài sản;quyền sở hữu tài sản vô chủ;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền sử dụng;quyền sử dụng đất;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền sử dụng bất động sản liền kề;quyền sử dụng hạn chế bất động sản liền kề;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền sử dụng đất đã thế chấp;quyền sử dụng đất khi thế chấp;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền sử dụng đất đúng mục đích;quyền sử dụng đất theo đúng mục đích;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền sử dụng đất ổn định;Quyền sử dụng đất thuê ổn định;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền sử dụng tài sản;quyền sử dụng tài sản mượn;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền sửa đổi di chúc;quyền sửa đổi di chúc chung;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền thay đổi, bổ sung kháng cáo;quyền thay đổi, bổ sung kháng nghị;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền thừa kế di sản;Quyền thừa kế tài sản;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền trông nom, chăm sóc, giáo dục con;quyền trông nom, nuôi dưỡng, chăm sóc, giáo dục con;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền từ chối chuyên chở;quyền từ chối vận chuyển;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền và lợi ích hợp pháp;quyền và lợi ích hợp pháp khác;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền và nghĩa vụ cha mẹ;quyền và nghĩa vụ của cha mẹ và con;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền và nghĩa vụ của các bên theo hợp đồng;Quyền và nghĩa vụ của các bên theo hợp đồng dân sự;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền và nghĩa vụ của các bên theo hợp đồng;quyền và nghĩa vụ của các bên trong hợp đồng;;skim
 P3_rejected_skim;tier3-llm-rejected;0.95;quyền và nghĩa vụ của cha mẹ và con;quyền và nghĩa vụ của cha nuôi, mẹ nuôi, con nuôi;;skim
-P3_rejected_skim;tier3-llm-rejected;1.0;quyền và nghĩa vụ của cha mẹ và con;quyền và nghĩa vụ của con đối với cha mẹ;;skim
-P3_rejected_skim;tier3-llm-rejected;1.0;quyền và nghĩa vụ của vợ chồng;quyền và nghĩa vụ vợ chồng;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền và nghĩa vụ đối với tài sản;quyền và nghĩa vụ tài sản;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền và nghĩa vụ tài sản;quyền và nghĩa vụ về tài sản;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền xác định cha mẹ;quyền xác định cha mẹ con;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền xác định cha mẹ con;quyền xác định cha mẹ hoặc con;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền xác định dân tộc;quyền xác định lại dân tộc;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền xác lập giao dịch;quyền xác lập giao dịch dân sự;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền xác lập và thực hiện giao dịch;quyền xác lập và thực hiện giao dịch dân sự;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu bên mua trả tiền đúng thời hạn;Quyền yêu cầu trả tiền đúng thời hạn;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu chuyển giao;quyền yêu cầu chuyển giao đất;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu chuyển giao đất;quyền yêu cầu giao đất;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu công nhận thay đổi họ;quyền yêu cầu công nhận thay đổi tên;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu công nhận thay đổi họ;quyền yêu cầu công nhận việc thay đổi họ;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu công nhận thay đổi họ, tên;quyền yêu cầu công nhận thay đổi tên;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu công nhận thay đổi tên;quyền yêu cầu công nhận việc thay đổi tên;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu công nhận việc thay đổi họ;quyền yêu cầu công nhận việc thay đổi tên;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;Quyền yêu cầu dành lối đi;quyền yêu cầu lối đi;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu đối chiếu;quyền yêu cầu đối chiếu di chúc;;skim
-P3_rejected_skim;tier3-llm-rejected;1.0;quyền yêu cầu giám định;quyền yêu cầu giảm giá;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu giao lại tài sản;quyền yêu cầu giao tài sản mới;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu giao tài sản;quyền yêu cầu giao tài sản mới;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu lấy lại tài sản;quyền yêu cầu nhận lại tài sản;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu lấy lại tài sản;quyền yêu cầu trả lại tài sản;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu ly hôn;quyền yêu cầu xin ly hôn;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu nhận lại tài sản;quyền yêu cầu nhận tài sản;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu thanh toán cước phí;Quyền yêu cầu thanh toán cước phí vận chuyển;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu thực hiện nghĩa vụ;quyền yêu cầu thực hiện nghĩa vụ dân sự;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu thực hiện nghĩa vụ;quyền yêu cầu thực hiện nghĩa vụ liên đới;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu trả chi phí bảo quản;quyền yêu cầu trả chi phí bảo quản tài sản;;skim
-P3_rejected_skim;tier3-llm-rejected;1.0;quyền yêu cầu trả lãi;Quyền yêu cầu trả lại đất;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu trả lại tài sản;quyền yêu cầu trả lại tài sản cầm cố;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu trả lại tài sản;quyền yêu cầu trả lại tài sản thuê;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;Quyền yêu cầu trả tiền thuê;quyền yêu cầu trả tiền thuê đất;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu xác định cha mẹ;quyền yêu cầu xác định cha mẹ con;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu xác định cha mẹ;quyền yêu cầu xác định cha mẹ hoặc con;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu xác định cha mẹ con;quyền yêu cầu xác định cha mẹ hoặc con;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyền yêu cầu xác định cha mẹ con;quyền yêu cầu xác định quan hệ cha mẹ con;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyết định áp dụng biện pháp khẩn cấp tạm thời;Quyết định về việc áp dụng biện pháp khẩn cấp tạm thời;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyết định cá biệt trái pháp luật;quyết định trái pháp luật;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;Quyết định chấm dứt nuôi con nuôi;quyết định chấm dứt việc nuôi con nuôi;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyết định chấm dứt việc phong tỏa;quyết định chấm dứt việc phong tỏa tài khoản;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyết định công nhận sự thoả thuận;quyết định công nhận thỏa thuận;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyết định của bản án;Quyết định của bản án hình sự;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyết định của cơ quan có thẩm quyền;quyết định của cơ quan có thẩm quyền của pháp nhân;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyết định của cơ quan có thẩm quyền;quyết định của cơ quan có thẩm quyền khác;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyết định của cơ quan có thẩm quyền;quyết định của cơ quan nhà nước có thẩm quyền;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyết định của cơ quan nhà nước;quyết định của cơ quan nhà nước có thẩm quyền;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyết định của Hội đồng;Quyết định của Hội đồng định giá;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyết định của Hội đồng;Quyết định của Hội đồng xét xử;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;Quyet dinh cung che thi hanh an;quyết định cưỡng chế thi hành án;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyết định đình chỉ giải quyết bồi thường;Quyet dinh giai quyet boi thuong;;skim
-P3_rejected_skim;tier3-llm-rejected;1.0;quyết định đình chỉ giải quyết bồi thường;quyết định giải quyết bồi thường;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;quyết định đình chỉ giải quyết bồi thường;quyết định tạm đình chỉ giải quyết bồi thường;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;Quyết định đình chỉ giải quyết kháng cáo, kháng nghị;quyết định giải quyết kháng nghị;;skim
-P3_rejected_skim;tier3-llm-rejected;1.0;quyết định đình chỉ giải quyết việc dân sự;Quyết định giải quyết việc dân sự;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;Quyết định đình chỉ giải quyết vụ án;Quyết định đình chỉ giải quyết vụ án dân sự;;skim
-P3_rejected_skim;tier3-llm-rejected;0.95;Quyết định đình chỉ giải quyết vụ án;Quyết định đình chỉ giải quyết vụ việc;;skim
 P4_auto_ok;tier0-human-approved;1.0;kim khí quí;kim khí quý;;auto-ok-context
 P4_auto_ok;tier0-human-approved;1.0;văn bản trả lời của Tòa án;Văn bản trả lời Tòa án;;auto-ok-context
 P4_auto_ok;tier0-human-approved;1.0;Bao ve quyen loi hop phap;bảo vệ quyền và lợi ích hợp pháp;;auto-ok-context
@@ -476,12 +582,7 @@ P4_auto_ok;tier0-human-approved;1.0;nguyên tắc cơ bản của Luật;nguyên
 P4_auto_ok;tier0-human-approved;1.0;nguyên tắc thực hiện hợp đồng;Nguyên tắc thực hiện hợp đồng dân sự;;auto-ok-context
 P4_auto_ok;tier0-human-approved;1.0;quy định giải thích hợp đồng;quy định giải thích hợp đồng dân sự;;auto-ok-context
 P4_auto_ok;tier0-human-approved;1.0;Quyền bình đẳng của vợ chồng;quyền bình đẳng vợ chồng;;auto-ok-context
-P4_auto_ok;tier0-human-approved;1.0;Người nước ngoài thường trú ở Việt Nam;Người nước ngoài thường trú tại Việt Nam;;auto-ok-context
-P4_auto_ok;tier0-human-approved;1.0;kim khí quí;kim khí quý;;auto-ok-context
-P4_auto_ok;tier0-human-approved;1.0;hưởng hoa lợi, lợi tức từ tài sản;Hưởng hoa lợi từ tài sản;;auto-ok-context
-P4_auto_ok;tier0-human-approved;1.0;bảo vệ sự toàn vẹn của tác phẩm;Bảo vệ sự toàn vẹn tác phẩm;;auto-ok-context
 P4_auto_ok;tier2-cosine;0.9286;Hoi dong xet xu;Hoi Dong Xet Xuy;;auto-ok-topology
-P4_auto_ok;tier2-cosine;0.9286;Hội đồng xét xử;Hoi Dong Xet Xuy;;auto-ok-topology
 P4_auto_ok;tier2-cosine;0.9231;thời hạn bảo hành;thời hạn bảo hộ;;auto-ok-topology
 P4_auto_ok;tier2-cosine;0.975;bản án, quyết định của Tòa án có hiệu lực pháp luật;Bản án, quyết định của Tòa án đã có hiệu lực pháp luật;;auto-ok-topology
 P4_auto_ok;tier2-cosine;0.9429;phiên họp của Hội đồng Thẩm phán Tòa án nhân dân tối cao;Phiên họp Hội đồng Thẩm phán Tòa án nhân dân tối cao;;auto-ok-topology
@@ -762,11 +863,11 @@ P4_auto_ok;tier3-llm-rejected;0.95;Nghĩa vụ của bên nhận thế chấp gi
 P4_auto_ok;tier3-llm-rejected;0.95;Nghĩa vụ của bên nhận thế chấp giữ tài sản thế chấp;Nghĩa vụ của bên thế chấp tài sản;;auto-ok-topology
 P4_auto_ok;tier3-llm-rejected;0.95;Nghĩa vụ của bên thuê vận chuyển;Nghĩa vụ của bên vận chuyển;;auto-ok-topology
 P4_auto_ok;tier3-llm-rejected;0.95;nghĩa vụ dân sự của cơ quan nhà nước;nghĩa vụ dân sự của nhà nước;;auto-ok-topology
+P4_auto_ok;tier3-llm-rejected;0.95;nghĩa vụ hoàn trả;nghĩa vụ hoàn trả hoa lợi;;auto-ok-topology
 P4_auto_ok;tier3-llm-rejected;0.95;nghĩa vụ nuôi dưỡng;nghĩa vụ nuôi dưỡng con;;auto-ok-topology
 P4_auto_ok;tier3-llm-rejected;0.95;nghĩa vụ nuôi dưỡng cháu;nghĩa vụ nuôi dưỡng con;;auto-ok-topology
 P4_auto_ok;tier3-llm-rejected;0.95;nghĩa vụ thanh toán;nghĩa vụ thanh toán tiền;;auto-ok-topology
 P4_auto_ok;tier3-llm-rejected;0.95;nghĩa vụ thanh toán chi phí;nghĩa vụ thanh toán chi phí phát sinh;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;nghien cuu ho so vu an;Nghiên cứu hồ sơ vụ việc;;auto-ok-topology
 P4_auto_ok;tier3-llm-rejected;0.95;Người bị hạn chế năng lực hành vi;người bị hạn chế năng lực hành vi dân sự;;auto-ok-topology
 P4_auto_ok;tier3-llm-rejected;0.95;Người bị tuyên bố đã chết;người bị tuyên bố là đã chết;;auto-ok-topology
 P4_auto_ok;tier3-llm-rejected;1.0;người bị tuyên bố mất tích;người bị tuyên bố mất tích trở về;;auto-ok-topology
@@ -809,7 +910,6 @@ P4_auto_ok;tier3-llm-rejected;0.95;quyền đơn phương chấm dứt hợp đ�
 P4_auto_ok;tier3-llm-rejected;0.95;quyền đơn phương chấm dứt hợp đồng;quyền đơn phương chấm dứt hợp đồng thuê nhà;;auto-ok-topology
 P4_auto_ok;tier3-llm-rejected;0.95;quyền đơn phương chấm dứt hợp đồng;quyền đơn phương chấm dứt hợp đồng vận chuyển;;auto-ok-topology
 P4_auto_ok;tier3-llm-rejected;0.95;quyền đơn phương đình chỉ;quyền đơn phương đình chỉ hợp đồng;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyền đơn phương đình chỉ hợp đồng;Quyền đơn phương đình chỉ thực hiện hợp đồng;;auto-ok-topology
 P4_auto_ok;tier3-llm-rejected;0.95;quyền giải quyết khiếu nại, tố cáo về thi hành án;quyền giải quyết khiếu nại, tố cáo về thi hành án dân sự;;auto-ok-topology
 P4_auto_ok;tier3-llm-rejected;0.95;Quyền hưởng hoa lợi từ tài sản thế chấp;Quyền hưởng lợi tức từ tài sản thế chấp;;auto-ok-topology
 P4_auto_ok;tier3-llm-rejected;0.95;quyền hủy bỏ hợp đồng;quyền hủy hợp đồng;;auto-ok-topology
@@ -836,35 +936,3 @@ P4_auto_ok;tier3-llm-rejected;0.95;quyền thay đổi, bổ sung kháng cáo;qu
 P4_auto_ok;tier3-llm-rejected;0.95;quyền trông nom, chăm sóc, giáo dục con;quyền trông nom, nuôi dưỡng, chăm sóc, giáo dục con;;auto-ok-topology
 P4_auto_ok;tier3-llm-rejected;0.95;quyền và lợi ích hợp pháp;quyền và lợi ích hợp pháp khác;;auto-ok-topology
 P4_auto_ok;tier3-llm-rejected;0.95;quyền và nghĩa vụ của cha mẹ và con;quyền và nghĩa vụ của cha nuôi, mẹ nuôi, con nuôi;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;1.0;quyền và nghĩa vụ của cha mẹ và con;quyền và nghĩa vụ của con đối với cha mẹ;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;1.0;quyền và nghĩa vụ của vợ chồng;quyền và nghĩa vụ vợ chồng;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyền xác định dân tộc;quyền xác định lại dân tộc;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyền yêu cầu chuyển giao đất;quyền yêu cầu giao đất;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyền yêu cầu công nhận thay đổi họ;quyền yêu cầu công nhận thay đổi tên;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyền yêu cầu công nhận thay đổi họ;quyền yêu cầu công nhận việc thay đổi họ;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyền yêu cầu công nhận thay đổi tên;quyền yêu cầu công nhận việc thay đổi tên;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyền yêu cầu công nhận việc thay đổi họ;quyền yêu cầu công nhận việc thay đổi tên;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyền yêu cầu giao lại tài sản;quyền yêu cầu giao tài sản mới;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyền yêu cầu giao tài sản;quyền yêu cầu giao tài sản mới;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyền yêu cầu lấy lại tài sản;quyền yêu cầu nhận lại tài sản;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyền yêu cầu lấy lại tài sản;quyền yêu cầu trả lại tài sản;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyền yêu cầu ly hôn;quyền yêu cầu xin ly hôn;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyền yêu cầu nhận lại tài sản;quyền yêu cầu nhận tài sản;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyền yêu cầu thực hiện nghĩa vụ;quyền yêu cầu thực hiện nghĩa vụ dân sự;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyền yêu cầu thực hiện nghĩa vụ;quyền yêu cầu thực hiện nghĩa vụ liên đới;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyền yêu cầu trả lại tài sản;quyền yêu cầu trả lại tài sản cầm cố;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyền yêu cầu trả lại tài sản;quyền yêu cầu trả lại tài sản thuê;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyết định áp dụng biện pháp khẩn cấp tạm thời;Quyết định về việc áp dụng biện pháp khẩn cấp tạm thời;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyết định cá biệt trái pháp luật;quyết định trái pháp luật;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyết định chấm dứt việc phong tỏa;quyết định chấm dứt việc phong tỏa tài khoản;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyết định công nhận sự thoả thuận;quyết định công nhận thỏa thuận;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyết định của cơ quan có thẩm quyền;quyết định của cơ quan có thẩm quyền khác;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyết định của cơ quan có thẩm quyền;quyết định của cơ quan nhà nước có thẩm quyền;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyết định của cơ quan nhà nước;quyết định của cơ quan nhà nước có thẩm quyền;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;Quyet dinh cung che thi hanh an;quyết định cưỡng chế thi hành án;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyết định đình chỉ giải quyết bồi thường;Quyet dinh giai quyet boi thuong;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;1.0;quyết định đình chỉ giải quyết bồi thường;quyết định giải quyết bồi thường;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;quyết định đình chỉ giải quyết bồi thường;quyết định tạm đình chỉ giải quyết bồi thường;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;1.0;quyết định đình chỉ giải quyết việc dân sự;Quyết định giải quyết việc dân sự;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;Quyết định đình chỉ giải quyết vụ án;Quyết định đình chỉ giải quyết vụ án dân sự;;auto-ok-topology
-P4_auto_ok;tier3-llm-rejected;0.95;Quyết định đình chỉ giải quyết vụ án;Quyết định đình chỉ giải quyết vụ việc;;auto-ok-topology
