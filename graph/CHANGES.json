@@ -1,14 +1,12 @@
 {
- "version": "0.3.1",
+ "version": "0.4.0",
  "date": "2026-11-25",
- "generator": "vtg.run_all + vtg.temporalize + vtg.integrate + vtg.extract_llm + vtg.embed_temporal",
  "changes": [
-  "v0.3.1: ontology LOAD-BEARING — rdflib-parsed TTL as single source of truth; drift 0 undeclared; pyshacl conforms=True 0 violations; Hogan-style reified time-changing edges (rdf:Statement + vclo:at + prov)",
-  "temporalize: 97.7% entity edges (18,581/19,020) now carry validity intervals from source document windows",
-  "integrate: auto merge-gate — 4 new documents from congbao watcher staged into graph as needs_review, 5 quarantined, gate_pass",
-  "extract_llm (P3): qwen3.5:4b VCLO-constrained extraction on 100 BLDS2015 chunks — 230 raw triples, 213 kept (92.6%), hallucination rate 5.2% (KaLLM prune recipe)",
-  "embed_temporal (P4): continual TransE (dim=128, 3 seeds) on the real norm graph — fast-freeze retains 98.3% of old-era MRR (0.398 vs 0.405 full-retrain) while adding new eras; naive blanket distillation at lambda=0.5 is a published NEGATIVE result (S2 MRR 0.019)",
-  "canonicalization (v0.2.1): 14,099 -> 13,852 entities, negation-guard, tier3 qwen3.5:4b",
-  "realtime (P2): congbao watcher with hash-diff + delta staging, idempotence verified, cron 6h"
+  "DGGP (TADG proper): gradient projection against memory-buffer distillation direction — S2 MRR 0.351 vs naive-distill 0.019 (fixes the negative result); S1 0.337 (forgetting controlled), 3 seeds",
+  "DCEL cold-start: MRC(embeddinggemma) + RSA(per-relation ridge affine) — MRR 0.0608 vs random 0.0003 (~180x), 40 held-out new entities, 3 seeds",
+  "GPT-NER active: generation @@[Type]## + self-verification on 25 chunks — 205 marked, 121 verified-kept (59.0%)",
+  "tier-3 adjudication complete: 775 pending pairs processed total (8 merged / 767 rejected / 0 errors, precision-first)",
+  "fill_validity: 2/4 new documents auto-dated from official PDFs (NĐ 388: 2026-12-01; NĐ 389: 2026-11-30); 2 admin decisions stay needs_review (no standard clause — no guessing)",
+  "v0.3.1 ontology LOAD-BEARING: rdflib-parsed TTL single source of truth, drift 0, pyshacl conforms=True 0 violations, reified time-changing edges"
  ]
 }

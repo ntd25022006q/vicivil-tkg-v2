@@ -109,7 +109,7 @@ def merge_blocked(na: str, nb: str) -> bool:
 
 
 def run(ws, out_dir, use_llm=False, llm_model="qwen2.5:1.5b",
-        cos_auto=0.92, cos_llm=0.80, log=print):
+        cos_auto=0.92, cos_llm=0.80, log=print, dump_pending_only=False):
     t0 = time.time()
     src = os.path.join(ws, "hf_release", "index", "vdb_entities.json")
     data, matrix, dim = load_vdb(src)
@@ -237,6 +237,15 @@ def run(ws, out_dir, use_llm=False, llm_model="qwen2.5:1.5b",
 
     # ---- output
     os.makedirs(out_dir, exist_ok=True)
+    if dump_pending_only:
+        # regenerate pending_pairs.jsonl WITHOUT touching published registries
+        with open(os.path.join(out_dir, "pending_pairs.jsonl"), "w", encoding="utf-8") as f:
+            for (aid, bid, sim, na, nb, cls) in pending:
+                f.write(json.dumps({"a_id": aid, "b_id": bid, "sim": round(sim, 4),
+                                    "name_a": na, "name_b": nb, "class": cls},
+                                   ensure_ascii=False) + "\n")
+        log(f"[S1-S3] pending-only dump: {len(pending)} pairs (registries untouched)")
+        return {"pending_dumped": len(pending)}
     roots = {}
     for e in data:
         r = uf.find(e["__id__"])
@@ -299,3 +308,13 @@ def run(ws, out_dir, use_llm=False, llm_model="qwen2.5:1.5b",
         json.dump(stats, f, ensure_ascii=False, indent=1)
     log(f"[OUT] canonical entities={len(entities_out)} merges logged={len(merge_log)} stats={stats}")
     return stats
+
+
+if __name__ == "__main__":
+    import sys
+    if "--dump-pending" in sys.argv:
+        ws = os.environ.get("LAW_WS") or os.path.expanduser("~/law_workspace")
+        out = os.path.expanduser("~/vicivil_tkg/graph")
+        run(ws, out, use_llm=False, dump_pending_only=True, log=print)
+    else:
+        main()

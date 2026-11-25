@@ -1,0 +1,40 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/devlab1/vicivil_tkg/vtg/pending_adjudicate.py", line 59, in <module>
+    main()
+    ~~~~^^
+  File "/home/devlab1/vicivil_tkg/vtg/pending_adjudicate.py", line 24, in main
+    already = {(m.get("evidence") or {}).get("names", ("", "")) for m in jl(os.path.join(G, "merge_log.jsonl"))
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+Traceback (most recent call last):
+  File "<frozen runpy>", line 189, in _run_module_as_main
+  File "<frozen runpy>", line 159, in _get_module_details
+  File "<frozen importlib._bootstrap_external>", line 1160, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1090, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/devlab1/vicivil_tkg/vtg/fill_validity.py", line 33
+    docs = {n["node_id"]: n for n in [json.loads(l) for l in open(NEW, encoding="utf-8")] if os.path.exists(NEW) else []}
+                                                                                                                 ^^^^
+SyntaxError: invalid syntax
+[NER] {'chunks': 25, 'entities_marked': 0, 'self_verified_kept': 0, 'self_verified_removed': 0, 'keep_rate': 0.0, 'chunks_with_no_marks': 25, 'model': 'qwen3.5:4b', 'seconds': 464.1}
+[DGGP] ents=2995 triples=5318 (S1=3010 S2=1250 S3=1058)
+[DGGP] seed 42: {'S1': {'mrr': 0.3218, 'hits10': 0.7317, 'n': 600}, 'S2': {'mrr': 0.343, 'hits10': 0.7567, 'n': 374}, 'S3': {'mrr': 0.265, 'hits10': 0.6524, 'n': 328}} (4s)
+[DGGP] seed 101: {'S1': {'mrr': 0.3498, 'hits10': 0.7483, 'n': 600}, 'S2': {'mrr': 0.3512, 'hits10': 0.7735, 'n': 362}, 'S3': {'mrr': 0.2549, 'hits10': 0.6151, 'n': 304}} (3s)
+[DGGP] seed 2024: {'S1': {'mrr': 0.3395, 'hits10': 0.7433, 'n': 600}, 'S2': {'mrr': 0.358, 'hits10': 0.7903, 'n': 372}, 'S3': {'mrr': 0.3124, 'hits10': 0.7186, 'n': 334}} (3s)
+[DGGP] aggregate: {"S1": {"mrr_mean": 0.337, "mrr_std": 0.0116, "hits10_mean": 0.7411}, "S2": {"mrr_mean": 0.3507, "mrr_std": 0.0061, "hits10_mean": 0.7735}, "S3": {"mrr_mean": 0.2774, "mrr_std": 0.0251, "hits10_mean": 0.662}}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/devlab1/vicivil_tkg/vtg/coldstart.py", line 141, in <module>
+    main()
+    ~~~~^^
+  File "/home/devlab1/vicivil_tkg/vtg/coldstart.py", line 81, in main
+    train(m, to_idx(train_tr, ent2id, rel2id), epochs=EPOCHS)
+             ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/devlab1/vicivil_tkg/vtg/embed_temporal.py", line 138, in to_idx
+    return torch.tensor([[ent2id[s], rel2id[r], ent2id[o]] for s, r, o, _ in triples],
+                                     ~~~~~~^^^
+KeyError: 'vclo:cites_inv_inv'
+[COLDSTART] ents=2995 candidates=984 heldout=40

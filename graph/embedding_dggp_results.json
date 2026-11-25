@@ -1,0 +1,112 @@
+{
+ "config": {
+  "dim": 128,
+  "epochs": 250,
+  "seeds": [
+   42,
+   101,
+   2024
+  ],
+  "mechanism": "gradient projection onto orthogonal complement of memory-buffer distillation direction for OLD entities (TADG DGGP)"
+ },
+ "dggp_aggregate": {
+  "S1": {
+   "mrr_mean": 0.337,
+   "mrr_std": 0.0116,
+   "hits10_mean": 0.7411
+  },
+  "S2": {
+   "mrr_mean": 0.3507,
+   "mrr_std": 0.0061,
+   "hits10_mean": 0.7735
+  },
+  "S3": {
+   "mrr_mean": 0.2774,
+   "mrr_std": 0.0251,
+   "hits10_mean": 0.662
+  }
+ },
+ "comparison_v030": {
+  "full_retrain": {
+   "S1": {
+    "mrr_mean": 0.4051,
+    "mrr_std": 0.0097,
+    "hits10_mean": 0.5478,
+    "n_eval_per_seed": 600
+   },
+   "S2": {
+    "mrr_mean": 0.4148,
+    "mrr_std": 0.0158,
+    "hits10_mean": 0.5991,
+    "n_eval_per_seed": 374
+   },
+   "S3": {
+    "mrr_mean": 0.3041,
+    "mrr_std": 0.0198,
+    "hits10_mean": 0.4734,
+    "n_eval_per_seed": 328
+   }
+  },
+  "fast_freeze": {
+   "S1": {
+    "mrr_mean": 0.3983,
+    "mrr_std": 0.0114,
+    "hits10_mean": 0.4606,
+    "n_eval_per_seed": 600
+   },
+   "S2": {
+    "mrr_mean": 0.3484,
+    "mrr_std": 0.0128,
+    "hits10_mean": 0.5442,
+    "n_eval_per_seed": 374
+   },
+   "S3": {
+    "mrr_mean": 0.3246,
+    "mrr_std": 0.0221,
+    "hits10_mean": 0.5278,
+    "n_eval_per_seed": 328
+   }
+  },
+  "slow_distill": {
+   "S1": {
+    "mrr_mean": 0.272,
+    "mrr_std": 0.0215,
+    "hits10_mean": 0.4605,
+    "n_eval_per_seed": 600
+   },
+   "S2": {
+    "mrr_mean": 0.0188,
+    "mrr_std": 0.004,
+    "hits10_mean": 0.0343,
+    "n_eval_per_seed": 374
+   },
+   "S3": {
+    "mrr_mean": 0.0465,
+    "mrr_std": 0.0094,
+    "hits10_mean": 0.1044,
+    "n_eval_per_seed": 328
+   }
+  },
+  "no_continual": {
+   "S1": {
+    "mrr_mean": 0.0111,
+    "mrr_std": 0.0029,
+    "hits10_mean": 0.0172,
+    "n_eval_per_seed": 600
+   },
+   "S2": {
+    "mrr_mean": 0.3955,
+    "mrr_std": 0.0046,
+    "hits10_mean": 0.4486,
+    "n_eval_per_seed": 374
+   },
+   "S3": {
+    "mrr_mean": 0.3079,
+    "mrr_std": 0.0187,
+    "hits10_mean": 0.472,
+    "n_eval_per_seed": 328
+   }
+  }
+ },
+ "seconds": 10.1
+}

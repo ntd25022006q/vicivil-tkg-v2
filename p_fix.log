@@ -1,0 +1,6 @@
+[NER] {'chunks': 25, 'entities_marked': 0, 'self_verified_kept': 0, 'self_verified_removed': 0, 'keep_rate': 0.0, 'chunks_with_no_marks': 25, 'model': 'qwen3.5:4b', 'seconds': 470.1}
+[COLDSTART] ents=2995 candidates=984 heldout=40
+[COLDSTART] seed 42: {'mrr': 0.0655, 'hits10': 0.0625, 'n': 80} (26s)
+[COLDSTART] seed 101: {'mrr': 0.0567, 'hits10': 0.075, 'n': 80} (44s)
+[COLDSTART] seed 2024: {'mrr': 0.0601, 'hits10': 0.0625, 'n': 80} (62s)
+[COLDSTART] aggregate: {"mrr_mean": 0.0608, "hits10_mean": 0.0667, "random_mrr_expected": 0.000334}

@@ -1,0 +1,18 @@
+[S1] loaded 14099 entities (matrix=True, dim=768)
+[S1] distinct norm_keys=13996 | multi-variant groups=103
+[S2] typed=14064 literal-demotion=35
+[S3] pairs scanned=2514 tier2 auto-merges=139 (8.6s)
+[S3] tier3 candidates=775 use_llm=False model=qwen2.5:1.5b
+[S3] guard-blocked pairs=207390
+[S1-S3] pending-only dump: 775 pairs (registries untouched)
+[ADJUDICATE] pending=775 todo=475
+[ADJUDICATE] 100/475 {'merged': 1, 'rejected': 99, 'guard_blocked': 0, 'errors': 0} (92s)
+[ADJUDICATE] 200/475 {'merged': 2, 'rejected': 198, 'guard_blocked': 0, 'errors': 0} (182s)
+[ADJUDICATE] 300/475 {'merged': 2, 'rejected': 298, 'guard_blocked': 0, 'errors': 0} (273s)
+[ADJUDICATE] 400/475 {'merged': 3, 'rejected': 397, 'guard_blocked': 0, 'errors': 0} (362s)
+[ADJUDICATE] FINAL {'merged': 3, 'rejected': 472, 'guard_blocked': 0, 'errors': 0, 'seconds': 429.5}
+  [FILL] nghi dinh so 388/2026/nd-cp: no effective-date clause found — stays needs_review
+  [FILL] Nghị định số 389/2026/NĐ-CP: no effective-date clause found — stays needs_review
+  [FILL] Quyết định số 155/QĐ-BCĐNO: no effective-date clause found — stays needs_review
+  [FILL] Quyết định số 2476/QĐ-NHNN: no effective-date clause found — stays needs_review
+[FILL] updated=0/4

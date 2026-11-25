@@ -1,0 +1,32 @@
+{
+ "config": {
+  "heldout": 40,
+  "anchors": 500,
+  "desc_model": "embeddinggemma:300m",
+  "kge_dim": 128,
+  "recipe": "MRC(desc-embed) -> RSA(per-relation ridge affine) -> rank"
+ },
+ "per_seed": [
+  {
+   "mrr": 0.0655,
+   "hits10": 0.0625,
+   "n": 80
+  },
+  {
+   "mrr": 0.0567,
+   "hits10": 0.075,
+   "n": 80
+  },
+  {
+   "mrr": 0.0601,
+   "hits10": 0.0625,
+   "n": 80
+  }
+ ],
+ "aggregate": {
+  "mrr_mean": 0.0608,
+  "hits10_mean": 0.0667,
+  "random_mrr_expected": 0.000334
+ },
+ "seconds": 62.0
+}
