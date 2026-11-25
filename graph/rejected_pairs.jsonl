@@ -1,0 +1,133 @@
+{"name_a": "Bảo vệ quyền lợi ích hợp pháp của người được giám hộ", "name_b": "Bảo vệ quyền, lợi ích hợp pháp của người được giám hộ", "reason": "agent: different entity"}
+{"name_a": "cha mẹ", "name_b": "cha, mẹ", "reason": "agent: different entity"}
+{"name_a": "Cha me de", "name_b": "cha mẹ đẻ", "reason": "agent: different entity"}
+{"name_a": "cha mẹ hoặc người giám hộ", "name_b": "cha, mẹ hoặc người giám hộ", "reason": "agent: different entity"}
+{"name_a": "Cha mẹ nuôi", "name_b": "Cha, mẹ nuôi", "reason": "agent: different entity"}
+{"name_a": "chỉ đạo phối hợp", "name_b": "chỉ đạo, phối hợp", "reason": "agent: different entity"}
+{"name_a": "co quan to chuc ca nhan khac co lien quan", "name_b": "cơ quan, tổ chức, cá nhân khác có liên quan", "reason": "agent: guard"}
+{"name_a": "Giải quyết khiếu nại tố cáo", "name_b": "giải quyết khiếu nại, tố cáo", "reason": "agent: different entity"}
+{"name_a": "Họ tên chức vụ người ra quyết định", "name_b": "họ, tên, chức vụ người ra quyết định", "reason": "agent: guard"}
+{"name_a": "Hoi dong", "name_b": "Hội đồng", "reason": "agent: different entity"}
+{"name_a": "Hoi dong phuc tham", "name_b": "Hội đồng phúc thẩm", "reason": "agent: different entity"}
+{"name_a": "Hoi dong xet xu", "name_b": "Hội đồng xét xử", "reason": "agent: different entity"}
+{"name_a": "Hoi dong xet xu giam doc tham", "name_b": "Hội đồng xét xử giám đốc thẩm", "reason": "agent: different entity"}
+{"name_a": "Hoi dong xet xu phuc tham", "name_b": "Hội đồng xét xử phúc thẩm", "reason": "agent: different entity"}
+{"name_a": "Hop dong dan su", "name_b": "hợp đồng dân sự", "reason": "agent: different entity"}
+{"name_a": "Huy quyet dinh", "name_b": "Hủy quyết định", "reason": "agent: different entity"}
+{"name_a": "khôi phục quyền lợi ích hợp pháp", "name_b": "khôi phục quyền, lợi ích hợp pháp", "reason": "agent: different entity"}
+{"name_a": "miễn giảm nghĩa vụ thi hành án", "name_b": "Miễn, giảm nghĩa vụ thi hành án", "reason": "agent: different entity"}
+{"name_a": "Ngày tháng năm làm đơn", "name_b": "ngày, tháng năm làm đơn", "reason": "agent: different entity"}
+{"name_a": "Ngày tháng năm làm đơn khởi kiện", "name_b": "Ngày, tháng, năm làm đơn khởi kiện", "reason": "agent: guard"}
+{"name_a": "Ngày tháng năm làm đơn đề nghị", "name_b": "Ngày, tháng, năm làm đơn đề nghị", "reason": "agent: guard"}
+{"name_a": "ngày tháng năm ra quyết định", "name_b": "Ngày, tháng, năm ra quyết định", "reason": "agent: guard"}
+{"name_a": "Ngày tháng năm sinh", "name_b": "ngày, tháng, năm sinh", "reason": "agent: guard"}
+{"name_a": "nghĩa vụ cấp dưỡng của con đối với cha mẹ", "name_b": "nghĩa vụ cấp dưỡng của con đối với cha, mẹ", "reason": "agent: different entity"}
+{"name_a": "Người có quyền lợi ích liên quan", "name_b": "người có quyền, lợi ích liên quan", "reason": "agent: different entity"}
+{"name_a": "nhận cha mẹ con", "name_b": "nhận cha, mẹ, con", "reason": "agent: guard"}
+{"name_a": "nơi cư trú làm việc trụ sở", "name_b": "nơi cư trú, làm việc, trụ sở", "reason": "agent: guard"}
+{"name_a": "phần tài sản của vợ chồng", "name_b": "phần tài sản của vợ, chồng", "reason": "agent: different entity"}
+{"name_a": "quyền lợi ích của người thuê", "name_b": "quyền, lợi ích của người thuê", "reason": "agent: different entity"}
+{"name_a": "quyền lợi ích hợp pháp", "name_b": "quyền, lợi ích hợp pháp", "reason": "agent: different entity"}
+{"name_a": "quyền trông nom chăm sóc giáo dục con", "name_b": "quyền trông nom, chăm sóc, giáo dục con", "reason": "agent: guard"}
+{"name_a": "quyền xác định cha mẹ con", "name_b": "quyền xác định cha mẹ, con", "reason": "agent: different entity"}
+{"name_a": "quyết định áp dụng thay đổi hủy bỏ biện pháp khẩn cấp tạm thời", "name_b": "Quyết định áp dụng, thay đổi, hủy bỏ biện pháp khẩn cấp tạm thời", "reason": "agent: guard"}
+{"name_a": "quyết định miễn giảm thi hành án", "name_b": "quyết định miễn, giảm thi hành án", "reason": "agent: different entity"}
+{"name_a": "Sáp nhập trộn lẫn chế biến", "name_b": "sáp nhập, trộn lẫn, chế biến", "reason": "agent: guard"}
+{"name_a": "sự kiện thông tin hộ tịch", "name_b": "sự kiện, thông tin hộ tịch", "reason": "agent: different entity"}
+{"name_a": "tài liệu chứng cứ", "name_b": "tài liệu, chứng cứ", "reason": "agent: different entity"}
+{"name_a": "tài sản phục vụ quốc phòng an ninh", "name_b": "tài sản phục vụ quốc phòng, an ninh", "reason": "agent: different entity"}
+{"name_a": "Tên nơi cư trú làm việc của người khởi kiện", "name_b": "Tên, nơi cư trú, làm việc của người khởi kiện", "reason": "agent: guard"}
+{"name_a": "Tham dinh gia tai san", "name_b": "thẩm định giá tài sản", "reason": "agent: different entity"}
+{"name_a": "thẩm quyền giải quyết việc xác định cha mẹ con", "name_b": "thẩm quyền giải quyết việc xác định cha, mẹ, con", "reason": "agent: guard"}
+{"name_a": "thu thap tai lieu chung cu", "name_b": "Thu thập tài liệu, chứng cứ", "reason": "agent: different entity"}
+{"name_a": "Toa an chi dinh nguoi giam ho", "name_b": "Tòa án chỉ định người giám hộ", "reason": "agent: different entity"}
+{"name_a": "trật tự an toàn xã hội", "name_b": "trật tự, an toàn xã hội", "reason": "agent: different entity"}
+{"name_a": "UBND cấp huyện", "name_b": "Ủy ban nhân dân cấp huyện", "reason": "agent: guard"}
+{"name_a": "UBND cấp tỉnh", "name_b": "Ủy ban nhân dân cấp tỉnh", "reason": "agent: guard"}
+{"name_a": "UBND cấp xã", "name_b": "Ủy ban nhân dân cấp xã", "reason": "agent: guard"}
+{"name_a": "UBND tỉnh, thành phố trực thuộc trung ương", "name_b": "Uỷ ban nhân dân tỉnh, thành phố trực thuộc trung ương", "reason": "agent: guard"}
+{"name_a": "UBND xã, phường, thị trấn", "name_b": "ủy ban nhân dân xã, phường, thị trấn", "reason": "agent: guard"}
+{"name_a": "vợ chồng", "name_b": "vợ, chồng", "reason": "agent: different entity"}
+{"name_a": "xác định cha mẹ con", "name_b": "xác định cha, mẹ, con", "reason": "agent: guard"}
+{"name_a": "Đăng ký nhận cha mẹ con", "name_b": "đăng ký nhận cha, mẹ, con", "reason": "agent: guard"}
+{"name_a": "giấy biên nhận", "name_b": "giấy biên nhận giữ", "reason": "agent: different entity"}
+{"name_a": "Thất thiệt", "name_b": "thất thiệt hại", "reason": "agent: different entity"}
+{"name_a": "thời điểm nhận con", "name_b": "thời điểm nhận nhà", "reason": "agent: different entity"}
+{"name_a": "thời hạn chậm trả", "name_b": "Thời hạn chi trả", "reason": "agent: different entity"}
+{"name_a": "trách nhiệm pháp luật", "name_b": "trách nhiệm pháp lý", "reason": "agent: different entity"}
+{"name_a": "yêu cầu báo cáo", "name_b": "yêu cầu bảo vệ", "reason": "agent: different entity"}
+{"name_a": "thông báo cho Tòa án", "name_b": "thông báo cho tòa án biết", "reason": "agent: different entity"}
+{"name_a": "Tòa án có thẩm quyền giám đốc thẩm", "name_b": "Tòa án có thẩm quyền giám đốc thẩm hoặc tái thẩm", "reason": "agent: different entity"}
+{"name_a": "anh ruột, chị ruột", "name_b": "anh ruột, chị ruột, em ruột", "reason": "agent: different entity"}
+{"name_a": "bản án, quyết định sơ thẩm", "name_b": "bản án, quyết định sơ thẩm mới", "reason": "agent: different entity"}
+{"name_a": "bên có nghĩa vụ không phải thực hiện", "name_b": "bên có nghĩa vụ không thực hiện", "reason": "agent: different entity"}
+{"name_a": "bên có nghĩa vụ không thực hiện", "name_b": "bên có nghĩa vụ không thực hiện hoặc thực hiện không đúng nghĩa vụ", "reason": "agent: different entity"}
+{"name_a": "bên được cấp dưỡng sau khi ly hôn", "name_b": "bên được cấp dưỡng sau khi ly hôn đã kết hôn", "reason": "agent: different entity"}
+{"name_a": "Biên bản giao nhận tài sản", "name_b": "biên bản giao tiền, tài sản", "reason": "agent: different entity"}
+{"name_a": "bồi thường thiệt hại cho bên bán", "name_b": "bồi thường thiệt hại cho bên mượn", "reason": "agent: different entity"}
+{"name_a": "bồi thường thiệt hại cho bên bán", "name_b": "bồi thường thiệt hại cho bên vay", "reason": "agent: different entity"}
+{"name_a": "các trường hợp đặc biệt", "name_b": "các trường hợp đặc biệt khác", "reason": "agent: different entity"}
+{"name_a": "cách thức và phương tiện công bố", "name_b": "cách thức và phương tiện công bố hứa thưởng", "reason": "agent: different entity"}
+{"name_a": "cải tạo, nâng cấp", "name_b": "cải tạo, nâng cấp nhà", "reason": "agent: different entity"}
+{"name_a": "chi phí cho việc bảo quản di sản", "name_b": "chi phí cho việc bảo quản tài sản", "reason": "agent: different entity"}
+{"name_a": "chi phí định giá lại tài sản", "name_b": "chi phí định giá tài sản", "reason": "agent: different entity"}
+{"name_a": "chi phí sửa chữa tài sản", "name_b": "chi phí sửa chữa tài sản thuê", "reason": "agent: different entity"}
+{"name_a": "chuyển quyền sử dụng", "name_b": "chuyển quyền sử dụng đất", "reason": "agent: different entity"}
+{"name_a": "có khó khăn trong làm chủ hành vi", "name_b": "có khó khăn trong nhận thức, làm chủ hành vi", "reason": "agent: different entity"}
+{"name_a": "cơ quan có thẩm quyền", "name_b": "cơ quan có thẩm quyền khác", "reason": "agent: different entity"}
+{"name_a": "cơ quan có thẩm quyền của nước ngoài", "name_b": "cơ quan có thẩm quyền tại nước ngoài", "reason": "agent: different entity"}
+{"name_a": "Cơ quan thi hành án", "name_b": "Cơ quan thi hành án hình sự", "reason": "agent: different entity"}
+{"name_a": "Cơ quan thi hành án", "name_b": "Cơ quan Thi hành án quân khu", "reason": "agent: different entity"}
+{"name_a": "cơ quan thi hành án dân sự cấp quân khu", "name_b": "Cơ quan thi hành án hình sự cấp quân khu", "reason": "agent: different entity"}
+{"name_a": "cơ quan, tổ chức, cá nhân khác", "name_b": "cơ quan, tổ chức, cá nhân khác có liên quan", "reason": "agent: different entity"}
+{"name_a": "cơ quan, tổ chức, cá nhân khác", "name_b": "cơ quan, tổ chức, cá nhân liên quan khác", "reason": "agent: different entity"}
+{"name_a": "Công dân Việt Nam cư trú ở nước ngoài", "name_b": "công dân Việt Nam cư trú ở trong nước", "reason": "agent: different entity"}
+{"name_a": "công dân Việt Nam cư trú ở trong nước", "name_b": "Công dân Việt Nam thường trú ở trong nước", "reason": "agent: different entity"}
+{"name_a": "đại diện các cơ quan liên quan", "name_b": "đại diện cơ quan có liên quan", "reason": "agent: different entity"}
+{"name_a": "đại diện cơ quan quản lý nhà nước về đất đai", "name_b": "đại diện cơ quan quản lý nhà nước về đất đai cùng cấp", "reason": "agent: different entity"}
+{"name_a": "đề nghị thay đổi người giám định", "name_b": "đề nghị thay đổi người giám hộ", "reason": "agent: different entity"}
+{"name_a": "địa điểm thực hiện nghĩa vụ", "name_b": "địa điểm thực hiện nghĩa vụ dân sự", "reason": "agent: different entity"}
+{"name_a": "điều khoản không rõ ràng trong hợp đồng", "name_b": "điều khoản không rõ ràng trong hợp đồng theo mẫu", "reason": "agent: different entity"}
+{"name_a": "điều kiện thực hiện nghĩa vụ", "name_b": "điều kiện thực hiện nghĩa vụ dân sự", "reason": "agent: different entity"}
+{"name_a": "điều kiện ủy quyền", "name_b": "điều kiện ủy quyền lại", "reason": "agent: different entity"}
+{"name_a": "đơn phương chấm dứt hợp đồng", "name_b": "đơn phương chấm dứt hợp đồng lao động", "reason": "agent: different entity"}
+{"name_a": "đồng ý của người đại diện", "name_b": "đồng ý của người được đại diện", "reason": "agent: different entity"}
+{"name_a": "giấy tờ chứng nhận quyền sở hữu", "name_b": "giấy tờ chứng nhận quyền sở hữu tài sản", "reason": "agent: different entity"}
+{"name_a": "giấy tờ chứng nhận quyền sở hữu tài sản", "name_b": "Giấy tờ chứng nhận quyền sở hữu tài sản cầm cố", "reason": "agent: different entity"}
+{"name_a": "hiệu lực của giao dịch dân sự giả tạo", "name_b": "hiệu lực của giao dịch giả tạo", "reason": "agent: different entity"}
+{"name_a": "hiệu lực của hợp đồng", "name_b": "hiệu lực của hợp đồng tặng cho", "reason": "agent: different entity"}
+{"name_a": "hiệu lực của hợp đồng tặng cho", "name_b": "hiệu lực của hợp đồng tặng cho động sản", "reason": "agent: different entity"}
+{"name_a": "hoá lợi từ tài sản cầm cố", "name_b": "hoá lợi từ tài sản cầm giữ", "reason": "agent: different entity"}
+{"name_a": "hoạt động thi hành án", "name_b": "hoạt động thi hành án dân sự", "reason": "agent: different entity"}
+{"name_a": "hợp đồng tặng cho", "name_b": "hợp đồng tặng cho động sản", "reason": "agent: different entity"}
+{"name_a": "không chấp hành bản án, quyết định", "name_b": "không chấp hành quyết định", "reason": "agent: different entity"}
+{"name_a": "kiến nghị cơ quan có thẩm quyền", "name_b": "kiến nghị cơ quan có thẩm quyền giải quyết", "reason": "agent: different entity"}
+{"name_a": "Lý do từ chối đăng ký", "name_b": "Lý do từ chối đăng ký hộ tịch", "reason": "agent: different entity"}
+{"name_a": "năng lực hành vi dân sự", "name_b": "năng lực hành vi tố tụng dân sự", "reason": "agent: different entity"}
+{"name_a": "nghĩa vụ báo cáo", "name_b": "nghĩa vụ bảo vệ", "reason": "agent: different entity"}
+{"name_a": "nghĩa vụ bảo quản di sản", "name_b": "nghĩa vụ bảo quản tài sản", "reason": "agent: different entity"}
+{"name_a": "nghĩa vụ chăm sóc", "name_b": "nghĩa vụ chăm sóc cha mẹ", "reason": "agent: different entity"}
+{"name_a": "nghĩa vụ chăm sóc", "name_b": "nghĩa vụ chăm sóc con", "reason": "agent: different entity"}
+{"name_a": "nghĩa vụ của cha mẹ", "name_b": "nghĩa vụ của cha mẹ đẻ", "reason": "agent: different entity"}
+{"name_a": "Nghĩa vụ của người biểu diễn", "name_b": "nghĩa vụ của người đại diện", "reason": "agent: different entity"}
+{"name_a": "nghĩa vụ cung cấp thông tin", "name_b": "Nghĩa vụ cung cấp thông tin cần thiết", "reason": "agent: different entity"}
+{"name_a": "nghĩa vụ hoàn trả", "name_b": "nghĩa vụ hoàn trả hoa lợi", "reason": "agent: different entity"}
+{"name_a": "nghĩa vụ trả lại tài sản", "name_b": "nghĩa vụ trả lại tài sản thuê", "reason": "agent: different entity"}
+{"name_a": "Người có hành vi vi phạm", "name_b": "người có hành vi xâm phạm", "reason": "agent: different entity"}
+{"name_a": "người có nghĩa vụ dân sự", "name_b": "người có nghĩa vụ dân sự liên đới", "reason": "agent: different entity"}
+{"name_a": "người có quyền", "name_b": "người có quyền lợi", "reason": "agent: different entity"}
+{"name_a": "Người có quyền lợi ích liên quan", "name_b": "người có quyền và lợi ích liên quan", "reason": "agent: different entity"}
+{"name_a": "người có quyền, nghĩa vụ liên quan", "name_b": "người có quyền, nghĩa vụ tài sản liên quan", "reason": "agent: different entity"}
+{"name_a": "người có quyền, nghĩa vụ tài sản", "name_b": "người có quyền, nghĩa vụ tài sản liên quan", "reason": "agent: different entity"}
+{"name_a": "người nhận chuyển quyền sử dụng đất", "name_b": "người nhận quyền sử dụng đất", "reason": "agent: different entity"}
+{"name_a": "Người tham gia hòa giải", "name_b": "Người tham gia thỏa thuận hòa giải", "reason": "agent: different entity"}
+{"name_a": "Người thứ ba có quyền sở hữu", "name_b": "người thứ ba có quyền sở hữu tài sản", "reason": "agent: different entity"}
+{"name_a": "người trực tiếp nuôi con", "name_b": "người trực tiếp nuôi dưỡng", "reason": "agent: different entity"}
+{"name_a": "người từ đủ mười lăm tuổi đến chưa đủ mười tám tuổi", "name_b": "Người từ đủ sáu tuổi đến chưa đủ mười lăm tuổi", "reason": "agent: different entity"}
+{"name_a": "Người từ đủ sáu tuổi đến chưa đủ mười lăm tuổi", "name_b": "người từ đủ sáu tuổi đến chưa đủ mười tám tuổi", "reason": "agent: different entity"}
+{"name_a": "nhiệm vụ, quyền hạn", "name_b": "nhiệm vụ, quyền hạn khác", "reason": "agent: different entity"}
+{"name_a": "nội dung hợp đồng chuyển quyền sử dụng đất", "name_b": "nội dung hợp đồng quyền sử dụng đất", "reason": "agent: different entity"}
+{"name_a": "Phiên họp xét lại quyết định", "name_b": "Phiên họp xét quyết định", "reason": "agent: different entity"}
+{"name_a": "quản lý, sử dụng, định đoạt tài sản", "name_b": "quản lý, sử dụng, định đoạt tài sản chung", "reason": "agent: different entity"}
+{"name_a": "quản lý tài sản của người được giám hộ", "name_b": "quản lý tài sản của người giám hộ", "reason": "agent: different entity"}
+{"name_a": "quyền áp dụng biện pháp bảo đảm thi hành án", "name_b": "quyền áp dụng các biện pháp bảo đảm thi hành án", "reason": "agent: different entity"}

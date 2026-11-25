@@ -1,0 +1,18 @@
+{
+ "stats": {
+  "P1_confirm": 51,
+  "P1_reject": 113,
+  "P1_guard": 20,
+  "P1_error": 0,
+  "P2_keep": 1,
+  "P2_split": 18,
+  "P3_ok": 25,
+  "P3_flip": 5
+ },
+ "approved": 89,
+ "rejected_pairs": 133,
+ "excluded": 18,
+ "rows": 208,
+ "seconds": 202.6,
+ "note": "agent-reviewed = LLM delegate (qwen3.5:4b + rule/context), user-overridable"
+}

@@ -177,6 +177,24 @@ def run(ws, out_dir, use_llm=False, llm_model="qwen2.5:1.5b",
                           "kept": kept_id, "merged": merged_id, "evidence": evidence,
                           "ts": time.strftime("%Y-%m-%dT%H:%M:%S")})
 
+    # agent/human veto lists — applied BEFORE any tier so wrong merges cannot form
+    veto_pairs = {tuple(sorted([p.get("name_a", ""), p.get("name_b", "")]))
+                  for p in jl(os.path.join(out_dir, "rejected_pairs.jsonl"))}
+    veto_pairs.discard(("", ""))
+    excluded_names = {x.get("name", "") for x in jl(os.path.join(out_dir, "excluded_names.jsonl"))}
+    excluded_names.discard("")
+    n_veto = 0
+
+    def vetoed(na, nb):
+        nonlocal n_veto
+        if tuple(sorted([na, nb])) in veto_pairs:
+            n_veto += 1
+            return True
+        if na in excluded_names or nb in excluded_names:
+            n_veto += 1
+            return True
+        return False
+
     # tier 0: externally-approved merges (human decisions / dual-support derivations)
     approved_path = os.path.join(out_dir, "approved_pairs.jsonl")
     name_to_id = {e.get("entity_name", ""): e.get("__id__") for e in data}
@@ -191,11 +209,13 @@ def run(ws, out_dir, use_llm=False, llm_model="qwen2.5:1.5b",
     if n_t0:
         log(f"[S0] tier0 forced merges applied: {n_t0}")
 
-    # tier 1: same norm_key (always merge — same surface after normalization)
+    # tier 1: same norm_key (always merge — same surface after normalization), veto-aware
     for k, members in groups.items():
         if len(members) > 1:
             keep = members[0].get("__id__")
             for m in members[1:]:
+                if vetoed(members[0].get("entity_name", ""), m.get("entity_name", "")):
+                    continue
                 record("tier1-normkey", 1.0, keep, m.get("__id__"), {"norm_key": k,
                        "variants": [m0.get("entity_name") for m0 in members]})
 
@@ -247,6 +267,8 @@ def run(ws, out_dir, use_llm=False, llm_model="qwen2.5:1.5b",
                         sim = None
                 if sim is None:
                     sim = lsim
+                if vetoed(na, nb):
+                    continue
                 if sim >= cos_auto:
                     record("tier2-cosine", sim, a["__id__"], b["__id__"],
                            {"names": [na, nb], "class": cls})
@@ -260,6 +282,8 @@ def run(ws, out_dir, use_llm=False, llm_model="qwen2.5:1.5b",
     log(f"[S3] tier3 candidates={len(pending)} use_llm={use_llm} model={llm_model}")
     if use_llm and pending:
         for (aid, bid, sim, na, nb, cls) in pending[:300]:
+            if vetoed(na, nb):
+                continue
             if merge_blocked(na, nb):
                 tier3_rejected += 1
                 merge_log.append({"method": "tier3-guard-blocked", "confidence": sim,

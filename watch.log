@@ -6,3 +6,15 @@
 [poll] new docs this cycle=5 (cap=5)
 [watch] delta written: /home/devlab1/vicivil_tkg/delta/delta_20261125T062325.jsonl (6 records)
 [watch] changes={'new_issues': 1, 'new_docs': 5, 'changed_docs': 0, 'amend_facts': 0, 'cites': 0, 'pdf_hashed': 0, 'text_extracted': 0} in 23.9s
+[poll] listing issues seen=25 new=0
+[poll] new docs this cycle=0 (cap=5)
+[watch] delta written: /home/devlab1/vicivil_tkg/delta/delta_20261125T122323.jsonl (0 records)
+[watch] changes={'new_issues': 0, 'new_docs': 0, 'changed_docs': 0, 'amend_facts': 0, 'cites': 0, 'pdf_hashed': 0, 'text_extracted': 0} in 21.8s
+[INTEGRATE] {'nodes_added': 7, 'edges_added': 1, 'quarantined': 5, 'gate_pass': True, 'policy': 'new docs enter as needs_review; validity dates require manual confirm'}
+[TEMPORALIZE] {'edges': 19020, 'with_interval': 18581, 'without_interval': 439, 'coverage': 97.7}
+[LOCAL] affected entities in norm graph: 88
+[LOCAL] {'affected': 88, 'dim': 128, 'seconds': 2.3, 'note': 'frozen base + 1-hop TransE-consistent calibration + 0.5 blend (AWFS-lite)'}
+[TOPOLOGY-AUDIT] {'audited': 433, 'topology_supported': 319, 'flagged': 114, 'unresolvable': 0}
+human_queue.csv: 1213 rows | {'pending_tier3': 656, 'tier1-normkey': 103, 'tier2-cosine': 133, 'tier3-llm-rejected': 294, 'tier3-llm': 6, 'conflict_or_large_cluster': 21}
+-> /home/devlab1/vicivil_tkg/human_queue.csv
+[2026-11-25 12:23:28] pipeline done: delta records before=34 after=34
