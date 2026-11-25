@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/devlab1/vicivil_tkg/vtg/triage.py", line 144, in <module>
+    main()
+    ~~~~^^
+  File "/home/devlab1/vicivil_tkg/vtg/triage.py", line 98, in main
+    supported = {(r.get("evidence") or {}).get("names", ("", ""))[0:2] for r in audit
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: unhashable type: 'list'
+[CTX-READJUDICATE] {'rechecked': 114, 'rescued': 33, 'confirmed_rejected': 81, 'errors': 0} (1713s)

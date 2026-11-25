@@ -64,6 +64,20 @@ def main():
         if m:
             eff = iso(m.group(1), m.group(2), m.group(3))
         if not eff:
+            # directive convention: "có hiệu lực kể từ ngày ký" / "sau 15 ngày, kể từ ngày ký"
+            # -> valid_from = promulgation date (parsed from the same text) [+ N days]
+            pm = _RE_PROMUL.search(text[:3000])
+            if pm and re.search(r"hiệu lực[^.]{0,80}ngày ký|ngày ký[^.]{0,80}hiệu lực", text, re.I):
+                base = iso(pm.group(1), pm.group(2), pm.group(3))
+                mn = re.search(r"sau\s*(\d{1,2})\s*ngày[^.]{0,60}ngày ký", text, re.I)
+                if base:
+                    from datetime import date, timedelta
+                    d = date(int(pm.group(3)), int(pm.group(2)), int(pm.group(1)))
+                    if mn:
+                        d = d + timedelta(days=int(mn.group(1)))
+                    eff = d.isoformat()
+                    prom = base
+        if not eff:
             # extension-type decisions: valid_to semantics ("gia hạn ... đến ngày ...")
             me = _RE_EXT_TO.search(text) or _RE_EXT_TO_N.search(text) or \
                  _RE_EXT_TO.search(ftext) or _RE_EXT_TO_N.search(ftext) or \
