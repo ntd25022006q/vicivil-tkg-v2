@@ -41,6 +41,12 @@ def ollama_same_entity(na, nb, model="qwen3.5:4b", timeout=120):
         return None, None
 
 
+def jl(p):
+    if not os.path.exists(p):
+        return []
+    return [json.loads(l) for l in open(p, encoding="utf-8") if l.strip()]
+
+
 def load_vdb(path):
     with open(path, encoding="utf-8") as f:
         obj = json.load(f)
@@ -97,7 +103,8 @@ def _has_phrase(phrase, toks):
 
 
 def merge_blocked(na: str, nb: str) -> bool:
-    """True if two names differ by a negation/composition marker or >=3 content tokens."""
+    """True if two names differ by a negation/composition marker, a NUMBER/roman numeral,
+    or >=3 content tokens."""
     ta = fold_text(na or "").split()
     tb = fold_text(nb or "").split()
     for ph in _NEG_PHRASES:
@@ -105,7 +112,34 @@ def merge_blocked(na: str, nb: str) -> bool:
             return True
     if len(set(ta) ^ set(tb)) >= 3:
         return True
+    # numbers & roman numerals: "chương VII" != "chương VIII", "QĐ 2214" != "QĐ 2215"
+    sa, sb = _numeric_signature(ta), _numeric_signature(tb)
+    if sa != sb and (sa or sb):
+        return True
     return False
+
+
+_ROMAN_TOKEN = re.compile(r"^[IVXLC]{2,}$")
+_ROMAN_VALS = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100}
+
+
+def _roman_val(t: str) -> int:
+    total, prev = 0, 0
+    for ch in reversed(t):
+        v = _ROMAN_VALS[ch]
+        total = total - v if v < prev else total + v
+        prev = max(prev, v)
+    return total
+
+
+def _numeric_signature(toks):
+    sig = set()
+    for t in toks:
+        if t.isdigit():
+            sig.add(int(t))
+        elif _ROMAN_TOKEN.match(t.upper()):
+            sig.add(_roman_val(t.upper()))
+    return sig
 
 
 def run(ws, out_dir, use_llm=False, llm_model="qwen2.5:1.5b",
@@ -142,6 +176,20 @@ def run(ws, out_dir, use_llm=False, llm_model="qwen2.5:1.5b",
         merge_log.append({"method": method, "confidence": round(conf, 4),
                           "kept": kept_id, "merged": merged_id, "evidence": evidence,
                           "ts": time.strftime("%Y-%m-%dT%H:%M:%S")})
+
+    # tier 0: externally-approved merges (human decisions / dual-support derivations)
+    approved_path = os.path.join(out_dir, "approved_pairs.jsonl")
+    name_to_id = {e.get("entity_name", ""): e.get("__id__") for e in data}
+    n_t0 = 0
+    for ap in jl(os.path.join(approved_path)):
+        ia = name_to_id.get(ap.get("name_a", ""))
+        ib = name_to_id.get(ap.get("name_b", ""))
+        if ia and ib:
+            record("tier0-human-approved", ap.get("confidence", 1.0), ia, ib,
+                   {"names": [ap["name_a"], ap["name_b"]], "reason": ap.get("reason", "")})
+            n_t0 += 1
+    if n_t0:
+        log(f"[S0] tier0 forced merges applied: {n_t0}")
 
     # tier 1: same norm_key (always merge — same surface after normalization)
     for k, members in groups.items():

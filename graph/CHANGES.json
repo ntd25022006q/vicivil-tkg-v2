@@ -1,11 +1,12 @@
 {
- "version": "0.4.1",
- "date": "2026-11-25",
+ "version": "0.5.0",
+ "date": "2026-11-26",
  "changes": [
-  "IMPROVEMENT ROUND (re-read of 9 paper findings): 3 unexploited mechanisms implemented",
-  "GEDUM knowledge calibration (local_update.py): frozen-base + 1-hop TransE-consistent calibration + AWFS-lite blend — 88 delta-affected entities embedded in 2.2s; delta->embedding loop CLOSED",
-  "TADG TAR + DGGP (dggp_tar.py): degree-median protection mask + memory resample/epoch — S1 0.3404 / S2 0.3581 / S3 0.2849 (best continual balance; beats plain DGGP on all eras)",
-  "B3 dual-support topology audit (topology_audit.py): 439 tier2/tier3 merges audited — 303 topology-supported (69%), 136 flagged needs_topology_review (honest weakness disclosure)",
-  "verify-all passed: SHACL conforms=True, drift 0, watcher cron fired autonomously (00:23 idempotent cycle), git/GitHub synced"
+  "number/roman-numeral merge guard (chương VII vs VIII class blocked at merge_blocked)",
+  "tier0-human-approved mechanism (approved_pairs.jsonl -> forced merges, dual-support gated)",
+  "variant_merge: 767 rejected pairs screened — 2 spelling-variants found, 0 with topology support -> 0 auto-approved (no guessing)",
+  "extension-decision date regex (QĐ 2476/QĐ-NHNN auto-dated: 2026-11-12 -> 2026-12-01); fill 3/4",
+  "queue UI fix: tier1 rows show readable variant names, not md5 ids",
+  "topology audit: 433 audited, 319 supported (73.7%), 114 flagged (down from 136)"
  ]
 }

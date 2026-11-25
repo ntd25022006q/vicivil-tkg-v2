@@ -22,6 +22,13 @@ _RE_EFF = re.compile(r"(?:có hiệu lực|hiệu lực)(?: thi hành)?(?: kể 
 _RE_EFF_WORDS = re.compile(r"(?:có hiệu lực|hiệu lực)(?: thi hành)?(?: kể từ| từ)?\s*ngày\s*"
                            r"(\d{1,2})\s*tháng\s*(\d{1,2})\s*năm\s*(\d{4})", re.I)
 _RE_PROMUL = re.compile(r"ngày\s*(\d{1,2})\s*tháng\s*(\d{1,2})\s*năm\s*(\d{4})")
+# extension-type decisions: "gia hạn / tiếp tục có hiệu lực ... đến ngày D/M/Y" -> valid_to
+_RE_EXT_TO = re.compile(r"(?:gia hạn|tiếp tục có hiệu lực|kéo dài hiệu lực)(?:[^.]{0,160}?)"
+                        r"đến ngày\s*(\d{1,2})\s*tháng\s*(\d{1,2})\s*năm\s*(\d{4})", re.I)
+_RE_EXT_TO_N = re.compile(r"(?:gia hạn|tiếp tục có hiệu lực|kéo dài hiệu lực)(?:[^.]{0,160}?)"
+                          r"đến ngày\s*(\d{1,2})[/.\-](\d{1,2})[/.\-](\d{4})", re.I)
+_RE_EXT_FROM = re.compile(r"(?:gia hạn|tiếp tục có hiệu lực)(?:[^.]{0,160}?)"
+                          r"(?:kể từ|từ) ngày\s*(\d{1,2})\s*tháng\s*(\d{1,2})\s*năm\s*(\d{4})", re.I)
 
 
 def iso(d, m, y):
@@ -51,22 +58,38 @@ def main():
         text = extract_text_from_pdf(tmp) or ""
         ftext = fold_text(text)
         eff = None
+        ext_to = None
         m = _RE_EFF_WORDS.search(text) or _RE_EFF.search(text) \
             or _RE_EFF_WORDS.search(ftext) or _RE_EFF.search(ftext)
         if m:
             eff = iso(m.group(1), m.group(2), m.group(3))
+        if not eff:
+            # extension-type decisions: valid_to semantics ("gia hạn ... đến ngày ...")
+            me = _RE_EXT_TO.search(text) or _RE_EXT_TO_N.search(text) or \
+                 _RE_EXT_TO.search(ftext) or _RE_EXT_TO_N.search(ftext) or \
+                 _RE_EXT_FROM.search(text) or _RE_EXT_FROM.search(ftext)
+            if me:
+                ext_to = iso(me.group(1), me.group(2), me.group(3))
+                eff = ext_to  # stored separately below
         prom = None
         pm = _RE_PROMUL.search(text[:3000])
         if pm:
             prom = iso(pm.group(1), pm.group(2), pm.group(3))
         if eff:
-            n["valid_from"] = eff
-            n["issued"] = prom
-            n["status"] = "validity_auto_extracted"
-            n["validity_prov"] = {"method": "regex-on-official-pdf",
-                                  "pdf_hash_len": len(raw), "pattern": "co-hieu-luc-tu-ngay"}
+            if ext_to:
+                n["valid_to"] = eff
+                n["valid_from"] = prom
+                n["status"] = "validity_auto_extracted_extension"
+                n["validity_prov"] = {"method": "regex-extension-clause-on-official-pdf",
+                                      "pattern": "gia-han-den-ngay"}
+            else:
+                n["valid_from"] = eff
+                n["issued"] = prom
+                n["status"] = "validity_auto_extracted"
+                n["validity_prov"] = {"method": "regex-on-official-pdf",
+                                      "pdf_hash_len": len(raw), "pattern": "co-hieu-luc-tu-ngay"}
             updated += 1
-            print(f"  [FILL] {so}: valid_from={eff} issued={prom}")
+            print(f"  [FILL] {so}: valid_from={n.get('valid_from')} valid_to={n.get('valid_to')} issued={prom}")
         else:
             print(f"  [FILL] {so}: no effective-date clause found — stays needs_review")
     with open(NEW, "w", encoding="utf-8") as f:

@@ -29,9 +29,10 @@ def main():
                      p["class"], "merge?" ])
     for m in jl(os.path.join(G, "merge_log.jsonl")):
         ev = m.get("evidence", {})
-        names = ev.get("names") or [m.get("kept"), m.get("merged")]
-        rows.append([m["method"], m.get("confidence", ""), names[0] if names else "",
-                     names[1] if len(names) > 1 else "", "", "review"])
+        # tier1 stores 'variants' (readable names) — never fall back to md5 ids
+        names = ev.get("names") or ev.get("variants") or [m.get("kept"), m.get("merged")]
+        rows.append([m["method"], m.get("confidence", ""), str(names[0]) if names else "",
+                     str(names[1]) if len(names) > 1 else "", "", "review"])
     for e in jl(os.path.join(G, "nodes_entity.jsonl")):
         if str(e.get("class", "")).startswith("CONFLICT") or e.get("member_count", 1) > 4:
             rows.append(["conflict_or_large_cluster", "", e["preferred_label"],
