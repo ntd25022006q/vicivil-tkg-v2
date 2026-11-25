@@ -1,8 +1,9 @@
 {
- "version": "0.3.0",
+ "version": "0.3.1",
  "date": "2026-11-25",
  "generator": "vtg.run_all + vtg.temporalize + vtg.integrate + vtg.extract_llm + vtg.embed_temporal",
  "changes": [
+  "v0.3.1: ontology LOAD-BEARING — rdflib-parsed TTL as single source of truth; drift 0 undeclared; pyshacl conforms=True 0 violations; Hogan-style reified time-changing edges (rdf:Statement + vclo:at + prov)",
   "temporalize: 97.7% entity edges (18,581/19,020) now carry validity intervals from source document windows",
   "integrate: auto merge-gate — 4 new documents from congbao watcher staged into graph as needs_review, 5 quarantined, gate_pass",
   "extract_llm (P3): qwen3.5:4b VCLO-constrained extraction on 100 BLDS2015 chunks — 230 raw triples, 213 kept (92.6%), hallucination rate 5.2% (KaLLM prune recipe)",

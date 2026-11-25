@@ -89,6 +89,21 @@ vclo:issues a owl:ObjectProperty .
 vclo:entitledTo a owl:ObjectProperty .
 vclo:relatedTo a owl:ObjectProperty ;
     rdfs:comment "Predicate rác cuối cùng — mọi cạnh relatedTo bị flag để review; KHÔNG được tăng vô kiểm soát."@vi .
+vclo:hasOtherVersion a owl:ObjectProperty .
+vclo:performs a owl:ObjectProperty .
+vclo:concernsAsset a owl:ObjectProperty .
+vclo:requests a owl:ObjectProperty .
+vclo:hasTimeLimit a owl:ObjectProperty .
+vclo:enforcesJudgment a owl:ObjectProperty .
+vclo:hasLiability a owl:ObjectProperty .
+vclo:notifies a owl:ObjectProperty .
+vclo:hasObject a owl:ObjectProperty .
+vclo:determines a owl:ObjectProperty .
+vclo:concernsOwnership a owl:ObjectProperty .
+vclo:represents a owl:ObjectProperty .
+vclo:concernsDamages a owl:ObjectProperty .
+vclo:concernsContract a owl:ObjectProperty .
+vclo:concernsCivilStatus a owl:ObjectProperty .
 
 # ================= IDENTITY (canonicalization) =================
 vclo:aliasOf a owl:ObjectProperty ;

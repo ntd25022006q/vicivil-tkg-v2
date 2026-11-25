@@ -9,26 +9,15 @@ import time
 from collections import defaultdict
 
 from .textops import map_relation, norm_surface
+from .ontology import declared_predicates
 
-ALLOWED_PREDICATES = {
-    "vclo:amends", "vclo:abrogates", "vclo:replaces", "vclo:consolidates",
-    "vclo:guides", "vclo:cites", "vclo:succeeds", "vclo:contains",
-    # entity-level (typed subset)
-    "vclo:hasCondition", "vclo:hasBasis", "vclo:regulates", "vclo:grantsRight",
-    "vclo:imposesObligation", "vclo:prohibits", "vclo:hasStatuteOfLimitations",
-    "vclo:hasValidity", "vclo:appliesTo", "vclo:belongsTo", "vclo:includes",
-    "vclo:transfersRight", "vclo:requiresRegistration", "vclo:requiresNotarization",
-    "vclo:requiresPayment", "vclo:requiresReturn", "vclo:requiresCompensation",
-    "vclo:imposesPenalty", "vclo:agreedBy", "vclo:signedBy", "vclo:hasGuardian",
-    "vclo:supervises", "vclo:oversees", "vclo:handledBy", "vclo:acceptsFiling",
-    "vclo:filesLawsuit", "vclo:delegatesAuthority", "vclo:voidsTransaction",
-    "vclo:divides", "vclo:decides", "vclo:issues", "vclo:guides", "vclo:replaces",
-    "vclo:entitledTo", "vclo:relatedTo",
-    "vclo:hasOtherVersion", "vclo:performs", "vclo:concernsAsset", "vclo:requests",
-    "vclo:hasTimeLimit", "vclo:enforcesJudgment", "vclo:hasLiability", "vclo:notifies",
-    "vclo:hasObject", "vclo:determines", "vclo:concernsOwnership", "vclo:represents",
-    "vclo:concernsDamages", "vclo:concernsContract", "vclo:concernsCivilStatus",
-}
+try:
+    # SINGLE SOURCE OF TRUTH: predicate set derives from vclo2_core.ttl (rdflib)
+    ALLOWED_PREDICATES = declared_predicates()
+except Exception as _e:  # pragma: no cover — fallback keeps the pipeline alive, loudly
+    import warnings
+    warnings.warn(f"ontology TTL parse failed ({_e!r}) — falling back to hardcoded set")
+    ALLOWED_PREDICATES = set()
 
 DOC_NAME_FIX = {  # node hygiene: ten==slug cases found in probe
     "HOTICH2014": "Luật Hộ tịch 2014",
@@ -201,38 +190,53 @@ def export_ttl(out_dir, ws, log=print):
     def esc(s):
         return s.replace("\\", "\\\\").replace('"', '\\"').replace("\n", " ")
 
-    base = "http://vicivil.org/kg/"
+    def local(s):
+        return re.sub(r"[^A-Za-z0-9_]", "_", str(s))[:80] or "x"
+
     lines = [
         "@prefix vclo: <http://synapselex.org/ontology/vclo#> .",
         "@prefix vic: <http://vicivil.org/kg/> .",
+        "@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .",
         "@prefix prov: <http://www.w3.org/ns/prov#> .",
+        "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .",
         "@prefix skos: <http://www.w3.org/2004/02/skos/core#> .",
         "@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .", "",
     ]
     for n in jl(os.path.join(out_dir, "nodes_legal.jsonl")):
-        lines.append(f'vic:doc-{n["node_id"]} a vclo:NormativeDocument ; '
+        lines.append(f'vic:doc-{local(n["node_id"])} a vclo:NormativeDocument ; '
                      f'vclo:so_hieu "{esc(str(n.get("so_hieu") or ""))}" ; '
                      f'rdfs:label "{esc(n["ten_full"])}"@vi ; '
                      f'vclo:valid_from "{n.get("valid_from")}"^^xsd:date .')
     for e in jl(os.path.join(out_dir, "nodes_entity.jsonl"))[:5000]:
-        local = re.sub(r"\W+", "_", norm_surface(e["preferred_label"]))[:60] or "ent"
-        lines.append(f'vic:ent-{local}-{e["canonical_id"][4:]} a {e["class"] if not e["class"].startswith("CONFLICT") else "vclo:LegalConcept"} ; '
-                     f'rdfs:label "{esc(e["preferred_label"])}"@vi .')
+        en = f'vic:ent-{local(e["preferred_label"])}-{e["canonical_id"][4:]}'
+        cls = e["class"] if not str(e["class"]).startswith("CONFLICT") else "vclo:LegalConcept"
+        lines.append(f'{en} a {cls} ; rdfs:label "{esc(e["preferred_label"])}"@vi .')
         for al in e["aliases"][:10]:
             if al != e["preferred_label"]:
-                lines.append(f'vic:ent-{local}-{e["canonical_id"][4:]} skos:altLabel "{esc(al)}"@vi .')
+                lines.append(f'{en} skos:altLabel "{esc(al)}"@vi .')
     rel = {"vclo:amends": "vclo:amends", "vclo:replaces": "vclo:replaces",
            "vclo:consolidates": "vclo:consolidates", "vclo:guides": "vclo:guides",
            "vclo:cites": "vclo:cites", "vclo:succeeds": "vclo:succeeds"}
+    reified = []
     for e in jl(os.path.join(out_dir, "edges_norm.jsonl")):
         p = rel.get(e["relation"])
         if not p:
             continue
-        s = f"doc-{e['src']}" if "|" not in e["src"] else "art-" + re.sub(r"\W+", "_", e["src"])
-        t = f"doc-{e['tgt']}" if "|" not in e["tgt"] else "art-" + re.sub(r"\W+", "_", e["tgt"])
+        s = f"doc-{local(e['src'])}" if "|" not in e["src"] else "art-" + local(e["src"])
+        t = f"doc-{local(e['tgt'])}" if "|" not in e["tgt"] else "art-" + local(e["tgt"])
         at = e.get("at")
-        ats = f' ; vic:at "{at}"^^xsd:date' if at else ""
+        ats = f' ; vclo:at "{at}"^^xsd:date' if at else ""
         lines.append(f"vic:{s} {p} vic:{t}{ats} .")
+        # Hogan CSUR reification: time-changing edges become rdf:Statement nodes
+        # carrying vclo:at + provenance — validate-able by plain SHACL (no RDF* needed)
+        if at and e["relation"] in ("vclo:amends", "vclo:replaces", "vclo:consolidates"):
+            sid = hashlib.sha1(f"{e['src']}|{e['relation']}|{e['tgt']}|{at}".encode()).hexdigest()[:12]
+            reified.append(
+                f'vic:stmt-{sid} a rdf:Statement ; rdf:subject vic:{s} ; '
+                f'rdf:predicate {p} ; rdf:object vic:{t} ; '
+                f'vclo:at "{at}"^^xsd:date ; '
+                f'prov:wasDerivedFrom "{esc((e.get("prov") or {}).get("note", ""))}" .')
+    lines.extend(reified)
     path = os.path.join(out_dir, "vcivil_tkg_graph.ttl")
     with open(path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")

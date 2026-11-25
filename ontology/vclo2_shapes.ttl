@@ -1,26 +1,29 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix vclo: <http://synapselex.org/ontology/vclo#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-# Chặn publish: các bệnh đã đo trong LightRAG store (self-loop 334, cạnh không type,
-# endpoint rác 439 pseudo-entity) phải bị QUARANTINE trước khi vào đồ thị công khai.
+# Chặn publish: các bệnh đã đo trong LightRAG store (self-loop, cạnh không type,
+# pseudo-entity) phải bị QUARANTINE trước khi vào đồ thị công khai.
+# Lưu ý ngữ nghĩa: vclo:at CHỈ bắt buộc với quan hệ LÀM THAY ĐỔI hiệu lực —
+# cites/succeeds/guides/contains không tự thay đổi hiệu lực nên không cần at.
 
-vclo:EdgeProvenanceShape a sh:NodeShape ;
-    sh:targetObjectsOf vclo:amends, vclo:abrogates, vclo:replaces, vclo:consolidates,
-                       vclo:guides, vclo:cites, vclo:succeeds, vclo:applies ;
+vclo:TimeChangingEdgeShape a sh:NodeShape ;
+    sh:targetClass rdf:Statement ;
     sh:property [
         sh:path vclo:at ;
         sh:minCount 1 ;
-        sh:message "Cạnh thay đổi hiệu lực phải có mốc thời gian (vclo:at)"@vi ;
+        sh:message "Cạnh reified làm thay đổi hiệu lực phải có mốc thời gian (vclo:at)"@vi ;
     ] .
 
 vclo:EntityTypedShape a sh:NodeShape ;
-    sh:targetClass vclo:LegalEntity ;
+    sh:targetSubjectsOf skos:altLabel ;
     sh:property [
         sh:path rdf:type ;
-        sh:minCount 2 ;
-        sh:message "Thực thể phải có class cụ thể (không chỉ LegalEntity)"@vi ;
+        sh:minCount 1 ;
+        sh:pattern "^http://synapselex.org/ontology/vclo#" ;
+        sh:message "Thực thể canonical phải có ít nhất 1 class thuộc namespace VCLO"@vi ;
     ] .
 
 vclo:EntityLabelShape a sh:NodeShape ;
@@ -37,12 +40,4 @@ vclo:NoSelfLoopShape a sh:NodeShape ;
         a sh:SPARQLConstraint ;
         sh:message "Cấm self-loop"@vi ;
         sh:select "SELECT $this WHERE { $this ?p $this }" ;
-    ] .
-
-vclo:RelatedToCapShape a sh:NodeShape ;
-    sh:targetObjectsOf vclo:relatedTo ;
-    sh:property [
-        sh:path vclo:flagged ;
-        sh:hasValue true ;
-        sh:message "Cạnh relatedTo phải mang flag=true để review"@vi ;
     ] .

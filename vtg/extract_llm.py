@@ -12,20 +12,15 @@ import time
 import urllib.request
 
 from .textops import fold_text, map_relation, is_literal
+from .ontology import extraction_predicates
 
 G = os.path.expanduser("~/vicivil_tkg/graph")
 WS = os.path.expanduser("~/law_workspace")
 MODEL = "qwen3.5:4b"
 N_CHUNKS = 100
 
-ALLOWED = [
-    "vclo:hasCondition", "vclo:grantsRight", "vclo:imposesObligation", "vclo:prohibits",
-    "vclo:requiresPayment", "vclo:requiresRegistration", "vclo:requiresNotarization",
-    "vclo:requiresReturn", "vclo:requiresCompensation", "vclo:imposesPenalty",
-    "vclo:transfersRight", "vclo:voidsTransaction", "vclo:belongsTo", "vclo:includes",
-    "vclo:regulates", "vclo:appliesTo", "vclo:hasTimeLimit", "vclo:hasStatuteOfLimitations",
-    "vclo:concernsAsset", "vclo:concernsContract", "vclo:determines", "vclo:delegatesAuthority",
-]
+# DERIVED from vclo2_core.ttl (single source of truth) — no hardcoded predicate list
+ALLOWED = [f"vclo:{name}" for name in extraction_predicates()]
 ALLOWED_FOLD = [fold_text(a.replace("vclo:", "")) for a in ALLOWED]
 
 
