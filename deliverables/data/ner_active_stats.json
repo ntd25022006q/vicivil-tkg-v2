@@ -1,0 +1,10 @@
+{
+ "chunks": 25,
+ "entities_marked": 205,
+ "self_verified_kept": 121,
+ "self_verified_removed": 84,
+ "keep_rate": 0.5902,
+ "chunks_with_no_marks": 0,
+ "model": "qwen3.5:4b",
+ "seconds": 213.7
+}

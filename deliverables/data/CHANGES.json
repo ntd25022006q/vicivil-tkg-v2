@@ -1,0 +1,10 @@
+{
+ "version": "0.6.0",
+ "date": "2026-11-26",
+ "changes": [
+  "needs_review = 0: all 4 watcher-discovered documents now carry validity dates — NĐ 388 (2026-12-01), NĐ 389 (2026-11-30), QĐ 155 (2026-10-10 via 'hiệu lực kể từ ngày ký' directive rule), QĐ 2476 (extension window 2026-11-12→2026-12-01)",
+  "context re-adjudication (GPT-NER self-verification style, names + chunk contexts): 114 flagged-rejected rechecked — 33 rescued (same, conf>=0.9), 81 confirmed-rejected, 0 errors",
+  "queue triage v2: human_queue.csv rebuilt into 4 priority sections — P1 review-merge-no-support 184 · P2 conflicts 21 · P3 rejected-skim 294 · P4 auto-ok 352 (851 rows, only P1+P2 truly need human eyes)",
+  "queue-only mode for triage (--queue-only) — LLM step resumable from saved decisions"
+ ]
+}

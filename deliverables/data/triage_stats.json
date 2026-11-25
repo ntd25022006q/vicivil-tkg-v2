@@ -1,0 +1,14 @@
+{
+ "context": {
+  "rechecked": 114,
+  "rescued": 33,
+  "confirmed_rejected": 81,
+  "errors": 0
+ },
+ "queue_sections": {
+  "P1_review_merge_no_support": 184,
+  "P2_conflicts": 21,
+  "P3_rejected_skim": 294,
+  "P4_auto_ok": 352
+ }
+}

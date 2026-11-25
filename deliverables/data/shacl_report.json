@@ -1,0 +1,20 @@
+{
+ "conforms": true,
+ "violations": 0,
+ "drift": {
+  "edges_norm.jsonl": {
+   "used": 5,
+   "undeclared": []
+  },
+  "edges_entity.jsonl": {
+   "used": 50,
+   "undeclared": []
+  },
+  "edges_case.jsonl": {
+   "used": 1,
+   "undeclared": []
+  }
+ },
+ "pyshacl": "0.40.2",
+ "shapes": "/home/devlab1/vicivil_tkg/ontology/vclo2_shapes.ttl"
+}

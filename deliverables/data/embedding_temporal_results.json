@@ -1,0 +1,310 @@
+{
+ "config": {
+  "dim": 128,
+  "epochs": 250,
+  "seeds": [
+   42,
+   101,
+   2024
+  ],
+  "lambda_distill": 0.5,
+  "snapshot_rule": "era<2017 / 2017-2024 / >=2025",
+  "graph": "edges_norm (SUCCEEDS/CITES/AMENDS/REPLACES/CONSOLIDATES/GUIDES + inverses)"
+ },
+ "per_seed": {
+  "42": {
+   "full_retrain": {
+    "S1": {
+     "mrr": 0.3925,
+     "hits10": 0.5317,
+     "n": 600
+    },
+    "S2": {
+     "mrr": 0.4007,
+     "hits10": 0.5775,
+     "n": 374
+    },
+    "S3": {
+     "mrr": 0.305,
+     "hits10": 0.4665,
+     "n": 328
+    }
+   },
+   "fast_freeze": {
+    "S1": {
+     "mrr": 0.3828,
+     "hits10": 0.45,
+     "n": 600
+    },
+    "S2": {
+     "mrr": 0.3318,
+     "hits10": 0.5267,
+     "n": 374
+    },
+    "S3": {
+     "mrr": 0.3278,
+     "hits10": 0.4817,
+     "n": 328
+    }
+   },
+   "slow_distill": {
+    "S1": {
+     "mrr": 0.243,
+     "hits10": 0.4283,
+     "n": 600
+    },
+    "S2": {
+     "mrr": 0.0155,
+     "hits10": 0.0214,
+     "n": 374
+    },
+    "S3": {
+     "mrr": 0.0342,
+     "hits10": 0.0915,
+     "n": 328
+    }
+   },
+   "no_continual": {
+    "S1": {
+     "mrr": 0.0134,
+     "hits10": 0.0183,
+     "n": 600
+    },
+    "S2": {
+     "mrr": 0.3916,
+     "hits10": 0.4358,
+     "n": 374
+    },
+    "S3": {
+     "mrr": 0.3197,
+     "hits10": 0.4482,
+     "n": 328
+    }
+   }
+  },
+  "101": {
+   "full_retrain": {
+    "S1": {
+     "mrr": 0.4162,
+     "hits10": 0.5533,
+     "n": 600
+    },
+    "S2": {
+     "mrr": 0.4069,
+     "hits10": 0.5773,
+     "n": 362
+    },
+    "S3": {
+     "mrr": 0.2794,
+     "hits10": 0.4507,
+     "n": 304
+    }
+   },
+   "fast_freeze": {
+    "S1": {
+     "mrr": 0.4099,
+     "hits10": 0.4717,
+     "n": 600
+    },
+    "S2": {
+     "mrr": 0.3504,
+     "hits10": 0.5359,
+     "n": 362
+    },
+    "S3": {
+     "mrr": 0.2961,
+     "hits10": 0.5329,
+     "n": 304
+    }
+   },
+   "slow_distill": {
+    "S1": {
+     "mrr": 0.2943,
+     "hits10": 0.4783,
+     "n": 600
+    },
+    "S2": {
+     "mrr": 0.0165,
+     "hits10": 0.0276,
+     "n": 362
+    },
+    "S3": {
+     "mrr": 0.0482,
+     "hits10": 0.102,
+     "n": 304
+    }
+   },
+   "no_continual": {
+    "S1": {
+     "mrr": 0.0129,
+     "hits10": 0.025,
+     "n": 600
+    },
+    "S2": {
+     "mrr": 0.393,
+     "hits10": 0.4448,
+     "n": 362
+    },
+    "S3": {
+     "mrr": 0.2814,
+     "hits10": 0.4408,
+     "n": 304
+    }
+   }
+  },
+  "2024": {
+   "full_retrain": {
+    "S1": {
+     "mrr": 0.4065,
+     "hits10": 0.5583,
+     "n": 600
+    },
+    "S2": {
+     "mrr": 0.4368,
+     "hits10": 0.6425,
+     "n": 372
+    },
+    "S3": {
+     "mrr": 0.3279,
+     "hits10": 0.503,
+     "n": 334
+    }
+   },
+   "fast_freeze": {
+    "S1": {
+     "mrr": 0.4021,
+     "hits10": 0.46,
+     "n": 600
+    },
+    "S2": {
+     "mrr": 0.3629,
+     "hits10": 0.5699,
+     "n": 372
+    },
+    "S3": {
+     "mrr": 0.35,
+     "hits10": 0.5689,
+     "n": 334
+    }
+   },
+   "slow_distill": {
+    "S1": {
+     "mrr": 0.2788,
+     "hits10": 0.475,
+     "n": 600
+    },
+    "S2": {
+     "mrr": 0.0244,
+     "hits10": 0.0538,
+     "n": 372
+    },
+    "S3": {
+     "mrr": 0.0571,
+     "hits10": 0.1198,
+     "n": 334
+    }
+   },
+   "no_continual": {
+    "S1": {
+     "mrr": 0.007,
+     "hits10": 0.0083,
+     "n": 600
+    },
+    "S2": {
+     "mrr": 0.4019,
+     "hits10": 0.4651,
+     "n": 372
+    },
+    "S3": {
+     "mrr": 0.3225,
+     "hits10": 0.5269,
+     "n": 334
+    }
+   }
+  }
+ },
+ "aggregate": {
+  "full_retrain": {
+   "S1": {
+    "mrr_mean": 0.4051,
+    "mrr_std": 0.0097,
+    "hits10_mean": 0.5478,
+    "n_eval_per_seed": 600
+   },
+   "S2": {
+    "mrr_mean": 0.4148,
+    "mrr_std": 0.0158,
+    "hits10_mean": 0.5991,
+    "n_eval_per_seed": 374
+   },
+   "S3": {
+    "mrr_mean": 0.3041,
+    "mrr_std": 0.0198,
+    "hits10_mean": 0.4734,
+    "n_eval_per_seed": 328
+   }
+  },
+  "fast_freeze": {
+   "S1": {
+    "mrr_mean": 0.3983,
+    "mrr_std": 0.0114,
+    "hits10_mean": 0.4606,
+    "n_eval_per_seed": 600
+   },
+   "S2": {
+    "mrr_mean": 0.3484,
+    "mrr_std": 0.0128,
+    "hits10_mean": 0.5442,
+    "n_eval_per_seed": 374
+   },
+   "S3": {
+    "mrr_mean": 0.3246,
+    "mrr_std": 0.0221,
+    "hits10_mean": 0.5278,
+    "n_eval_per_seed": 328
+   }
+  },
+  "slow_distill": {
+   "S1": {
+    "mrr_mean": 0.272,
+    "mrr_std": 0.0215,
+    "hits10_mean": 0.4605,
+    "n_eval_per_seed": 600
+   },
+   "S2": {
+    "mrr_mean": 0.0188,
+    "mrr_std": 0.004,
+    "hits10_mean": 0.0343,
+    "n_eval_per_seed": 374
+   },
+   "S3": {
+    "mrr_mean": 0.0465,
+    "mrr_std": 0.0094,
+    "hits10_mean": 0.1044,
+    "n_eval_per_seed": 328
+   }
+  },
+  "no_continual": {
+   "S1": {
+    "mrr_mean": 0.0111,
+    "mrr_std": 0.0029,
+    "hits10_mean": 0.0172,
+    "n_eval_per_seed": 600
+   },
+   "S2": {
+    "mrr_mean": 0.3955,
+    "mrr_std": 0.0046,
+    "hits10_mean": 0.4486,
+    "n_eval_per_seed": 374
+   },
+   "S3": {
+    "mrr_mean": 0.3079,
+    "mrr_std": 0.0187,
+    "hits10_mean": 0.472,
+    "n_eval_per_seed": 328
+   }
+  }
+ },
+ "note": "S1 MRR drop from full_retrain to fast_freeze = forgetting; slow_distill (TADG distillation-guided) should recover part of it",
+ "seconds": 20.3
+}

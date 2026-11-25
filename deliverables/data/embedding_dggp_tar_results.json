@@ -1,0 +1,88 @@
+{
+ "config": {
+  "mechanism": "TAR (degree>=median → project) + DGGP + memory resample/epoch",
+  "seeds": [
+   42,
+   101,
+   2024
+  ],
+  "dim": 128
+ },
+ "dggp_tar_aggregate": {
+  "S1": {
+   "mrr_mean": 0.3404,
+   "mrr_std": 0.0151,
+   "hits10_mean": 0.7539
+  },
+  "S2": {
+   "mrr_mean": 0.3581,
+   "mrr_std": 0.0053,
+   "hits10_mean": 0.7788
+  },
+  "S3": {
+   "mrr_mean": 0.2849,
+   "mrr_std": 0.0159,
+   "hits10_mean": 0.6698
+  }
+ },
+ "reference": {
+  "dggp": {
+   "S1": {
+    "mrr_mean": 0.337,
+    "mrr_std": 0.0116,
+    "hits10_mean": 0.7411
+   },
+   "S2": {
+    "mrr_mean": 0.3507,
+    "mrr_std": 0.0061,
+    "hits10_mean": 0.7735
+   },
+   "S3": {
+    "mrr_mean": 0.2774,
+    "mrr_std": 0.0251,
+    "hits10_mean": 0.662
+   }
+  },
+  "full_retrain": {
+   "S1": {
+    "mrr_mean": 0.4051,
+    "mrr_std": 0.0097,
+    "hits10_mean": 0.5478,
+    "n_eval_per_seed": 600
+   },
+   "S2": {
+    "mrr_mean": 0.4148,
+    "mrr_std": 0.0158,
+    "hits10_mean": 0.5991,
+    "n_eval_per_seed": 374
+   },
+   "S3": {
+    "mrr_mean": 0.3041,
+    "mrr_std": 0.0198,
+    "hits10_mean": 0.4734,
+    "n_eval_per_seed": 328
+   }
+  },
+  "fast_freeze": {
+   "S1": {
+    "mrr_mean": 0.3983,
+    "mrr_std": 0.0114,
+    "hits10_mean": 0.4606,
+    "n_eval_per_seed": 600
+   },
+   "S2": {
+    "mrr_mean": 0.3484,
+    "mrr_std": 0.0128,
+    "hits10_mean": 0.5442,
+    "n_eval_per_seed": 374
+   },
+   "S3": {
+    "mrr_mean": 0.3246,
+    "mrr_std": 0.0221,
+    "hits10_mean": 0.5278,
+    "n_eval_per_seed": 328
+   }
+  }
+ },
+ "seconds": 7.1
+}
