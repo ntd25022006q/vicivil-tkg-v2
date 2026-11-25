@@ -1,0 +1,28 @@
+[W1125 00:48:11.508246961 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 7137126252544 bytes (free: 5957222400, total: 25337004032).
+[W1125 00:48:11.567220234 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 7137126252544 bytes (free: 7330856960, total: 25337004032).
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/devlab1/vicivil_tkg/vtg/embed_temporal.py", line 251, in <module>
+    main()
+    ~~~~^^
+  File "/home/devlab1/vicivil_tkg/vtg/embed_temporal.py", line 218, in main
+    per_seed[seed] = run_seed(seed, s1, s2, s3, ent2id, rel2id, len(ents), len(rels))
+                     ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/devlab1/vicivil_tkg/vtg/embed_temporal.py", line 166, in run_seed
+    res["full_retrain"] = {"S1": evaluate(m_full, to_idx(test1, ent2id, rel2id), pos_all, n_ent),
+                                 ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/devlab1/.local/lib/python3.13/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/devlab1/vicivil_tkg/vtg/embed_temporal.py", line 114, in evaluate
+    sc = -torch.cdist(model.ent(cands.reshape(-1)),
+          ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                      (model.rel(r) + model.ent(o)).reshape(-1, model.rel.embedding_dim)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                      .repeat_interleave(ent_count, dim=0)).reshape(len(te), ent_count)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/devlab1/.local/lib/python3.13/site-packages/torch/functional.py", line 1535, in cdist
+    return _VF.cdist(x1, x2, p, None)  # type: ignore[attr-defined]
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 6646.97 GiB. GPU 0 has a total capacity of 23.60 GiB of which 6.83 GiB is free. Process 588449 has 7.35 GiB memory in use. Process 3928566 has 6.54 GiB memory in use. Including non-PyTorch memory, this process has 2.86 GiB memory in use. Of the allocated memory 2.57 GiB is allocated by PyTorch, and 25.38 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+[EMB] ents=2995 rels=10 triples=5318 (S1=3010 S2=1250 S3=1058) dev=cuda

@@ -1,0 +1,20 @@
+[EXTRACT] sample=100 chunks (BLDS2015, 150<=chars<1500)
+[EXTRACT] 25/100 raw=55 kept=51 (116s)
+[EXTRACT] 50/100 raw=111 kept=103 (246s)
+[EXTRACT] 75/100 raw=170 kept=156 (367s)
+[EXTRACT] 100/100 raw=230 kept=213 (490s)
+[EXTRACT] {'chunks': 100, 'raw_triples': 230, 'kept': 213, 'pruned_hallucination': 12, 'pruned_other': 5, 'hallucination_rate': 0.0522, 'keep_rate': 0.9261, 'model': 'qwen3.5:4b', 'seconds': 490.0}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/devlab1/vicivil_tkg/vtg/embed_temporal.py", line 251, in <module>
+    main()
+    ~~~~^^
+  File "/home/devlab1/vicivil_tkg/vtg/embed_temporal.py", line 218, in main
+    per_seed[seed] = run_seed(seed, s1, s2, s3, ent2id, rel2id, len(ents), len(rels))
+                     ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/devlab1/vicivil_tkg/vtg/embed_temporal.py", line 165, in run_seed
+    train(m_full, tra)
+    ~~~~~^^^^^^^^^^^^^
+TypeError: train() missing 1 required positional argument: 'all_triples_idx'
+[EMB] ents=2995 rels=10 triples=5318 (S1=3010 S2=1250 S3=1058) dev=cuda

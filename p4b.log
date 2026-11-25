@@ -1,0 +1,87 @@
+[EMB] ents=2995 rels=10 triples=5318 (S1=3010 S2=1250 S3=1058) dev=cuda
+[EMB] seed 42 done in 8s
+[EMB] seed 101 done in 6s
+[EMB] seed 2024 done in 6s
+[EMB] aggregate:
+{
+ "full_retrain": {
+  "S1": {
+   "mrr_mean": 0.4051,
+   "mrr_std": 0.0097,
+   "hits10_mean": 0.5478,
+   "n_eval_per_seed": 600
+  },
+  "S2": {
+   "mrr_mean": 0.4148,
+   "mrr_std": 0.0158,
+   "hits10_mean": 0.5991,
+   "n_eval_per_seed": 374
+  },
+  "S3": {
+   "mrr_mean": 0.3041,
+   "mrr_std": 0.0198,
+   "hits10_mean": 0.4734,
+   "n_eval_per_seed": 328
+  }
+ },
+ "fast_freeze": {
+  "S1": {
+   "mrr_mean": 0.3983,
+   "mrr_std": 0.0114,
+   "hits10_mean": 0.4606,
+   "n_eval_per_seed": 600
+  },
+  "S2": {
+   "mrr_mean": 0.3484,
+   "mrr_std": 0.0128,
+   "hits10_mean": 0.5442,
+   "n_eval_per_seed": 374
+  },
+  "S3": {
+   "mrr_mean": 0.3246,
+   "mrr_std": 0.0221,
+   "hits10_mean": 0.5278,
+   "n_eval_per_seed": 328
+  }
+ },
+ "slow_distill": {
+  "S1": {
+   "mrr_mean": 0.272,
+   "mrr_std": 0.0215,
+   "hits10_mean": 0.4605,
+   "n_eval_per_seed": 600
+  },
+  "S2": {
+   "mrr_mean": 0.0188,
+   "mrr_std": 0.004,
+   "hits10_mean": 0.0343,
+   "n_eval_per_seed": 374
+  },
+  "S3": {
+   "mrr_mean": 0.0465,
+   "mrr_std": 0.0094,
+   "hits10_mean": 0.1044,
+   "n_eval_per_seed": 328
+  }
+ },
+ "no_continual": {
+  "S1": {
+   "mrr_mean": 0.0111,
+   "mrr_std": 0.0029,
+   "hits10_mean": 0.0172,
+   "n_eval_per_seed": 600
+  },
+  "S2": {
+   "mrr_mean": 0.3955,
+   "mrr_std": 0.0046,
+   "hits10_mean": 0.4486,
+   "n_eval_per_seed": 374
+  },
+  "S3": {
+   "mrr_mean": 0.3079,
+   "mrr_std": 0.0187,
+   "hits10_mean": 0.472,
+   "n_eval_per_seed": 328
+  }
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "chunks": 100,
+ "raw_triples": 230,
+ "kept": 213,
+ "pruned_hallucination": 12,
+ "pruned_other": 5,
+ "hallucination_rate": 0.0522,
+ "keep_rate": 0.9261,
+ "model": "qwen3.5:4b",
+ "seconds": 490.0
+}
