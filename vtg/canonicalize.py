@@ -267,6 +267,12 @@ def run(ws, out_dir, use_llm=False, llm_model="qwen2.5:1.5b",
     with open(os.path.join(out_dir, "merge_log.jsonl"), "w", encoding="utf-8") as f:
         for m in merge_log:
             f.write(json.dumps(m, ensure_ascii=False) + "\n")
+    # pending pairs (tier-3 band, unprocessed) → human queue input
+    with open(os.path.join(out_dir, "pending_pairs.jsonl"), "w", encoding="utf-8") as f:
+        for (aid, bid, sim, na, nb, cls) in pending:
+            f.write(json.dumps({"a_id": aid, "b_id": bid, "sim": round(sim, 4),
+                                "name_a": na, "name_b": nb, "class": cls},
+                               ensure_ascii=False) + "\n")
     with open(os.path.join(out_dir, "literals.jsonl"), "w", encoding="utf-8") as f:
         for e in literals:
             f.write(json.dumps({"name": e.get("entity_name"), "class": "vclo:Literal",

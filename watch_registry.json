@@ -1,0 +1,305 @@
+{
+ "issues": {
+  "/cong-bao/cong-bao-so-572-ngay-06-11-2026-47594.htm": {
+   "so": "572",
+   "ngay": "2026-11-06",
+   "first_seen": "20261125T000500",
+   "docs": [
+    "/van-ban/thong-tu-so-160-2026-tt-btc-470890/70026.htm",
+    "/van-ban/thong-tu-so-161-2026-tt-btc-470891/70028.htm",
+    "/van-ban/thong-tu-so-173-2026-tt-bqp-470892/70030.htm",
+    "/van-ban/thong-tu-so-63-2026-tt-bkhcn-470884/70019.htm",
+    "/van-ban/thong-tu-so-85-2026-tt-bgddt-470885/70022.htm",
+    "/van-ban/thong-tu-so-86-2026-tt-bgddt-470886/70023.htm",
+    "/van-ban/thong-tu-so-90-2026-tt-bgddt-470887/70025.htm"
+   ]
+  },
+  "/cong-bao/cong-bao-so-573-ngay-09-11-2026-47595.htm": {
+   "so": "573",
+   "ngay": "2026-11-09",
+   "first_seen": "20261125T000543",
+   "docs": [
+    "/van-ban/nghi-quyet-so-44-2026-nq-cp-470897/70087.htm",
+    "/van-ban/nghi-quyet-so-45-2026-nq-cp-470901/70086.htm",
+    "/van-ban/quyet-dinh-so-2069-qd-ttg-470898/70088.htm",
+    "/van-ban/quyet-dinh-so-49-2026-qd-ttg-470907/70085.htm",
+    "/van-ban/thong-tu-so-68-2026-tt-bct-470894/70081.htm",
+    "/van-ban/thong-tu-so-69-2026-tt-bct-470895/70082.htm"
+   ]
+  },
+  "/cong-bao/cong-bao-so-562-ngay-26-10-2026-47571.htm": {
+   "so": "562",
+   "ngay": "2026-10-26",
+   "first_seen": "20261125T000758",
+   "docs": [
+    "/van-ban/nghi-dinh-so-388-2026-nd-cp-470829/69825.htm",
+    "/van-ban/nghi-dinh-so-389-2026-nd-cp-470828/69826.htm",
+    "/van-ban/quyet-dinh-so-155-qd-bcdnottbds-470815/69821.htm",
+    "/van-ban/thong-tu-lien-tich-so-14-2026-ttlt-bca-bqp-vksndtc-470824/69827.htm",
+    "/van-ban/thong-tu-so-147-2026-tt-bca-470820/69820.htm",
+    "/van-ban/thong-tu-so-171-2026-tt-bca-470822/69819.htm"
+   ],
+   "detail_fetched": true
+  },
+  "/cong-bao/cong-bao-so-563-ngay-26-10-2026-47570.htm": {
+   "so": "563",
+   "ngay": "2026-10-26",
+   "first_seen": "20261125T000758",
+   "docs": [
+    "/van-ban/thong-tu-so-129-2026-tt-bqp-470825/69804.htm",
+    "/van-ban/thong-tu-so-172-2026-tt-bca-470823/69802.htm",
+    "/van-ban/thong-tu-so-55-2026-tt-nhnn-470826/69806.htm",
+    "/van-ban/thong-tu-so-77-2026-tt-bxd-470827/69805.htm"
+   ],
+   "detail_fetched": true
+  },
+  "/cong-bao/cong-bao-so-564-ngay-27-10-2026-47574.htm": {
+   "so": "564",
+   "ngay": "2026-10-27",
+   "first_seen": "20261125T000758",
+   "docs": [],
+   "detail_fetched": false
+  },
+  "/cong-bao/cong-bao-so-565-ngay-30-10-2026-47575.htm": {
+   "so": "565",
+   "ngay": "2026-10-30",
+   "first_seen": "20261125T000758",
+   "docs": [],
+   "detail_fetched": false
+  },
+  "/cong-bao/cong-bao-so-566-ngay-30-10-2026-47583.htm": {
+   "so": "566",
+   "ngay": "2026-10-30",
+   "first_seen": "20261125T000758",
+   "docs": [],
+   "detail_fetched": false
+  },
+  "/cong-bao/cong-bao-so-567-ngay-30-10-2026-47584.htm": {
+   "so": "567",
+   "ngay": "2026-10-30",
+   "first_seen": "20261125T000758",
+   "docs": [],
+   "detail_fetched": false
+  },
+  "/cong-bao/cong-bao-so-568-ngay-03-11-2026-47588.htm": {
+   "so": "568",
+   "ngay": "2026-11-03",
+   "first_seen": "20261125T000758",
+   "docs": [],
+   "detail_fetched": false
+  },
+  "/cong-bao/cong-bao-so-569-ngay-04-11-2026-47589.htm": {
+   "so": "569",
+   "ngay": "2026-11-04",
+   "first_seen": "20261125T000758",
+   "docs": [],
+   "detail_fetched": false
+  },
+  "/cong-bao/cong-bao-so-570-ngay-05-11-2026-47591.htm": {
+   "so": "570",
+   "ngay": "2026-11-05",
+   "first_seen": "20261125T000758",
+   "docs": [],
+   "detail_fetched": false
+  },
+  "/cong-bao/cong-bao-so-571-ngay-06-11-2026-47593.htm": {
+   "so": "571",
+   "ngay": "2026-11-06",
+   "first_seen": "20261125T000758",
+   "docs": [],
+   "detail_fetched": false
+  },
+  "/cong-bao/cong-bao-so-574-ngay-09-11-2026-47596.htm": {
+   "so": "574",
+   "ngay": "2026-11-09",
+   "first_seen": "20261125T000758",
+   "docs": [],
+   "detail_fetched": false
+  },
+  "/cong-bao/cong-bao-so-575-ngay-10-11-2026-47597.htm": {
+   "so": "575",
+   "ngay": "2026-11-10",
+   "first_seen": "20261125T000758",
+   "docs": [],
+   "detail_fetched": false
+  },
+  "/cong-bao/cong-bao-so-576-ngay-11-11-2026-47599.htm": {
+   "so": "576",
+   "ngay": "2026-11-11",
+   "first_seen": "20261125T000758",
+   "docs": [],
+   "detail_fetched": false
+  },
+  "/cong-bao/cong-bao-so-577-ngay-12-11-2026-47600.htm": {
+   "so": "577",
+   "ngay": "2026-11-12",
+   "first_seen": "20261125T000758",
+   "docs": [],
+   "detail_fetched": false
+  },
+  "/cong-bao/cong-bao-so-578-ngay-13-11-2026-47601.htm": {
+   "so": "578",
+   "ngay": "2026-11-13",
+   "first_seen": "20261125T000758",
+   "docs": [],
+   "detail_fetched": false
+  },
+  "/cong-bao/cong-bao-so-579-ngay-13-11-2026-47602.htm": {
+   "so": "579",
+   "ngay": "2026-11-13",
+   "first_seen": "20261125T000758",
+   "docs": [],
+   "detail_fetched": false
+  },
+  "/cong-bao/cong-bao-so-580-ngay-16-11-2026-47603.htm": {
+   "so": "580",
+   "ngay": "2026-11-16",
+   "first_seen": "20261125T000758",
+   "docs": [],
+   "detail_fetched": false
+  },
+  "/cong-bao/cong-bao-so-581-ngay-17-11-2026-47604.htm": {
+   "so": "581",
+   "ngay": "2026-11-17",
+   "first_seen": "20261125T000758",
+   "docs": [],
+   "detail_fetched": false
+  },
+  "/cong-bao/cong-bao-so-582-ngay-18-11-2026-47606.htm": {
+   "so": "582",
+   "ngay": "2026-11-18",
+   "first_seen": "20261125T000758",
+   "docs": [],
+   "detail_fetched": false
+  },
+  "/cong-bao/cong-bao-so-583-ngay-18-11-2026-47607.htm": {
+   "so": "583",
+   "ngay": "2026-11-18",
+   "first_seen": "20261125T000758",
+   "docs": [],
+   "detail_fetched": false
+  },
+  "/cong-bao/cong-bao-so-584-ngay-20-11-2026-47610.htm": {
+   "so": "584",
+   "ngay": "2026-11-20",
+   "first_seen": "20261125T000758",
+   "docs": [],
+   "detail_fetched": false
+  },
+  "/cong-bao/cong-bao-so-585-ngay-23-11-2026-47612.htm": {
+   "so": "585",
+   "ngay": "2026-11-23",
+   "first_seen": "20261125T000758",
+   "docs": [],
+   "detail_fetched": false
+  }
+ },
+ "docs": {
+  "/van-ban/nghi-dinh-so-404-2026-nd-cp-470959.htm": {
+   "title": "Nghị định số 404/2026/NĐ-CP quy định cơ chế hoạt động, cơ chế quản lý tài chính đặc thù đối với một số doanh nghiệp do Bộ Quốc phòng là cơ quan đại diện chủ sở hữu",
+   "so_hieu": null,
+   "pdf_url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/11/23/470959-1795078194_v1_1795395760_signed.pdf",
+   "first_seen": "20261125T000500",
+   "last_seen": "20261125T000900",
+   "status": "text_extracted",
+   "content_hash": "55e00bfe23808bd290cc6a0242792843e5a39d618abc8e90f7a3861ea81cf4ff",
+   "pdf_hash": "173bf493b5be59ad5b258d82dfd8bae34f3a5d8bef41e23eadbb246e0352f542",
+   "text_chars": 36018,
+   "prev_hash": "f47057c402af2a8a39d6e8fa8428645da02a47440e383ef6c540f75d970ffe88"
+  },
+  "/van-ban/quyet-dinh-so-2214-qd-ttg-470956.htm": {
+   "title": "Quyết định số 2214/QĐ-TTg về việc ban hành Quy trình vận hành liên hồ chứa trên lưu vực sông Srêpốk",
+   "so_hieu": null,
+   "pdf_url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/11/23/470956-1795078171_v1_1795395773_signed.pdf",
+   "first_seen": "20261125T000500",
+   "last_seen": "20261125T000900",
+   "status": "text_extracted",
+   "content_hash": "dcbdba633e40e5d7ebb630728da5cc4f2720ecdec9a1d26bfd79ba1baaa407e8",
+   "pdf_hash": "17e24f7d63f7ffe138f376134f8ebb39f169d313b9ea70ad4cf2f032df6deb8b",
+   "text_chars": 100382,
+   "prev_hash": "c6de93eb39d04f0641eb16879b4ccf13774ab7d4e605195f0453ca396175e6be"
+  },
+  "/van-ban/quyet-dinh-so-2215-qd-ttg-470957.htm": {
+   "title": "Quyết định số 2215/QĐ-TTg về việc ban hành Quy trình vận hành liên hồ chứa trên lưu vực sông Hương",
+   "so_hieu": null,
+   "pdf_url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/11/23/470957-1795078185_v1_1795395787_signed.pdf",
+   "first_seen": "20261125T000500",
+   "last_seen": "20261125T000900",
+   "status": "text_extracted",
+   "content_hash": "6862a9e42d9141701712cfac538da27e77ebf9540547ac7f2f7fb5c6afe5fa93",
+   "pdf_hash": "70fa891cf902374c9c0362471d82f492f322d3a4fbbfe1f9640faa6ae638641e",
+   "text_chars": 86909,
+   "prev_hash": "14bc1665151dd5b969cb4139509ebd4ce7e00283b38e7d05ac6658bce354585c"
+  },
+  "/van-ban/nghi-quyet-so-44-2026-nq-cp-470897/70087.htm": {
+   "title": "Nghị quyết số 44/2026/NQ-CP về giải pháp tháo gỡ khó khăn trong triển khai hợp đồng lao động điện tử theo quy định tại Nghị định số 337/2025/NĐ-CP ngày 24 tháng 12 năm 2025 của Chính phủ",
+   "so_hieu": null,
+   "pdf_url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/11/9/470897-1794193530_v1_1794194653_signed.pdf",
+   "first_seen": "20261125T000543",
+   "last_seen": "20261125T000900",
+   "status": "registered",
+   "content_hash": "cca8959b38d279dbbc0ccd8bbb99ddd076f074a1f4b1e107c0d218f3b9752f20",
+   "prev_hash": "192630dae2cd9c506dd321ba6a889c6bb18e9bc9a4586e869502eb74dd150d23"
+  },
+  "/van-ban/nghi-quyet-so-45-2026-nq-cp-470901/70086.htm": {
+   "title": "Nghị quyết số 45/2026/NQ-CP ban hành quy định về thuế tiêu thụ đặc biệt đối với xăng",
+   "so_hieu": null,
+   "pdf_url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/11/9/470901-1794193543_v1_1794194665_signed.pdf",
+   "first_seen": "20261125T000543",
+   "last_seen": "20261125T000900",
+   "status": "registered",
+   "content_hash": "b203e9d60f1ecf67fb4219c5da29e226209c1eb946e604a0973ab6613e0c57b5",
+   "prev_hash": "f01e73aebc362dc4d4289e600773d7cad40dc6cea45500e9ee326f1736d4ef66"
+  },
+  "/van-ban/nghi-dinh-so-388-2026-nd-cp-470829/69825.htm": {
+   "title": "/van-ban/nghi-dinh-so-388-2026-nd-cp-470829/69825.htm",
+   "so_hieu": "nghi dinh so 388/2026/nd-cp",
+   "pdf_url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/10/26/470829-1792976827_v1_1792977057_signed.pdf",
+   "first_seen": "20261125T000758",
+   "last_seen": "20261125T000900",
+   "status": "text_extracted",
+   "content_hash": "6f94c18630fda4f827d580a872b5c68b37b3d7c8294741cf3cdd6880f7cb9428",
+   "pdf_hash": "67e6bb66381623a7c32f6b21e7e1f9d14b935c2a9f9a0755a0dab3de46f1d593",
+   "text_chars": 58960,
+   "prev_hash": "e56494fb35ec88d20894fb53d685e107068c203c8d76b7d89d5c4282880e1782"
+  },
+  "/van-ban/nghi-dinh-so-389-2026-nd-cp-470828/69826.htm": {
+   "title": "Nghị định số 389/2026/NĐ-CP quy định về xử phạt vi phạm hành chính trong lĩnh vực kinh doanh xổ số",
+   "so_hieu": "Nghị định số 389/2026/NĐ-CP",
+   "pdf_url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/10/26/470828-1792976819_v1_1792977070_signed.pdf",
+   "first_seen": "20261125T000758",
+   "last_seen": "20261125T000900",
+   "status": "text_extracted",
+   "content_hash": "85340a86300a34b27f99147e120ebe9fbde7add7470b56d210678d86a908e132",
+   "pdf_hash": "c3af891d2db27edc5f7113a0816b79526a28716e1e87856ba190b38767e6e631",
+   "text_chars": 43292,
+   "prev_hash": "eb0fcf95bad639ea5db3d02fdd41479d4c2c9b3e5cd8dfb8ef092752a609e90c"
+  },
+  "/van-ban/quyet-dinh-so-155-qd-bcdnottbds-470815/69821.htm": {
+   "title": "Quyết định số 155/QĐ-BCĐNO&TTBĐS về việc ban hành Quy chế tổ chức và hoạt động của Ban Chỉ đạo Trung ương về chính sách nhà ở và thị trường bất động sản",
+   "so_hieu": "Quyết định số 155/QĐ-BCĐNO",
+   "pdf_url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/10/26/470815-1792976775_v1_1792977118_signed.pdf",
+   "first_seen": "20261125T000758",
+   "last_seen": "20261125T000900",
+   "status": "text_extracted",
+   "content_hash": "d6f86f1e3353d17abe382dc3c5b4e0c1a23fdeae294f6fd39162956a5228effd",
+   "pdf_hash": "c54e7e7ce7e25ce51258d4d7d5bfbb6be40492a376c31eef60b8715dea349865",
+   "text_chars": 21656,
+   "prev_hash": "fa4f20c3c9b7c9b89a3e30ab2a884b79fa995c2dfa2251cf702c867374f8a921"
+  },
+  "/van-ban/quyet-dinh-so-2476-qd-nhnn-470955.htm": {
+   "title": "Quyết định số 2476/QĐ-NHNN  Về việc tiếp tục có hiệu lực của Thông tư số 38/2025/TT-NHNN ban hành Quy chế kiểm soát nội bộ, kiểm toán nội bộ Ngân hàng Nhà nước Việt Nam",
+   "so_hieu": "Quyết định số 2476/QĐ-NHNN",
+   "pdf_url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/11/23/470955-1795078163_v1_1795395800_signed.pdf",
+   "first_seen": "20261125T000758",
+   "last_seen": "20261125T000900",
+   "status": "text_extracted",
+   "content_hash": "801e337d9e458c4a9caeff87ed69dd736503f9b5d5ec475a3fbe34789ab1bebb",
+   "pdf_hash": "32d14bf96b68bb9cfc3e66f54527bfdeb1c281d49ac5b4e2e16e28671862fa17",
+   "text_chars": 2017,
+   "prev_hash": "abe238b7ac09f59d6f12d1e03f39ae01daa07765b3f78c68760bf34c5e77f56b"
+  }
+ },
+ "last_run": "2026-11-25T00:09:41",
+ "runs": 5
+}
