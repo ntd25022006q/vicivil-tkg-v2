@@ -1,12 +1,11 @@
 {
- "version": "0.4.0",
+ "version": "0.4.1",
  "date": "2026-11-25",
  "changes": [
-  "DGGP (TADG proper): gradient projection against memory-buffer distillation direction — S2 MRR 0.351 vs naive-distill 0.019 (fixes the negative result); S1 0.337 (forgetting controlled), 3 seeds",
-  "DCEL cold-start: MRC(embeddinggemma) + RSA(per-relation ridge affine) — MRR 0.0608 vs random 0.0003 (~180x), 40 held-out new entities, 3 seeds",
-  "GPT-NER active: generation @@[Type]## + self-verification on 25 chunks — 205 marked, 121 verified-kept (59.0%)",
-  "tier-3 adjudication complete: 775 pending pairs processed total (8 merged / 767 rejected / 0 errors, precision-first)",
-  "fill_validity: 2/4 new documents auto-dated from official PDFs (NĐ 388: 2026-12-01; NĐ 389: 2026-11-30); 2 admin decisions stay needs_review (no standard clause — no guessing)",
-  "v0.3.1 ontology LOAD-BEARING: rdflib-parsed TTL single source of truth, drift 0, pyshacl conforms=True 0 violations, reified time-changing edges"
+  "IMPROVEMENT ROUND (re-read of 9 paper findings): 3 unexploited mechanisms implemented",
+  "GEDUM knowledge calibration (local_update.py): frozen-base + 1-hop TransE-consistent calibration + AWFS-lite blend — 88 delta-affected entities embedded in 2.2s; delta->embedding loop CLOSED",
+  "TADG TAR + DGGP (dggp_tar.py): degree-median protection mask + memory resample/epoch — S1 0.3404 / S2 0.3581 / S3 0.2849 (best continual balance; beats plain DGGP on all eras)",
+  "B3 dual-support topology audit (topology_audit.py): 439 tier2/tier3 merges audited — 303 topology-supported (69%), 136 flagged needs_topology_review (honest weakness disclosure)",
+  "verify-all passed: SHACL conforms=True, drift 0, watcher cron fired autonomously (00:23 idempotent cycle), git/GitHub synced"
  ]
 }
