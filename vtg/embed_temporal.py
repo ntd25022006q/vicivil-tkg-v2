@@ -115,7 +115,7 @@ def evaluate(model, test_idx, pos_tail, pos_head, ent_count, sample=300):
             sc = -torch.cdist(q, W)                             # (B, E)
             golds = te[:, 2]
         else:
-            q = W[te[:, 2]] + model.rel.weight[te[:, 1]]
+            q = W[te[:, 2]] - model.rel.weight[te[:, 1]]  # head: h ≈ t - r (FIX audit P0)
             sc = -torch.cdist(q, W)
             golds = te[:, 0]
         sc = sc.cpu()

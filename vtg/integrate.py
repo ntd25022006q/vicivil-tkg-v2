@@ -74,8 +74,8 @@ def main():
             elif d["type"] == "amend_fact":
                 quarantined.append({**d, "reason": "amend_fact_pending_manual_confirm"})
 
-    # gate: node ids unique + class mapped + so_hieu present (already enforced)
-    gate_ok = all(n["class"] != "vclo:NormativeDocument" or True for n in added_nodes)
+    # gate (FIX audit P0-4: was tautological `or True`)
+    gate_ok = all(bool(n.get("so_hieu")) and bool(n.get("class")) for n in added_nodes)
     os.makedirs(os.path.join(G, "integrated"), exist_ok=True)
     os.makedirs(os.path.join(G, "quarantine"), exist_ok=True)
     with open(os.path.join(G, "integrated", "nodes_legal_new.jsonl"), "w", encoding="utf-8") as f:

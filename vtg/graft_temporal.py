@@ -115,7 +115,10 @@ def run(ws, out_dir, log=print):
                 eff = a["effective"]
                 break
         for f in facts:
-            if f.get("dieu"):
+            # FIX (audit P0-1): only pair target-law validity with an article that
+            # BELONGS to the target law (chunk's own law). Mixed pairings were
+            # expiring unrelated articles — now skipped and counted.
+            if f.get("dieu") and f.get("law_id") == tlid:
                 art_valid_to.setdefault((tlid, str(f["dieu"])), []).append({
                     "valid_to": eff, "chunk_id": f["chunk_id"],
                     "amender": f.get("amender_text"), })

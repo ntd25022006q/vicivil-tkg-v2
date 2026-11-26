@@ -187,10 +187,11 @@ plt.close()
 
 # ================= FIG 6: benchmark headline (v1 published numbers) =================
 fig, (a1, a2) = plt.subplots(1, 2, figsize=(12, 4.6))
-a1.bar(["BM25+dense\n(RRF)", "+ TCR\n(đồ thị thời gian)", "+ rerank\n(BGE + TCR)"],
-       [0.733, 0.811, 0.923], color=[GRAY, GREEN, BLUE])
-for i, v in enumerate([0.733, 0.811, 0.923]):
+a1.bar(["BM25+dense\n(RRF)", "+ TCR\n(đồ thị thời gian)"],
+       [0.733, 0.811], color=[GRAY, GREEN])
+for i, v in enumerate([0.733, 0.811]):
     a1.text(i, v + 0.008, f"{v:.3f}", ha="center", fontweight="bold")
+# FIX (audit P1): bỏ bar 0.923 — số thuộc cohort Round-4 (376q), trộn cohort với core 281q là sai
 a1.set_ylim(0, 1.0)
 a1.set_ylabel("Hit@5 (core 281 câu)")
 a1.set_title("Truy hồi: TCR (lọc hiệu lực theo as_of)\nnâng Hit@5 0.733 → 0.811", fontsize=10)

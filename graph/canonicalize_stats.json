@@ -4,15 +4,15 @@
  "multi_variant_groups_tier1": 103,
  "tier1_merges": 95,
  "tier2_merges": 133,
- "tier3_merges": 7,
- "tier3_rejected": 293,
+ "tier3_merges": 0,
+ "tier3_rejected": 0,
  "tier3_errors": 0,
  "guard_blocked_pairs": 207789,
- "canonical_entities_out": 13812,
+ "canonical_entities_out": 13819,
  "literals_demoted": 35,
  "typed_in": 14064,
  "untyped_out": 0,
  "matrix_used": true,
- "llm_model": "qwen3.5:4b",
- "seconds": 276.1
+ "llm_model": null,
+ "seconds": 8.6
 }

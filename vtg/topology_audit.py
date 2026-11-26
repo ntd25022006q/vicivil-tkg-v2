@@ -18,14 +18,17 @@ def jl(p):
 
 def main():
     ents = jl(os.path.join(G, "nodes_entity.jsonl"))
+    # FIX (audit P0-3): topology support must use RAW pre-merge chunk membership
+    # (name -> chunks from the original LightRAG store), NOT post-merge canonical
+    # aliases — otherwise shared chunks are circular evidence.
+    vdb = json.load(open("/home/devlab1/law_workspace/hf_release/index/vdb_entities.json", encoding="utf-8"))
+    vdata = vdb.get("data", vdb) if isinstance(vdb, dict) else vdb
+    raw_chunks = {e.get("entity_name", ""): set(e.get("chunk_ids") or []) for e in vdata if isinstance(e, dict)}
     by_alias = {}
     for e in ents:
         for a in e["aliases"]:
             by_alias[a] = e
         by_alias[e["preferred_label"]] = e
-    adj = defaultdict(set)  # canonical_id -> set of chunk_ids
-    for e in ents:
-        adj[e["canonical_id"]] = set(e.get("chunk_ids") or [])
 
     rows, stats = [], {"audited": 0, "topology_supported": 0, "flagged": 0, "unresolvable": 0}
     for m in jl(os.path.join(G, "merge_log.jsonl")):
@@ -39,7 +42,7 @@ def main():
             stats["unresolvable"] += 1
             rows.append({**m, "topology": "unresolvable"})
             continue
-        shared_chunks = adj[ea["canonical_id"]] & adj[eb["canonical_id"]]
+        shared_chunks = raw_chunks.get(names[0], set()) & raw_chunks.get(names[1], set())
         shared_scope = set(ea.get("law_scope") or []) & set(eb.get("law_scope") or [])
         supported = bool(shared_chunks) or bool(shared_scope)
         stats["topology_supported" if supported else "flagged"] += 1

@@ -143,7 +143,13 @@ def retype_relationships(ws, out_dir, log=print):
 
 
 def validate(out_dir, nodes_legal, log=print):
-    """SHACL-style rule engine on JSONL registries."""
+    """SHACL-style rule engine on JSONL registries.
+    FIX (audit P0-2): normalize short qnames vs full URIs — validator previously
+    compared 'vclo:x' against full URI set → 21,679 false violations, kept=0."""
+    from .ontology import declared_predicates
+    PREFIX = "http://synapselex.org/ontology/vclo#"
+    declared_short = {p.replace(PREFIX, "vclo:") for p in declared_predicates()}
+    allowed = ALLOWED_PREDICATES | declared_short
     ids_legal = {n["node_id"] for n in nodes_legal}
     # article endpoints = Law|DieuN — validate against nodes_legal + article validity registry
     art_valid = {}
@@ -158,7 +164,8 @@ def validate(out_dir, nodes_legal, log=print):
     quarantined = []
     def check(e, kind):
         ok = True
-        if e["relation"] not in ALLOWED_PREDICATES:
+        rel = e["relation"]
+        if rel not in allowed and not rel.replace("vclo:", PREFIX) in ALLOWED_PREDICATES:
             violations["unknown_predicate"] += 1; ok = False
         if not e.get("prov"):
             violations["missing_provenance"] += 1; ok = False
@@ -207,7 +214,7 @@ def export_ttl(out_dir, ws, log=print):
                      f'vclo:so_hieu "{esc(str(n.get("so_hieu") or ""))}" ; '
                      f'rdfs:label "{esc(n["ten_full"])}"@vi ; '
                      f'vclo:valid_from "{n.get("valid_from")}"^^xsd:date .')
-    for e in jl(os.path.join(out_dir, "nodes_entity.jsonl"))[:5000]:
+    for e in jl(os.path.join(out_dir, "nodes_entity.jsonl")):
         en = f'vic:ent-{local(e["preferred_label"])}-{e["canonical_id"][4:]}'
         cls = e["class"] if not str(e["class"]).startswith("CONFLICT") else "vclo:LegalConcept"
         lines.append(f'{en} a {cls} ; rdfs:label "{esc(e["preferred_label"])}"@vi .')

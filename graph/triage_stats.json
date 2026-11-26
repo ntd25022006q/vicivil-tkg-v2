@@ -6,9 +6,9 @@
   "errors": 0
  },
  "queue_sections": {
-  "P1_review_merge_no_support": 236,
-  "P2_conflicts": 21,
-  "P3_rejected_skim": 293,
-  "P4_auto_ok": 387
+  "P1_review_merge_no_support": 157,
+  "P2_conflicts": 20,
+  "P3_rejected_skim": 0,
+  "P4_auto_ok": 166
  }
 }

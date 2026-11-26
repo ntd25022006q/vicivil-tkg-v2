@@ -1,10 +1,14 @@
 {
- "version": "0.8.0",
+ "version": "0.8.1",
  "date": "2026-11-26",
  "changes": [
-  "repo cleanup: logs/ archived, broken .venv + pycache + ad-hoc files removed",
-  "pending tier3 band fully adjudicated (round 2)",
-  "agent review round 2 applied to residual P1/P2 (convergence pass)",
-  "full rebuild + downstream; SHACL/drift re-verified"
+  "AUDIT FIXES APPLIED (external audit findings, all verified on live server first):",
+  "P0-2 validator: URI/short-qname mismatch fixed — 21,679 false violations eliminated; kept_norm=2659, kept_entity=19020 real",
+  "P0-3 topology audit de-circularized: support now computed from RAW pre-merge chunk membership",
+  "P0-1 graft_temporal: article-validity no longer pairs target law with wrong article (guarded by law_id==target)",
+  "P0-4 integrate gate: tautological 'or True' removed — real so_hieu/class check",
+  "P0 embed: head-ranking sign fixed (h ≈ t - r) — previous metrics for head-side were optimistic",
+  "P1 fig6: cohort-mixing 0.923 bar removed (was Round-4 cohort, labeled as core)",
+  "KNOWN REMAINING (per audit): bitemporal recorded_at, full TTL coverage of case/entity edges, OCR, gold ER benchmark, atomic publish — tracked in migration plan"
  ]
 }
