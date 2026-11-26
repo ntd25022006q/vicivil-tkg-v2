@@ -1,6 +1,6 @@
 {
  "affected": 88,
  "dim": 128,
- "seconds": 2.3,
+ "seconds": 2.4,
  "note": "frozen base + 1-hop TransE-consistent calibration + 0.5 blend (AWFS-lite)"
 }

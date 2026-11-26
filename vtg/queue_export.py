@@ -8,7 +8,8 @@ import json
 import os
 
 G = os.path.expanduser("~/vicivil_tkg/graph")
-OUT = os.path.expanduser("~/vicivil_tkg/human_queue.csv")
+# FLAT log (máy đọc) — KHÔNG đè human_queue.csv (bản sectioned cho người do triage viết)
+OUT = os.path.expanduser("~/vicivil_tkg/human_queue_flat.csv")
 
 
 def jl(p):
