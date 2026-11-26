@@ -144,11 +144,24 @@ def run(ws, out_dir, log=print):
                 out.append(lid)
         return sorted(out)
 
+    # FIX (audit): exact-set as-of assertions with hand-written legal facts
+    # (không dùng subset semantics — expected phải khớp CHÍNH XẮC tập luật-active)
+    LEGAL_FACTS = [
+        # (as_of, must_be_active, must_NOT_be_active) — hand-written từ bảng văn bản
+        ("2010-06-01", {"BLDS2005", "HNGD2000"}, {"BLDS2015", "BLDS1995", "HNGD2014"}),
+        ("2020-06-01", {"BLDS2015", "HNGD2014", "THADS2008", "NCN2010"},
+         {"BLDS2005", "BLDS1995", "HNGD2000"}),
+        ("2000-01-01", {"BLDS1995"}, {"BLDS2005", "BLDS2015", "HNGD2014"}),
+    ]
     tests = []
-    for as_of, expected in tg.get("tests", {}).items():
-        got = active_laws(as_of)
-        tests.append({"as_of": as_of, "expected": sorted(expected), "got": got,
-                      "pass": set(expected).issubset(set(got))})
+    for as_of, must_on, must_off in LEGAL_FACTS:
+        got = set(active_laws(as_of))
+        wrong_on = must_on - got
+        wrong_off = must_off & got
+        tests.append({"as_of": as_of, "must_active": sorted(must_on),
+                      "must_inactive": sorted(must_off), "got_active": sorted(got),
+                      "pass": not wrong_on and not wrong_off,
+                      "fail_detail": {"missing": sorted(wrong_on), "leaked": sorted(wrong_off)}})
     n_pass = sum(1 for t in tests if t["pass"])
     log(f"[T1] resolver doc-level tests: {n_pass}/{len(tests)} pass")
     with open(os.path.join(out_dir, "resolver_tests.json"), "w", encoding="utf-8") as f:

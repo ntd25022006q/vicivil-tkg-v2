@@ -1,0 +1,35 @@
+{"name": "01 ngày không bị bắt giữ", "class": "vclo:Literal", "chunk_ids": ["TNBTCNN2017|Dieu27|Khoan3|Diemc"]}
+{"name": "01 tháng 01 năm 2022", "class": "vclo:Literal", "chunk_ids": ["THADSVBHN|Dieu165|Khoan4"]}
+{"name": "01 tháng 01 năm 2028", "class": "vclo:Literal", "chunk_ids": ["THADSVBHN|Dieu182|Khoan2"]}
+{"name": "01 tháng 7 năm 2025", "class": "vclo:Literal", "chunk_ids": ["THADSVBHN|Dieu182|Khoan2"]}
+{"name": "02 ngày làm việc", "class": "vclo:Literal", "chunk_ids": ["TNBTCNN2017|Dieu42|Khoan1"]}
+{"name": "02 ngày lương cơ sở", "class": "vclo:Literal", "chunk_ids": ["TNBTCNN2017|Dieu27|Khoan3|Diemc"]}
+{"name": "05 ngày", "class": "vclo:Literal", "chunk_ids": ["thong-tu-lien-tich-so-07-2026-ttlt-vksndtc-tandtc-469106|Dieu4|Khoan2"]}
+{"name": "07 ngày", "class": "vclo:Literal", "chunk_ids": ["van-ban-hop-nhat-so-21-vbhn-vpqh-468974|Dieu273|Khoan2"]}
+{"name": "1.000.000 đồng/người/ngày tham gia cưỡng chế", "class": "vclo:Literal", "chunk_ids": ["nghi-dinh-so-152-2026-nd-cp-469524|Dieu84|Khoan2|Diema"]}
+{"name": "10 ngày", "class": "vclo:Literal", "chunk_ids": ["van-ban-hop-nhat-so-21-vbhn-vpqh-468974|Dieu318|Khoan1"]}
+{"name": "12 tháng", "class": "vclo:Literal", "chunk_ids": ["van-ban-hop-nhat-so-21-vbhn-vpqh-468974|Dieu479|Khoan3"]}
+{"name": "15 ngày", "class": "vclo:Literal", "chunk_ids": ["THADS2008|Dieu161|Khoan1", "nghi-dinh-so-152-2026-nd-cp-469524|Dieu36|Khoan2"]}
+{"name": "24 giờ", "class": "vclo:Literal", "chunk_ids": ["nghi-dinh-so-152-2026-nd-cp-469524|Dieu43|Khoan2|Diemc"]}
+{"name": "30 ngày", "class": "vclo:Literal", "chunk_ids": ["TNBTCNN2017|Dieu49|Khoan2"]}
+{"name": "360 tháng lương cơ sở", "class": "vclo:Literal", "chunk_ids": ["TNBTCNN2017|Dieu27|Khoan4"]}
+{"name": "5 ngày làm việc", "class": "vclo:Literal", "chunk_ids": ["THADS2008|Dieu161|Khoan1"]}
+{"name": "50 năm", "class": "vclo:Literal", "chunk_ids": ["BLDS1995|Dieu766|Muc5"]}
+{"name": "60 ngày", "class": "vclo:Literal", "chunk_ids": ["HNGD2014|Dieu97|Khoan3", "HNGDVBHN2025|Dieu97|Khoan3"]}
+{"name": "biệt tích 02 năm liền trở lên", "class": "vclo:Literal", "chunk_ids": ["BLDS2015|Dieu68|Khoan1"]}
+{"name": "biệt tích 05 năm liền trở lên", "class": "vclo:Literal", "chunk_ids": ["BLDS2015|Dieu71|Khoan1|Diemd"]}
+{"name": "Biệt tích 06 tháng liền trở lên", "class": "vclo:Literal", "chunk_ids": ["van-ban-hop-nhat-so-21-vbhn-vpqh-468974|Dieu381|Khoan1"]}
+{"name": "hai lần trong 02 ngày liên tiếp", "class": "vclo:Literal", "chunk_ids": ["nghi-dinh-so-152-2026-nd-cp-469524|Dieu18|Khoan2"]}
+{"name": "hiệu lực kể từ ngày 01 tháng 7 năm 2015", "class": "vclo:Literal", "chunk_ids": ["THADSVBHN|Dieu16|Khoan4", "THADSVBHN|Dieu174|Khoan4", "THADSVBHN|Dieu44|Khoan4|Diemb", "THADSVBHN|Dieu46|Khoan1", "THADSVBHN|Dieu76|Khoan2"]}
+{"name": "hiệu lực kể từ ngày 01 tháng 7 năm 2024", "class": "vclo:Literal", "chunk_ids": ["van-ban-hop-nhat-so-21-vbhn-vpqh-468974|Dieu191|Khoan4"]}
+{"name": "Hiệu lực kể từ ngày 01 tháng 7 năm 2025", "class": "vclo:Literal", "chunk_ids": ["van-ban-hop-nhat-so-21-vbhn-vpqh-468974|Dieu39|Khoan1|Diema", "van-ban-hop-nhat-so-21-vbhn-vpqh-468974|Dieu428", "van-ban-hop-nhat-so-21-vbhn-vpqh-468974|Dieu52|Khoan3"]}
+{"name": "một lần trong 01 năm", "class": "vclo:Literal", "chunk_ids": ["THADS2008|Dieu61|Khoan4"]}
+{"name": "Ngay 01 thang 01 nam 2001", "class": "vclo:Literal", "chunk_ids": ["HNGD2000|Dieu109"]}
+{"name": "Ngày 01 tháng 01 năm 2015", "class": "vclo:Literal", "chunk_ids": ["HNGDVBHN2025|Preamble"]}
+{"name": "Ngày 01 tháng 5 năm 2026", "class": "vclo:Literal", "chunk_ids": ["thong-tu-lien-tich-so-07-2026-ttlt-vksndtc-tandtc-469106|Dieu38"]}
+{"name": "Ngày 01 tháng 7 năm 2015", "class": "vclo:Literal", "chunk_ids": ["THADSVBHN|Dieu106|Khoan2|Diemb", "THADSVBHN|Dieu170|Khoan3|Diemc", "THADSVBHN|Dieu51"]}
+{"name": "Ngày 01 tháng 7 năm 2016", "class": "vclo:Literal", "chunk_ids": ["van-ban-hop-nhat-so-21-vbhn-vpqh-468974|Dieu517|Khoan1|Diema", "van-ban-hop-nhat-so-21-vbhn-vpqh-468974|Dieu517|Khoan1|Diemb", "van-ban-hop-nhat-so-21-vbhn-vpqh-468974|Dieu517|Khoan1|Diemd"]}
+{"name": "Ngày 01 tháng 7 năm 2025", "class": "vclo:Literal", "chunk_ids": ["HNGDVBHN2025|Preamble", "THADSVBHN|Dieu170|Khoan3|Diemc", "van-ban-hop-nhat-so-21-vbhn-vpqh-468974|Dieu406|Khoan1", "van-ban-hop-nhat-so-21-vbhn-vpqh-468974|Dieu48|Khoan6", "van-ban-hop-nhat-so-21-vbhn-vpqh-468974|Dieu68|Khoan1"]}
+{"name": "Ngay 02 thang 12 nam 1993", "class": "vclo:Literal", "chunk_ids": ["HNGD2000|Dieu109"]}
+{"name": "Ngày 19 tháng 6 năm 2014", "class": "vclo:Literal", "chunk_ids": ["HNGDVBHN2025|Preamble"]}
+{"name": "Ngày 24 tháng 6 năm 2025", "class": "vclo:Literal", "chunk_ids": ["HNGDVBHN2025|Preamble"]}

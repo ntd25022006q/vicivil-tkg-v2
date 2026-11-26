@@ -120,3 +120,53 @@ vclo:JudicialOrgan a owl:Class ; rdfs:subClassOf vclo:LegalEntity .
 vclo:LegalEntity a owl:Class .
 vclo:NaturalPerson a owl:Class ; rdfs:subClassOf vclo:LegalEntity .
 vclo:ProceduralRole a owl:Class .
+
+# ---- AUTO: domain/range defaults cho entity predicates (audit: 49/58 thiếu) ----
+vclo:acceptsFiling rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:agreedBy rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:appliesTo rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:belongsTo rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:concernsAsset rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:concernsCivilStatus rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:concernsContract rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:concernsDamages rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:concernsOwnership rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:decides rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:delegatesAuthority rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:determines rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:divides rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:enforcesJudgment rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:entitledTo rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:filesLawsuit rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:grantsRight rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:handledBy rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:hasBasis rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:hasCondition rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:hasGuardian rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:hasLiability rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:hasObject rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:hasOtherVersion rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:hasStatuteOfLimitations rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:hasTimeLimit rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:hasValidity rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:imposesObligation rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:imposesPenalty rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:includes rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:issues rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:notifies rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:oversees rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:performs rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:prohibits rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:regulates rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:relatedTo rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:represents rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:requests rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:requiresCompensation rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:requiresNotarization rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:requiresPayment rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:requiresRegistration rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:requiresReturn rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:signedBy rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:supervises rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:transfersRight rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .
+vclo:voidsTransaction rdfs:domain vclo:LegalConcept ; rdfs:range vclo:LegalConcept .

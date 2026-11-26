@@ -1,0 +1,7 @@
+{
+ "nodes_added": 7,
+ "edges_added": 1,
+ "quarantined": 5,
+ "gate_pass": true,
+ "policy": "new docs enter as needs_review; validity dates require manual confirm"
+}

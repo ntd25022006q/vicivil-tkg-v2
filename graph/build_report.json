@@ -1,5 +1,5 @@
 {
- "started": "2026-11-26T02:32:12",
+ "started": "2026-11-26T05:37:11",
  "ws": "/home/devlab1/law_workspace",
  "out": "/home/devlab1/vicivil_tkg/graph",
  "retype": {
@@ -51,5 +51,5 @@
   "untyped_entities": 19
  },
  "ttl": "/home/devlab1/vicivil_tkg/graph/vcivil_tkg_graph.ttl",
- "seconds": 15.6
+ "seconds": 15.7
 }

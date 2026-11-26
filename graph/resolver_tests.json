@@ -2,23 +2,40 @@
  "doc_level": [
   {
    "as_of": "2010-06-01",
-   "expected": [
-    "BLDS2005"
+   "must_active": [
+    "BLDS2005",
+    "HNGD2000"
    ],
-   "got": [
+   "must_inactive": [
+    "BLDS1995",
+    "BLDS2015",
+    "HNGD2014"
+   ],
+   "got_active": [
     "BLDS2005",
     "HNGD2000",
     "THADS2008"
    ],
-   "pass": true
+   "pass": true,
+   "fail_detail": {
+    "missing": [],
+    "leaked": []
+   }
   },
   {
    "as_of": "2020-06-01",
-   "expected": [
+   "must_active": [
     "BLDS2015",
-    "HNGD2014"
+    "HNGD2014",
+    "NCN2010",
+    "THADS2008"
    ],
-   "got": [
+   "must_inactive": [
+    "BLDS1995",
+    "BLDS2005",
+    "HNGD2000"
+   ],
+   "got_active": [
     "BLDS2015",
     "EXT-Luật-số-23-2018-QH14",
     "EXT-Luật-số-64-2014-QH13",
@@ -29,17 +46,30 @@
     "TNBTCNN2017",
     "van-ban-hop-nhat-so-21-vbhn-vpqh-468974"
    ],
-   "pass": true
+   "pass": true,
+   "fail_detail": {
+    "missing": [],
+    "leaked": []
+   }
   },
   {
    "as_of": "2000-01-01",
-   "expected": [
+   "must_active": [
     "BLDS1995"
    ],
-   "got": [
+   "must_inactive": [
+    "BLDS2005",
+    "BLDS2015",
+    "HNGD2014"
+   ],
+   "got_active": [
     "BLDS1995"
    ],
-   "pass": true
+   "pass": true,
+   "fail_detail": {
+    "missing": [],
+    "leaked": []
+   }
   }
  ],
  "article_valid_to_count": 0,

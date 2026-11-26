@@ -1,0 +1,110 @@
+{"queue": "P1", "a": "bản án quyết định dân sự của tòa án nước ngoài", "b": "Bản án, quyết định dân sự của Tòa án nước ngoài", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Ban Chi Dao Thi Hanh An Dan Su Cap Tinh", "b": "Ban Chỉ đạo thi hành án dân sự cấp tỉnh", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "BEN DUOC UY QUYEN", "b": "bên được ủy quyền", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Biên bản giao nhận tài sản", "b": "biên bản giao, nhận tài sản", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "cho thue quyen su dung dat", "b": "cho thuê quyền sử dụng đất", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "cơ quan lao động thương binh và xã hội", "b": "Cơ quan lao động, thương binh và xã hội", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "dia diem niem yet", "b": "địa điểm niêm yết", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Dieu kien giao dich dan su", "b": "điều kiện giao dịch dân sự", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "doi chat", "b": "đối chất", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Don yeu cau", "b": "Đơn yêu cầu", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Duong su", "b": "đương sự", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Giay chung nhan quyen su dung dat", "b": "giấy chứng nhận quyền sử dụng đất", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Hinh thuc hop dong dan su", "b": "Hình thức hợp đồng dân sự", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "ho gia dinh", "b": "hộ gia đình", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "hồ sơ đề nghị xét miễn giảm chấp hành hình phạt tù", "b": "hồ sơ đề nghị xét miễn, giảm chấp hành hình phạt tù", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "hồ sơ đề nghị xét miễn giảm nghĩa vụ thi hành án dân sự", "b": "hồ sơ đề nghị xét miễn, giảm nghĩa vụ thi hành án dân sự", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Hoat dong to tung dan su", "b": "hoạt động tố tụng dân sự", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Hoi dong Tham phan Toa an nhan dan toi cao", "b": "Hội đồng Thẩm phán Tòa án nhân dân tối cao", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "hop dong", "b": "hợp đồng", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "HOP Dong Mua Tra Cham Hoac Tra Dan", "b": "hợp đồng mua trả chậm hoặc trả dần", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "HOP Dong Trao Doi Tai San", "b": "hợp đồng trao đổi tài sản", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Hop dong uy quyen", "b": "hợp đồng ủy quyền", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "HOP Dong VAN CHUYEN TAI SAN", "b": "hợp đồng vận chuyển tài sản", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Khoan 1 Dieu nay", "b": "khoản 1 Điều này", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Luat dat dai", "b": "Luật đất đai", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Luat hon nhan va gia dinh", "b": "Luật Hôn Nhân Và Gia Đình", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "ly do chinh dang", "b": "ly do chính đáng", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "mang thai ho vi muc dich nhan dao", "b": "mang thai hộ vì mục đích nhân đạo", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "ngan sach dia phuong", "b": "ngân sách địa phương", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Người có quyền lợi nghĩa vụ liên quan", "b": "người có quyền lợi, nghĩa vụ liên quan", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Nguyen don", "b": "nguyên đơn", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "phong tục tập quán", "b": "phong tục, tập quán", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "quyen nop don yeu cau cap van bang bao ho", "b": "Quyền nộp đơn yêu cầu cấp văn bằng bảo hộ", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Quyen su dung dat", "b": "quyền sử dụng đất", "decision": "confirm_merge", "reason": "llm+context conf=0.95"}
+{"queue": "P1", "a": "quyet dinh", "b": "quyết định", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Quyet dinh cua Toa an cap so tham", "b": "quyết định của tòa án cấp sơ thẩm", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Quyet dinh cuoi cung", "b": "quyết định cuối cùng", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Quyet dinh dua vu an ra xet xu phuc tham", "b": "Quyết định đưa vụ án ra xét xử phúc thẩm", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Quyet dinh giai quyet boi thuong", "b": "quyết định giải quyết bồi thường", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "quyet dinh giai quyet khieu nai", "b": "quyết định giải quyết khiếu nại", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Quyet dinh giai quyet khieu nai lan hai", "b": "Quyết định giải quyết khiếu nại lần hai", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "quyet dinh hoan giai quyet boi thuong", "b": "quyết định hoãn giải quyết bồi thường", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Quyet dinh mo phien hop giai quyet viec dan su", "b": "quyết định mở phiên họp giải quyết việc dân sự", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "quyet dinh tam dinh chi", "b": "quyết định tạm đình chỉ", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Quyet dinh tam ngung phien toa", "b": "Quyết định tạm ngừng phiên tòa", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "quyet dinh tiep tuc giai quyet boi thuong", "b": "quyết định tiếp tục giải quyết bồi thường", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Quyet dinh tru vao thu nhap", "b": "quyết định trừ vào thu nhập", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "quyết định yêu cầu cung cấp tài liệu chứng cứ", "b": "Quyết định yêu cầu cung cấp tài liệu, chứng cứ", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "so tien thu duoc", "b": "Số tiền thu được", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "thu hoi dat", "b": "thu hồi đất", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "văn bản đề nghị xét miễn giảm nghĩa vụ thi hành án", "b": "Văn bản đề nghị xét miễn, giảm nghĩa vụ thi hành án", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Người mất năng lực hành vi", "b": "người mất năng lực hành vi dân sự", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "quyền của cha mẹ", "b": "quyền của cha mẹ đẻ", "decision": "reject_pair", "reason": "llm+context same=false (conf=1.00)"}
+{"queue": "P1", "a": "quyền đại diện cho người thừa kế", "b": "quyền đại diện cho những người thừa kế", "decision": "reject_pair", "reason": "llm+context same=false (conf=1.00)"}
+{"queue": "P1", "a": "quyền đơn phương chấm dứt hợp đồng vận chuyển", "b": "quyền đơn phương chấm dứt thực hiện hợp đồng vận chuyển", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "quyền được nhận làm con nuôi", "b": "Quyền được nuôi con nuôi và quyền được nhận làm con nuôi", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "quyền được nuôi con nuôi", "b": "quyền được nuôi dưỡng", "decision": "reject_pair", "reason": "llm+context same=false (conf=1.00)"}
+{"queue": "P1", "a": "quyền hủy bỏ kết hôn trái pháp luật", "b": "quyền hủy kết hôn trái pháp luật", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "quyền khác theo quy định của luật", "b": "quyền khác theo quy định của pháp luật", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "quyền kiểm tra, giám sát", "b": "quyền kiểm tra, giám sát tài sản", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "Quyền nhận nhà thuê theo đúng thỏa thuận", "b": "quyền nhận nhà thuê theo thỏa thuận", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "quyền sở hữu bất động sản", "b": "quyền sở hữu đối với bất động sản", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "quyền sở hữu đối với động sản", "b": "quyền sở hữu động sản", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "quyền sở hữu đối với tài sản mua bán", "b": "quyền sở hữu tài sản mua bán", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "quyền sở hữu đối với vật", "b": "quyền sở hữu đối với vật vô chủ", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "quyền sở hữu nhà nước", "b": "quyền sở hữu nhà ở", "decision": "reject_pair", "reason": "llm+context same=false (conf=1.00)"}
+{"queue": "P1", "a": "quyền sử dụng đất ổn định", "b": "Quyền sử dụng đất thuê ổn định", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "quyền thừa kế di sản", "b": "Quyền thừa kế tài sản", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "quyền từ chối chuyên chở", "b": "quyền từ chối vận chuyển", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "quyền và nghĩa vụ cha mẹ", "b": "quyền và nghĩa vụ của cha mẹ và con", "decision": "reject_pair", "reason": "llm+context same=false (conf=1.00)"}
+{"queue": "P1", "a": "quyền và nghĩa vụ của các bên theo hợp đồng", "b": "Quyền và nghĩa vụ của các bên theo hợp đồng dân sự", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "quyền và nghĩa vụ của các bên theo hợp đồng", "b": "quyền và nghĩa vụ của các bên trong hợp đồng", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "quyền và nghĩa vụ đối với tài sản", "b": "quyền và nghĩa vụ tài sản", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "quyền và nghĩa vụ tài sản", "b": "quyền và nghĩa vụ về tài sản", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "quyền xác định cha mẹ", "b": "quyền xác định cha mẹ con", "decision": "reject_pair", "reason": "llm+context same=false (conf=1.00)"}
+{"queue": "P1", "a": "quyền xác định cha mẹ con", "b": "quyền xác định cha mẹ hoặc con", "decision": "reject_pair", "reason": "llm+context same=false (conf=1.00)"}
+{"queue": "P1", "a": "quyền xác lập giao dịch", "b": "quyền xác lập giao dịch dân sự", "decision": "reject_pair", "reason": "llm+context same=false (conf=1.00)"}
+{"queue": "P1", "a": "quyền xác lập và thực hiện giao dịch", "b": "quyền xác lập và thực hiện giao dịch dân sự", "decision": "reject_pair", "reason": "llm+context same=false (conf=1.00)"}
+{"queue": "P1", "a": "quyền yêu cầu bên mua trả tiền đúng thời hạn", "b": "Quyền yêu cầu trả tiền đúng thời hạn", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "quyền yêu cầu chuyển giao", "b": "quyền yêu cầu chuyển giao đất", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "quyền yêu cầu công nhận thay đổi họ, tên", "b": "quyền yêu cầu công nhận thay đổi tên", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "Quyền yêu cầu dành lối đi", "b": "quyền yêu cầu lối đi", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "quyền yêu cầu đối chiếu", "b": "quyền yêu cầu đối chiếu di chúc", "decision": "reject_pair", "reason": "llm+context same=false (conf=1.00)"}
+{"queue": "P1", "a": "quyền yêu cầu giám định", "b": "quyền yêu cầu giảm giá", "decision": "reject_pair", "reason": "llm+context same=false (conf=1.00)"}
+{"queue": "P1", "a": "quyền yêu cầu thanh toán cước phí", "b": "Quyền yêu cầu thanh toán cước phí vận chuyển", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "quyền yêu cầu trả chi phí bảo quản", "b": "quyền yêu cầu trả chi phí bảo quản tài sản", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "quyền yêu cầu trả lãi", "b": "Quyền yêu cầu trả lại đất", "decision": "reject_pair", "reason": "llm+context same=false (conf=1.00)"}
+{"queue": "P1", "a": "Quyền yêu cầu trả tiền thuê", "b": "quyền yêu cầu trả tiền thuê đất", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "quyền yêu cầu xác định cha mẹ", "b": "quyền yêu cầu xác định cha mẹ con", "decision": "reject_pair", "reason": "llm+context same=false (conf=1.00)"}
+{"queue": "P1", "a": "quyền yêu cầu xác định cha mẹ", "b": "quyền yêu cầu xác định cha mẹ hoặc con", "decision": "reject_pair", "reason": "llm+context same=false (conf=1.00)"}
+{"queue": "P1", "a": "quyền yêu cầu xác định cha mẹ con", "b": "quyền yêu cầu xác định cha mẹ hoặc con", "decision": "reject_pair", "reason": "llm+context same=false (conf=1.00)"}
+{"queue": "P1", "a": "quyền yêu cầu xác định cha mẹ con", "b": "quyền yêu cầu xác định quan hệ cha mẹ con", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "Quyết định chấm dứt nuôi con nuôi", "b": "quyết định chấm dứt việc nuôi con nuôi", "decision": "confirm_merge", "reason": "llm+context conf=1.00"}
+{"queue": "P1", "a": "quyết định của bản án", "b": "Quyết định của bản án hình sự", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "quyết định của cơ quan có thẩm quyền", "b": "quyết định của cơ quan có thẩm quyền của pháp nhân", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "quyết định của Hội đồng", "b": "Quyết định của Hội đồng định giá", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "quyết định của Hội đồng", "b": "Quyết định của Hội đồng xét xử", "decision": "reject_pair", "reason": "llm+context same=false (conf=0.95)"}
+{"queue": "P1", "a": "Quyết định đình chỉ giải quyết kháng cáo, kháng nghị", "b": "quyết định giải quyết kháng nghị", "decision": "reject_pair", "reason": "llm+context same=false (conf=1.00)"}
+{"queue": "P2", "a": "Quyet dinh cua Toa an cap so tham", "b": "Quyet dinh cua Toa an cap so tham", "decision": "split_outlier", "reason": "LLM odd-one-out"}
+{"queue": "P2", "a": "Quyen su dung dat", "b": "Quyen su dung dat", "decision": "split_outlier", "reason": "LLM odd-one-out"}
+{"queue": "P2", "a": "Hoi dong Tham phan Toa an nhan dan toi cao", "b": "Hoi dong Tham phan Toa an nhan dan toi cao", "decision": "split_outlier", "reason": "LLM odd-one-out"}
+{"queue": "P2", "a": "hop dong", "b": "hop dong", "decision": "split_outlier", "reason": "LLM odd-one-out"}
+{"queue": "P2", "a": "Luat hon nhan va gia dinh", "b": "Luật Hôn Nhân Và Gia Đình", "decision": "split_outlier", "reason": "LLM odd-one-out"}
+{"queue": "P2", "a": "phong tục, tập quán", "b": "phong tục tập quán", "decision": "split_outlier", "reason": "LLM odd-one-out"}
+{"queue": "P2", "a": "Luat dat dai", "b": "Luat dat dai", "decision": "split_outlier", "reason": "LLM odd-one-out"}
+{"queue": "P2", "a": "Hop dong uy quyen", "b": "", "decision": "keep_flagged", "reason": "no clear outlier — giữ flag minh bạch"}
+{"queue": "P2", "a": "BEN DUOC UY QUYEN", "b": "BEN DUOC UY QUYEN", "decision": "split_outlier", "reason": "LLM odd-one-out"}
+{"queue": "P3", "a": "nghien cuu ho so vu an", "b": "Nghiên cứu hồ sơ vụ việc", "decision": "flip_to_merge", "reason": "spot-check conf=0.95"}
+{"queue": "P3", "a": "quyền đơn phương đình chỉ hợp đồng", "b": "Quyền đơn phương đình chỉ thực hiện hợp đồng", "decision": "flip_to_merge", "reason": "spot-check conf=1.00"}
+{"queue": "P3", "a": "Quyet dinh cung che thi hanh an", "b": "quyết định cưỡng chế thi hành án", "decision": "flip_to_merge", "reason": "spot-check conf=1.00"}

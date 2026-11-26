@@ -126,7 +126,9 @@ def main():
 
     agg = {"mrr_mean": round(statistics.mean(x["mrr"] for x in results), 4),
            "hits10_mean": round(statistics.mean(x["hits10"] for x in results), 4),
-           "random_mrr_expected": round(1.0 / n_ent, 6)}
+           # FIX (audit): expected MRR of a UNIFORM random ranking with 1 gold among n
+           # is (1/n)·H_n ≈ (ln n + 0.5772)/n — not 1/n (that is Hit@1 probability)
+           "random_mrr_expected": round((__import__("math").log(n_ent) + 0.5772) / n_ent, 6)}
     out = {"config": {"heldout": 40, "anchors": 500, "desc_model": EMB_MODEL,
                       "kge_dim": DIM, "recipe": "MRC(desc-embed) -> RSA(per-relation ridge affine) -> rank"},
            "per_seed": results, "aggregate": agg, "seconds": round(time.time() - t0, 1)}

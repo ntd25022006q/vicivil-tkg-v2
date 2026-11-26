@@ -1,0 +1,8 @@
+{"name": "Quyet dinh cua Toa an cap so tham", "cluster": "Quyet dinh cua Toa an cap so tham", "reason": "agent: odd-one-out of CONFLICT:['vclo:JudicialOrgan', 'vclo:LegalConcept']"}
+{"name": "Quyen su dung dat", "cluster": "Quyen su dung dat", "reason": "agent: odd-one-out of CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson']"}
+{"name": "Hoi dong Tham phan Toa an nhan dan toi cao", "cluster": "Hoi dong Tham phan Toa an nhan dan toi cao", "reason": "agent: odd-one-out of CONFLICT:['vclo:JudicialOrgan', 'vclo:LegalConcept']"}
+{"name": "hop dong", "cluster": "hop dong", "reason": "agent: odd-one-out of CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson']"}
+{"name": "Luật Hôn Nhân Và Gia Đình", "cluster": "Luat hon nhan va gia dinh", "reason": "agent: odd-one-out of CONFLICT:['vclo:LegalConcept', 'vclo:NormativeDocument']"}
+{"name": "phong tục tập quán", "cluster": "phong tục, tập quán", "reason": "agent: odd-one-out of CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson']"}
+{"name": "Luat dat dai", "cluster": "Luat dat dai", "reason": "agent: odd-one-out of CONFLICT:['vclo:NaturalPerson', 'vclo:NormativeDocument']"}
+{"name": "BEN DUOC UY QUYEN", "cluster": "BEN DUOC UY QUYEN", "reason": "agent: odd-one-out of CONFLICT:['vclo:LegalConcept', 'vclo:NaturalPerson']"}

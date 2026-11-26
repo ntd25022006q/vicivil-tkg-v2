@@ -11,102 +11,102 @@
  },
  "dggp_aggregate": {
   "S1": {
-   "mrr_mean": 0.337,
-   "mrr_std": 0.0116,
-   "hits10_mean": 0.7411
+   "mrr_mean": 0.0611,
+   "mrr_std": 0.0058,
+   "hits10_mean": 0.2017
   },
   "S2": {
-   "mrr_mean": 0.3507,
-   "mrr_std": 0.0061,
-   "hits10_mean": 0.7735
+   "mrr_mean": 0.0349,
+   "mrr_std": 0.0021,
+   "hits10_mean": 0.1024
   },
   "S3": {
-   "mrr_mean": 0.2774,
-   "mrr_std": 0.0251,
-   "hits10_mean": 0.662
+   "mrr_mean": 0.0704,
+   "mrr_std": 0.0072,
+   "hits10_mean": 0.1959
   }
  },
  "comparison_v030": {
   "full_retrain": {
    "S1": {
-    "mrr_mean": 0.4051,
-    "mrr_std": 0.0097,
-    "hits10_mean": 0.5478,
+    "mrr_mean": 0.1014,
+    "mrr_std": 0.015,
+    "hits10_mean": 0.2228,
     "n_eval_per_seed": 600
    },
    "S2": {
-    "mrr_mean": 0.4148,
-    "mrr_std": 0.0158,
-    "hits10_mean": 0.5991,
-    "n_eval_per_seed": 374
+    "mrr_mean": 0.0534,
+    "mrr_std": 0.0065,
+    "hits10_mean": 0.1118,
+    "n_eval_per_seed": 352
    },
    "S3": {
-    "mrr_mean": 0.3041,
-    "mrr_std": 0.0198,
-    "hits10_mean": 0.4734,
-    "n_eval_per_seed": 328
+    "mrr_mean": 0.0818,
+    "mrr_std": 0.0181,
+    "hits10_mean": 0.1941,
+    "n_eval_per_seed": 320
    }
   },
   "fast_freeze": {
    "S1": {
-    "mrr_mean": 0.3983,
-    "mrr_std": 0.0114,
-    "hits10_mean": 0.4606,
+    "mrr_mean": 0.1497,
+    "mrr_std": 0.0104,
+    "hits10_mean": 0.2389,
     "n_eval_per_seed": 600
    },
    "S2": {
-    "mrr_mean": 0.3484,
-    "mrr_std": 0.0128,
-    "hits10_mean": 0.5442,
-    "n_eval_per_seed": 374
+    "mrr_mean": 0.029,
+    "mrr_std": 0.0055,
+    "hits10_mean": 0.0882,
+    "n_eval_per_seed": 352
    },
    "S3": {
-    "mrr_mean": 0.3246,
-    "mrr_std": 0.0221,
-    "hits10_mean": 0.5278,
-    "n_eval_per_seed": 328
+    "mrr_mean": 0.0657,
+    "mrr_std": 0.0151,
+    "hits10_mean": 0.1826,
+    "n_eval_per_seed": 320
    }
   },
   "slow_distill": {
    "S1": {
-    "mrr_mean": 0.272,
-    "mrr_std": 0.0215,
-    "hits10_mean": 0.4605,
+    "mrr_mean": 0.0844,
+    "mrr_std": 0.0066,
+    "hits10_mean": 0.2028,
     "n_eval_per_seed": 600
    },
    "S2": {
-    "mrr_mean": 0.0188,
-    "mrr_std": 0.004,
-    "hits10_mean": 0.0343,
-    "n_eval_per_seed": 374
+    "mrr_mean": 0.0075,
+    "mrr_std": 0.0025,
+    "hits10_mean": 0.0122,
+    "n_eval_per_seed": 352
    },
    "S3": {
-    "mrr_mean": 0.0465,
-    "mrr_std": 0.0094,
-    "hits10_mean": 0.1044,
-    "n_eval_per_seed": 328
+    "mrr_mean": 0.0313,
+    "mrr_std": 0.0029,
+    "hits10_mean": 0.0626,
+    "n_eval_per_seed": 320
    }
   },
   "no_continual": {
    "S1": {
-    "mrr_mean": 0.0111,
-    "mrr_std": 0.0029,
-    "hits10_mean": 0.0172,
+    "mrr_mean": 0.0141,
+    "mrr_std": 0.0034,
+    "hits10_mean": 0.0145,
     "n_eval_per_seed": 600
    },
    "S2": {
-    "mrr_mean": 0.3955,
-    "mrr_std": 0.0046,
-    "hits10_mean": 0.4486,
-    "n_eval_per_seed": 374
+    "mrr_mean": 0.0297,
+    "mrr_std": 0.0049,
+    "hits10_mean": 0.0535,
+    "n_eval_per_seed": 352
    },
    "S3": {
-    "mrr_mean": 0.3079,
-    "mrr_std": 0.0187,
-    "hits10_mean": 0.472,
-    "n_eval_per_seed": 328
+    "mrr_mean": 0.0789,
+    "mrr_std": 0.0129,
+    "hits10_mean": 0.1937,
+    "n_eval_per_seed": 320
    }
   }
  },
- "seconds": 10.1
+ "seconds": 10.5
 }

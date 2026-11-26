@@ -1,0 +1,107 @@
+TTL patched: 49 predicates got domain/range; now 57/58 have domain
+======================================================================
+ViCivil-TKG v2 build — JSONL source of truth, TTL on publish
+======================================================================
+[G] nodes_legal=33 (renamed slug-nodes: 5)
+[G] edges_norm=2659 by type: {'vclo:replaces': 3, 'vclo:consolidates': 1, 'vclo:amends': 17, 'vclo:cites': 1506, 'vclo:succeeds': 1132}
+[G] relationships re-typed: {'total_in': 20750, 'unmapped_relatedTo': 7211, 'dropped_duplicate': 1390, 'dropped_literal_endpoint': 6, 'dropped_selfloop': 334, 'edges_out': 19020}
+[T1] corpus chunks=13159 laws=33 amend_candidates=17
+[T1] article-level amendment facts=157 (target,amender) pairs=6
+     (None, None): 80 chunks
+     (None, 'Luật số 85/2025/QH15'): 62 chunks
+     (None, 'Luật số 81/2025/QH15'): 7 chunks
+     (None, 'Luật số 03/2022/QH15'): 4 chunks
+     (None, 'Luật số 43/2024/QH15'): 3 chunks
+     ('Luật số 03/2022/QH15', None): 1 chunks
+[T1] lineage SUCCEEDS edges=1132
+[T1] article keys (law_id, dieu)=4582
+[T1] resolver doc-level tests: 3/3 pass
+[S1] loaded 14099 entities (matrix=True, dim=768)
+[S1] distinct norm_keys=13996 | multi-variant groups=103
+[S2] typed=14064 literal-demotion=35
+[S0] tier0 forced merges applied: 95
+[S3] pairs scanned=2067 tier2 auto-merges=133 (8.4s)
+[S3] tier3 candidates=570 use_llm=False model=qwen3.5:4b
+[S3] guard-blocked pairs=207789
+[OUT] canonical entities=13819 merges logged=323 stats={'entities_in': 14099, 'distinct_norm_keys': 13996, 'multi_variant_groups_tier1': 103, 'tier1_merges': 95, 'tier2_merges': 133, 'tier3_merges': 0, 'tier3_rejected': 0, 'tier3_errors': 0, 'guard_blocked_pairs': 207789, 'canonical_entities_out': 13819, 'literals_demoted': 35, 'typed_in': 14064, 'untyped_out': 0, 'matrix_used': True, 'llm_model': None, 'seconds': 8.6}
+[CASE] {'judgments': 1200, 'judgments_with_applies': 357, 'applies_edges': 1775, 'no_citation_found': 629, 'out_of_window_cites': 1956, 'yearless_law_mentions': 571}
+[V] edges kept: norm=2659 entity=19020 | quarantined=0 violations={} | untyped_entities=19
+[TTL] wrote /home/devlab1/vicivil_tkg/graph/vcivil_tkg_graph.ttl (16820 lines)
+[REL] v0.9.0 — 41 files hashed
+======================================================================
+BUILD REPORT
+{
+ "started": "2026-11-26T05:37:11",
+ "ws": "/home/devlab1/law_workspace",
+ "out": "/home/devlab1/vicivil_tkg/graph",
+ "retype": {
+  "total_in": 20750,
+  "unmapped_relatedTo": 7211,
+  "dropped_duplicate": 1390,
+  "dropped_literal_endpoint": 6,
+  "dropped_selfloop": 334,
+  "edges_out": 19020
+ },
+ "graft": {
+  "article_amend_facts": 157,
+  "lineage_edges": 1132,
+  "article_valid_to_nodes": 0,
+  "resolver_tests_pass": 3,
+  "resolver_tests_total": 3
+ },
+ "canonicalize": {
+  "entities_in": 14099,
+  "distinct_norm_keys": 13996,
+  "multi_variant_groups_tier1": 103,
+  "tier1_merges": 95,
+  "tier2_merges": 133,
+  "tier3_merges": 0,
+  "tier3_rejected": 0,
+  "tier3_errors": 0,
+  "guard_blocked_pairs": 207789,
+  "canonical_entities_out": 13819,
+  "literals_demoted": 35,
+  "typed_in": 14064,
+  "untyped_out": 0,
+  "matrix_used": true,
+  "llm_model": null,
+  "seconds": 8.6
+ },
+ "case_wire": {
+  "judgments": 1200,
+  "judgments_with_applies": 357,
+  "applies_edges": 1775,
+  "no_citation_found": 629,
+  "out_of_window_cites": 1956,
+  "yearless_law_mentions": 571
+ },
+ "validate": {
+  "violations": {},
+  "quarantined": 0,
+  "kept_norm": 2659,
+  "kept_entity": 19020,
+  "untyped_entities": 19
+ },
+ "ttl": "/home/devlab1/vicivil_tkg/graph/vcivil_tkg_graph.ttl",
+ "seconds": 15.7
+}
+======================================================================
+[TEMPORALIZE] {'edges': 19020, 'with_interval': 18581, 'without_interval': 439, 'coverage': 97.7}
+[INTEGRATE] {'nodes_added': 7, 'edges_added': 1, 'quarantined': 5, 'gate_pass': True, 'policy': 'new docs enter as needs_review; validity dates require manual confirm'}
+[TOPOLOGY-AUDIT] {'audited': 133, 'topology_supported': 133, 'flagged': 0, 'unresolvable': 0}
+[LOCAL] affected entities in norm graph: 88
+[LOCAL] {'affected': 88, 'dim': 128, 'seconds': 2.5, 'note': 'frozen base + 1-hop TransE-consistent calibration + 0.5 blend (AWFS-lite)'}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/devlab1/vicivil_tkg/vtg/embed_temporal.py", line 265, in <module>
+    main()
+    ~~~~^^
+  File "/home/devlab1/vicivil_tkg/vtg/embed_temporal.py", line 232, in main
+    per_seed[seed] = run_seed(seed, s1, s2, s3, ent2id, rel2id, len(ents), len(rels))
+                     ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/devlab1/vicivil_tkg/vtg/embed_temporal.py", line 169, in run_seed
+    pos_tail, pos_head = pos_indexes(all_tr)
+                                     ^^^^^^
+NameError: name 'all_tr' is not defined
+[EMB] ents=2995 rels=10 triples=5318 (S1=3010 S2=1250 S3=1058) dev=cuda

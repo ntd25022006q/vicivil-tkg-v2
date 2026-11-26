@@ -1,14 +1,13 @@
 {
- "version": "0.8.1",
+ "version": "0.9.1",
  "date": "2026-11-26",
  "changes": [
-  "AUDIT FIXES APPLIED (external audit findings, all verified on live server first):",
-  "P0-2 validator: URI/short-qname mismatch fixed — 21,679 false violations eliminated; kept_norm=2659, kept_entity=19020 real",
-  "P0-3 topology audit de-circularized: support now computed from RAW pre-merge chunk membership",
-  "P0-1 graft_temporal: article-validity no longer pairs target law with wrong article (guarded by law_id==target)",
-  "P0-4 integrate gate: tautological 'or True' removed — real so_hieu/class check",
-  "P0 embed: head-ranking sign fixed (h ≈ t - r) — previous metrics for head-side were optimistic",
-  "P1 fig6: cohort-mixing 0.923 bar removed (was Round-4 cohort, labeled as core)",
-  "KNOWN REMAINING (per audit): bitemporal recorded_at, full TTL coverage of case/entity edges, OCR, gold ER benchmark, atomic publish — tracked in migration plan"
+  "CRITICAL CORRECTION (post-audit): all embedding metrics re-run with leakage fix + correct head formula.",
+  "Corrected filtered MRR (3 seeds): full_retrain 0.101/0.053/0.082; fast_freeze 0.150/0.029/0.066; DGGP 0.061/0.035/0.070; TAR 0.063/0.027/0.073 (S1/S2/S3).",
+  "PREVIOUS numbers (0.27-0.41) were INFLATED by inverse leakage (82.7-85.2% of test twins present in train) and wrong head ranking. The v0.7-v0.8 'continual learning wins' narrative is RETRACTED pending proper experiments on a larger/denser graph.",
+  "as-of resolver: exact-set legal-fact tests 3/3 PASS (was subset semantics).",
+  "TTL: 49/58 object properties now have domain/range (57/58 total with domain).",
+  "deliverables: full 44-file data sync (audit: was missing 17 files).",
+  "HONEST STATUS: research prototype with working realtime ingestion staging; temporal truth core (recorded_at), atomic publish, gold ER benchmark remain per migration plan."
  ]
 }

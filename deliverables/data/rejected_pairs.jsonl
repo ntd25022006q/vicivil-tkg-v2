@@ -1,0 +1,39 @@
+{"name_a": "quyền của cha mẹ", "name_b": "quyền của cha mẹ đẻ", "reason": "agent: different entity"}
+{"name_a": "quyền đại diện cho người thừa kế", "name_b": "quyền đại diện cho những người thừa kế", "reason": "agent: different entity"}
+{"name_a": "quyền đơn phương chấm dứt hợp đồng vận chuyển", "name_b": "quyền đơn phương chấm dứt thực hiện hợp đồng vận chuyển", "reason": "agent: different entity"}
+{"name_a": "quyền được nhận làm con nuôi", "name_b": "Quyền được nuôi con nuôi và quyền được nhận làm con nuôi", "reason": "agent: different entity"}
+{"name_a": "quyền được nuôi con nuôi", "name_b": "quyền được nuôi dưỡng", "reason": "agent: different entity"}
+{"name_a": "quyền hủy bỏ kết hôn trái pháp luật", "name_b": "quyền hủy kết hôn trái pháp luật", "reason": "agent: different entity"}
+{"name_a": "quyền khác theo quy định của luật", "name_b": "quyền khác theo quy định của pháp luật", "reason": "agent: different entity"}
+{"name_a": "quyền kiểm tra, giám sát", "name_b": "quyền kiểm tra, giám sát tài sản", "reason": "agent: different entity"}
+{"name_a": "Quyền nhận nhà thuê theo đúng thỏa thuận", "name_b": "quyền nhận nhà thuê theo thỏa thuận", "reason": "agent: different entity"}
+{"name_a": "quyền sở hữu bất động sản", "name_b": "quyền sở hữu đối với bất động sản", "reason": "agent: different entity"}
+{"name_a": "quyền sở hữu đối với tài sản mua bán", "name_b": "quyền sở hữu tài sản mua bán", "reason": "agent: different entity"}
+{"name_a": "quyền sở hữu đối với vật", "name_b": "quyền sở hữu đối với vật vô chủ", "reason": "agent: different entity"}
+{"name_a": "quyền sở hữu nhà nước", "name_b": "quyền sở hữu nhà ở", "reason": "agent: different entity"}
+{"name_a": "quyền sử dụng đất ổn định", "name_b": "Quyền sử dụng đất thuê ổn định", "reason": "agent: different entity"}
+{"name_a": "quyền từ chối chuyên chở", "name_b": "quyền từ chối vận chuyển", "reason": "agent: different entity"}
+{"name_a": "quyền và nghĩa vụ cha mẹ", "name_b": "quyền và nghĩa vụ của cha mẹ và con", "reason": "agent: different entity"}
+{"name_a": "quyền và nghĩa vụ của các bên theo hợp đồng", "name_b": "Quyền và nghĩa vụ của các bên theo hợp đồng dân sự", "reason": "agent: different entity"}
+{"name_a": "quyền và nghĩa vụ tài sản", "name_b": "quyền và nghĩa vụ về tài sản", "reason": "agent: different entity"}
+{"name_a": "quyền xác định cha mẹ", "name_b": "quyền xác định cha mẹ con", "reason": "agent: different entity"}
+{"name_a": "quyền xác định cha mẹ con", "name_b": "quyền xác định cha mẹ hoặc con", "reason": "agent: different entity"}
+{"name_a": "quyền xác lập giao dịch", "name_b": "quyền xác lập giao dịch dân sự", "reason": "agent: different entity"}
+{"name_a": "quyền xác lập và thực hiện giao dịch", "name_b": "quyền xác lập và thực hiện giao dịch dân sự", "reason": "agent: different entity"}
+{"name_a": "quyền yêu cầu bên mua trả tiền đúng thời hạn", "name_b": "Quyền yêu cầu trả tiền đúng thời hạn", "reason": "agent: different entity"}
+{"name_a": "quyền yêu cầu chuyển giao", "name_b": "quyền yêu cầu chuyển giao đất", "reason": "agent: different entity"}
+{"name_a": "quyền yêu cầu công nhận thay đổi họ, tên", "name_b": "quyền yêu cầu công nhận thay đổi tên", "reason": "agent: different entity"}
+{"name_a": "Quyền yêu cầu dành lối đi", "name_b": "quyền yêu cầu lối đi", "reason": "agent: different entity"}
+{"name_a": "quyền yêu cầu đối chiếu", "name_b": "quyền yêu cầu đối chiếu di chúc", "reason": "agent: different entity"}
+{"name_a": "quyền yêu cầu giám định", "name_b": "quyền yêu cầu giảm giá", "reason": "agent: different entity"}
+{"name_a": "quyền yêu cầu trả chi phí bảo quản", "name_b": "quyền yêu cầu trả chi phí bảo quản tài sản", "reason": "agent: different entity"}
+{"name_a": "quyền yêu cầu trả lãi", "name_b": "Quyền yêu cầu trả lại đất", "reason": "agent: different entity"}
+{"name_a": "Quyền yêu cầu trả tiền thuê", "name_b": "quyền yêu cầu trả tiền thuê đất", "reason": "agent: different entity"}
+{"name_a": "quyền yêu cầu xác định cha mẹ", "name_b": "quyền yêu cầu xác định cha mẹ con", "reason": "agent: different entity"}
+{"name_a": "quyền yêu cầu xác định cha mẹ", "name_b": "quyền yêu cầu xác định cha mẹ hoặc con", "reason": "agent: different entity"}
+{"name_a": "quyền yêu cầu xác định cha mẹ con", "name_b": "quyền yêu cầu xác định cha mẹ hoặc con", "reason": "agent: different entity"}
+{"name_a": "quyết định của bản án", "name_b": "Quyết định của bản án hình sự", "reason": "agent: different entity"}
+{"name_a": "quyết định của cơ quan có thẩm quyền", "name_b": "quyết định của cơ quan có thẩm quyền của pháp nhân", "reason": "agent: different entity"}
+{"name_a": "quyết định của Hội đồng", "name_b": "Quyết định của Hội đồng định giá", "reason": "agent: different entity"}
+{"name_a": "quyết định của Hội đồng", "name_b": "Quyết định của Hội đồng xét xử", "reason": "agent: different entity"}
+{"name_a": "Quyết định đình chỉ giải quyết kháng cáo, kháng nghị", "name_b": "quyết định giải quyết kháng nghị", "reason": "agent: different entity"}

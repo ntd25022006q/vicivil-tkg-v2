@@ -64,11 +64,17 @@ def run_seed(seed, s1, s2, s3, ent2id, rel2id, n_ent, n_rel, evaluate, pos_tail,
     global _frozen_snapshot
     torch.manual_seed(seed)
     random.seed(seed)
-    all_tr = s1 + s2 + s3
-    random.shuffle(all_tr)
-    cut = max(1, int(0.15 * len(all_tr)))
-    test_all = all_tr[:cut]
-    train_all = all_tr[cut:]
+    # FIX (audit): split base edges first — inverses stay on the same side
+    base = [t for t in (s1 + s2 + s3) if not t[1].endswith("_inv")]
+    random.shuffle(base)
+    cut = max(1, int(0.15 * len(base)))
+    tb, rb = base[:cut], base[cut:]
+
+    def _inv(ts):
+        return [(o, r[:-4] if r.endswith("_inv") else r + "_inv", s, e) for s, r, o, e in ts]
+
+    test_all = tb + _inv(tb)
+    train_all = rb + _inv(rb)
     test1 = to_idx([t for t in test_all if t[3] < 2017], ent2id, rel2id)
     test2 = to_idx([t for t in test_all if 2017 <= t[3] < 2025], ent2id, rel2id)
     test3 = to_idx([t for t in test_all if t[3] >= 2025], ent2id, rel2id)

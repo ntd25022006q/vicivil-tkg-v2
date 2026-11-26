@@ -151,15 +151,22 @@ def run_seed(seed, s1, s2, s3, ent2id, rel2id, n_ent, n_rel):
             head.setdefault((rel2id[r], ent2id[o]), set()).add(ent2id[s])
         return tail, head
 
-    all_tr = s1 + s2 + s3
-    random.shuffle(all_tr)
-    cut = max(1, int(0.15 * len(all_tr)))
-    test_all = all_tr[:cut]
-    train_all = all_tr[cut:]
+    # FIX (audit: inverse leakage 82.7-85.2%) — split BASE edges first, then add
+    # inverses WITHIN each side so an edge and its inverse never cross the split.
+    base = [t for t in (s1 + s2 + s3) if not t[1].endswith("_inv")]
+    random.shuffle(base)
+    cut = max(1, int(0.15 * len(base)))
+    tb, rb = base[:cut], base[cut:]
+
+    def _inv(ts):
+        return [(o, r[:-4] if r.endswith("_inv") else r + "_inv", s, e) for s, r, o, e in ts]
+
+    test_all = tb + _inv(tb)
+    train_all = rb + _inv(rb)
     test1 = [t for t in test_all if t[3] < 2017]
     test2 = [t for t in test_all if 2017 <= t[3] < 2025]
     test3 = [t for t in test_all if t[3] >= 2025]
-    pos_tail, pos_head = pos_indexes(all_tr)
+    pos_tail, pos_head = pos_indexes(test_all + train_all)
 
     t1i, t2i, t3i = to_idx(s1, ent2id, rel2id), to_idx(s2, ent2id, rel2id), to_idx(s3, ent2id, rel2id)
     tr1 = to_idx([t for t in train_all if t[3] < 2017], ent2id, rel2id)
